@@ -5,4 +5,4 @@ div[class*="ad-wrapper"]
 div[class*="ad-slot"]
 div[class*='a-d-block']
 div[class*='text-center']
-zhibo8.com##A.img-zbblogo
+##DIV#fage_hf
