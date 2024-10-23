@@ -6,3 +6,4 @@ div[class*="ad-slot"]
 div[class*='a-d-block']
 div[class*='text-center']
 ##DIV#fage_hf
+##UL.space-y-2.mb-4.ml-4.list-disc.text-nord14
