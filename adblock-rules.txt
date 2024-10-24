@@ -8,3 +8,4 @@ div[class*='text-center']
 ##DIV#fage_hf
 ##UL.space-y-2.mb-4.ml-4.list-disc.text-nord
 ##div.di_mv
+##div.di_img
