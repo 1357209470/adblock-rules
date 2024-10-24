@@ -16,3 +16,4 @@ div[class*='text-center']
 ##DIV#bottom-float-adv
 ##DIV.bottom-downloadapp
 ##DIV.shuoqiudiAPP
+##DIV.bottom-banner
