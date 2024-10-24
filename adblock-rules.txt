@@ -14,3 +14,5 @@ div[class*='text-center']
 ##DIV#fage_hf
 ##DIV.m-index-tag,DIV.m-bottom
 ##DIV#bottom-float-adv
+##DIV.bottom-downloadapp
+##DIV.shuoqiudiAPP
