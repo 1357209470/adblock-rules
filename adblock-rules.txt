@@ -11,3 +11,4 @@ div[class*='text-center']
 ##DIV.appdown
 ##DIV.bootom-fixed
 ##A[href^='/go.php'][ref='nofollow'][target='_blank']
+##DIV.mvspan_2_s_k_i_p_row
