@@ -9,109 +9,38 @@ div[class*='text-center']
 ##UL.space-y-2.mb-4.ml-4.list-disc.text-nord
 ##div.di_mv,div.di_img,div.ut1_img
 ##DIV.ut1_img_content,DIV.ut1_img_content_js,DIV.ut1_img_ex_content
-/^.*\.ad$/i
-/^.*\.ads$/i
-/^.*\.advertisement$/i
-/^.*\.banner$/i
-/^.*\.popup$/i
-/^.*\.video-ad$/i
-/^.*\.overlay-ad$/i
-/^.*\.iframe-ad$/i
-/^.*\.sticky-ad$/i
-/^.*\.bottom-fixed$/i
-/^.*\.app_tj$/i
-/^.*\.yl5$/i
-/^.*\.adx-bottom-fixed$/i
-/^.*\.dbfh$/i
-/^.*\.float-activate-button$/i
-/^.*\.carousel-ad$/i
-/^.*\.transparent-ad$/i
-/^.*\.notification-ad$/i
-/^.*\.malicious-ad$/i
-/^.*\.auto-download-ad$/i
-/^.*\.download-hijack$/i
-/^.*\.fake-close-ad$/i
-/^.*\.full-screen-ad$/i
-/^.*\.interstitial-ad$/i
-/^.*\.skyscraper-ad$/i
-/^.*\.slide-in-ad$/i
-/^.*\.pushdown-ad$/i
-/^.*\.in-read-ad$/i
-/^.*\.sitewrap-ad$/i
-/^.*\.redirect-ad$/i
-/^.*\.sponsored-content$/i
-/^.*\.native-ad$/i
-/^.*\.inline-ad$/i
-/^.*\.bottom-banner$/i
-/^.*\.mid-roll-ad$/i
-/^.*\.top-banner$/i
-/^.*\.sticky-footer-ad$/i
-/^.*\.page-blocker-ad$/i
-/^.*\.click-jacking-ad$/i
-/^.*\.content-injection-ad$/i
-/^.*\.pop-under-ad$/i
-/^.*\.ad-overlay$/i
-/^.*\.floating-ad$/i
-/^.*\.gif-ad$/i
-/^.*\.pop-up-ad$/i
-/^.*\.popup-video-ad$/i
-/^.*\.cover-ad$/i
-/^.*\.insert-ad$/i
-/^.*\.dynamic-insert-ad$/i
-/^.*\.personalized-ad$/i
-/^.*\.background-ad$/i
-/^.*\.modal-ad$/i
-/^.*\.dialog-ad$/i
-/^.*\.lightbox-ad$/i
-/^.*\.dynamic-ad$/i
-/^.*\.ajax-ad$/i
-/^.*\.mobile-ad$/i
-/^.*\.responsive-ad$/i
-/^.*\.tablet-ad$/i
-/^.*\.content-recommendation$/i
-/^.*\.related-content-ad$/i
-/^.*\.suggested-content$/i
-/^.*\.fullscreen-ad$/i
-/^.*\.fullscreen-overlay$/i
-/^.*\.fake-content-ad$/i
-/^.*\.clickbait-ad$/i
-/^.*\.misleading-ad$/i
-/^.*\.video-loader$/i
-/^.*\.popup-ad$/i
-/^.*\.modal-ad$/i
-/^.*\.redirect-popup$/i
-/^.*\.redirect-banner$/i
-/^.*\.malware-ad$/i
-/^.*\.scam-ad$/i
-/^.*\.virus-ad$/i
-/^.*\.ransomware-ad$/i
-/^.*\.ajax-ad$/i
-/^.*\.dynamic-ad$/i
-/^.*\.targeted-ad$/i
-/^.*\.lazy-load-ad$/i
-/^.*\.social-ad$/i
-/^.*\.facebook-ad$/i
-/^.*\.twitter-ad$/i
-/^.*\.instagram-ad$/i
-/^.*\.mobile-banner-ad$/i
-/^.*\.mobile-popup-ad$/i
-/^.*track.*$/i
-/^.*analytics.*$/i
-/^.*advertisement.*$/i
-/^.*fake-news-ad$/i
-/^.*clickbait-ad$/i
-/^.*malicious-download-ad$/i
-/^.*download-popup-ad$/i
-/^.*sponsored-content$/i
-/^.*promoted-content$/i
-/^.*affiliate-ad$/i
-/^.*banner-ad$/i
-/^.*floating-banner$/i
-/^.*fixed-banner$/i
-/^.*sticky-banner$/i
-/^.*zdhf$/i
-/^.*app$/i
-/^.*ad-wrap$/i
-/^.*fixed\.right-2\.bottom-2$/i
-/^.*a-d-block$/i
-/^.*text-center$/i
+const adSelectors = [
+    // 常见广告类
+    '.ad, .ads, .advertisement, .banner, .popup, .video-ad, .overlay-ad, .iframe-ad, .sticky-ad',
+    '.bottom-fixed, .app_tj, .yl5, .adx-bottom-fixed, .dbfh, .float-activate-button, .carousel-ad',
+    '.transparent-ad, .notification-ad, .malicious-ad, .auto-download-ad, .download-hijack',
+    '.fake-close-ad, .full-screen-ad, .interstitial-ad, .skyscraper-ad, .slide-in-ad, .pushdown-ad',
+    '.in-read-ad, .sitewrap-ad, .redirect-ad, .sponsored-content, .native-ad, .inline-ad',
+    '.bottom-banner, .mid-roll-ad, .top-banner, .sticky-footer-ad, .page-blocker-ad',
+    '.click-jacking-ad, .content-injection-ad, .pop-under-ad, .ad-overlay, .floating-ad',
+    '.gif-ad, .pop-up-ad, .popup-video-ad, .cover-ad, .insert-ad, .dynamic-insert-ad',
+    '.personalized-ad, .background-ad, .modal-ad, .dialog-ad, .lightbox-ad, .dynamic-ad',
+    '.ajax-ad, .mobile-ad, .responsive-ad, .tablet-ad, .content-recommendation',
+    '.related-content-ad, .suggested-content, .fullscreen-ad, .fullscreen-overlay',
+    '.fake-content-ad, .clickbait-ad, .misleading-ad, .video-loader',
+    'div.header-main, div.player-adimage, div[class*="ads"], A[href^="/go.php"][ref="nofollow"][target="_blank"]',
+
+    // 流氓广告选择器
+    '.popup-ad, .modal-ad, .redirect-popup, .redirect-banner, .malware-ad, .scam-ad',
+    '.virus-ad, .ransomware-ad, .ajax-ad, .dynamic-ad, .targeted-ad, .lazy-load-ad',
+
+    // 社交媒体广告
+    '.social-ad, .facebook-ad, .twitter-ad, .instagram-ad',
+
+    // 移动广告
+    '.mobile-banner-ad, .mobile-popup-ad',
+
+    // 脚本和其他广告
+    'script[src*="track"], script[src*="analytics"], script[src*="advertisement"], .fake-news-ad',
+    '.clickbait-ad, .malicious-download-ad, .download-popup-ad, .sponsored-content',
+    '.promoted-content, .affiliate-ad',
+
+    // 横幅广告和浮动广告选择器
+    '.banner-ad, .floating-banner, .fixed-banner, .sticky-banner, div.zdhf, div.app',
+    'div.ad-wrap, div.fixed.right-2.bottom-2, div[class*="a-d-block"], div[class*="text-center"]'
+];
