@@ -9,38 +9,37 @@ div[class*='text-center']
 ##UL.space-y-2.mb-4.ml-4.list-disc.text-nord
 ##div.di_mv,div.di_img,div.ut1_img
 ##DIV.ut1_img_content,DIV.ut1_img_content_js,DIV.ut1_img_ex_content
-const adSelectors = [
     // 常见广告类
-    '.ad, .ads, .advertisement, .banner, .popup, .video-ad, .overlay-ad, .iframe-ad, .sticky-ad',
-    '.bottom-fixed, .app_tj, .yl5, .adx-bottom-fixed, .dbfh, .float-activate-button, .carousel-ad',
-    '.transparent-ad, .notification-ad, .malicious-ad, .auto-download-ad, .download-hijack',
-    '.fake-close-ad, .full-screen-ad, .interstitial-ad, .skyscraper-ad, .slide-in-ad, .pushdown-ad',
-    '.in-read-ad, .sitewrap-ad, .redirect-ad, .sponsored-content, .native-ad, .inline-ad',
-    '.bottom-banner, .mid-roll-ad, .top-banner, .sticky-footer-ad, .page-blocker-ad',
-    '.click-jacking-ad, .content-injection-ad, .pop-under-ad, .ad-overlay, .floating-ad',
-    '.gif-ad, .pop-up-ad, .popup-video-ad, .cover-ad, .insert-ad, .dynamic-insert-ad',
-    '.personalized-ad, .background-ad, .modal-ad, .dialog-ad, .lightbox-ad, .dynamic-ad',
-    '.ajax-ad, .mobile-ad, .responsive-ad, .tablet-ad, .content-recommendation',
-    '.related-content-ad, .suggested-content, .fullscreen-ad, .fullscreen-overlay',
-    '.fake-content-ad, .clickbait-ad, .misleading-ad, .video-loader',
-    'div.header-main, div.player-adimage, div[class*="ads"], A[href^="/go.php"][ref="nofollow"][target="_blank"]',
+    '#ad, #ads, #advertisement, #banner, #popup, #video-ad, #overlay-ad, #iframe-ad, #sticky-ad',
+    '#bottom-fixed, #app_tj, #yl5, #adx-bottom-fixed, #dbfh, #float-activate-button, #carousel-ad',
+    '#transparent-ad, #notification-ad, #malicious-ad, #auto-download-ad, #download-hijack',
+    '#fake-close-ad, #full-screen-ad, #interstitial-ad, #skyscraper-ad, #slide-in-ad, #pushdown-ad',
+    '#in-read-ad, #sitewrap-ad, #redirect-ad, #sponsored-content, #native-ad, #inline-ad',
+    '#bottom-banner, #mid-roll-ad, #top-banner, #sticky-footer-ad, #page-blocker-ad',
+    '#click-jacking-ad, #content-injection-ad, #pop-under-ad, #ad-overlay, #floating-ad',
+    '#gif-ad, #pop-up-ad, #popup-video-ad, #cover-ad, #insert-ad, #dynamic-insert-ad',
+    '#personalized-ad, #background-ad, #modal-ad, #dialog-ad, #lightbox-ad, #dynamic-ad',
+    '#ajax-ad, #mobile-ad, #responsive-ad, #tablet-ad, #content-recommendation',
+    '#related-content-ad, #suggested-content, #fullscreen-ad, #fullscreen-overlay',
+    '#fake-content-ad, #clickbait-ad, #misleading-ad, #video-loader',
+    '#header-main, #player-adimage, #ads, #go.php[ref="nofollow"][target="_blank"]',
 
     // 流氓广告选择器
-    '.popup-ad, .modal-ad, .redirect-popup, .redirect-banner, .malware-ad, .scam-ad',
-    '.virus-ad, .ransomware-ad, .ajax-ad, .dynamic-ad, .targeted-ad, .lazy-load-ad',
+    '#popup-ad, #modal-ad, #redirect-popup, #redirect-banner, #malware-ad, #scam-ad',
+    '#virus-ad, #ransomware-ad, #ajax-ad, #dynamic-ad, #targeted-ad, #lazy-load-ad',
 
     // 社交媒体广告
-    '.social-ad, .facebook-ad, .twitter-ad, .instagram-ad',
+    '#social-ad, #facebook-ad, #twitter-ad, #instagram-ad',
 
     // 移动广告
-    '.mobile-banner-ad, .mobile-popup-ad',
+    '#mobile-banner-ad, #mobile-popup-ad',
 
     // 脚本和其他广告
-    'script[src*="track"], script[src*="analytics"], script[src*="advertisement"], .fake-news-ad',
-    '.clickbait-ad, .malicious-download-ad, .download-popup-ad, .sponsored-content',
-    '.promoted-content, .affiliate-ad',
+    'script[src*="track"], script[src*="analytics"], script[src*="advertisement"], #fake-news-ad',
+    '#clickbait-ad, #malicious-download-ad, #download-popup-ad, #sponsored-content',
+    '#promoted-content, #affiliate-ad',
 
     // 横幅广告和浮动广告选择器
-    '.banner-ad, .floating-banner, .fixed-banner, .sticky-banner, div.zdhf, div.app',
-    'div.ad-wrap, div.fixed.right-2.bottom-2, div[class*="a-d-block"], div[class*="text-center"]'
+    '#banner-ad, #floating-banner, #fixed-banner, #sticky-banner, #zdhf, #app',
+    '#ad-wrap, #fixed.right-2.bottom-2, #a-d-block, #text-center'
 ];
