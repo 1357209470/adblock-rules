@@ -1,4 +1,3 @@
-##A.item    
 div[class*="promoted"]
 div[class*="ad-container"]
 div[class*="ad-wrapper"]
@@ -10,4 +9,5 @@ div[class*='text-center']
 ##div.di_mv,div.di_img,div.ut1_img
 ##DIV.ut1_img_content,DIV.ut1_img_content_js,DIV.ut1_img_ex_content
 ##DIV.appdown
+##DIV.bootom-fixed
 ##A[href^='/go.php'][ref='nofollow'][target='_blank']
