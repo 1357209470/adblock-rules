@@ -13,3 +13,4 @@ div[class*='text-center']
 ##DIV.mvspan_2_s_k_i_p_row
 ##DIV#fage_hf
 ##DIV.m-index-tag,DIV.m-bottom
+##DIV#bottom-float-adv
