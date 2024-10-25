@@ -17,3 +17,4 @@ div[class*='text-center']
 ##DIV.bottom-downloadapp
 ##DIV.shuoqiudiAPP
 ##DIV.bottom-banner
+##DIV.fixed.right-2.bottom-2
