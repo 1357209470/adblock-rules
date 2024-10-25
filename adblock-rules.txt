@@ -18,4 +18,3 @@ div[class*='text-center']
 ##DIV.shuoqiudiAPP
 ##DIV.bottom-banner
 ##DIV.fixed.right-2.bottom-2
-^#DIV\.sm\:mx\-0\.mb\-8\.rounded\-0\.sm\:rounded\-lg$
