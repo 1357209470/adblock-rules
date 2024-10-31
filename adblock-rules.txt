@@ -30,3 +30,4 @@ div.repeated-ad
 div.transparent-ad
 a[href*="ad"] img[src$=".gif"]
 div[class*="ad"] img[src$=".gif"]
+##IMG[src*="inpage.gif"]
