@@ -28,3 +28,5 @@ video.ad-overlay
 aside.sidebar-ad
 div.repeated-ad
 div.transparent-ad
+a[href*="ad"] img[src$=".gif"]
+div[class*="ad"] img[src$=".gif"]
