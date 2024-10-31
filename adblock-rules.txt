@@ -22,7 +22,7 @@ div.interstitial-ad
 div.floating-ad
 div.repeated-ad
 video.advertisement 
-a.redirect-ad
+a.rezhibo8.com##DIV.popupdirect-ad
 video.dynamic-ad
 video.ad-overlay
 aside.sidebar-ad
@@ -33,3 +33,4 @@ div[class*="ad"] img[src$=".gif"]
 ##IMG[src*="inpage.gif"]
 div[class*="popup"]
 ##DIV.hl-pops-bg.hl-pops-bg-active,DIV.hl-poptips-wrap.hl-bg-site
+##DIV.popup
