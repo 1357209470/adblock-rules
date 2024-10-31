@@ -18,3 +18,13 @@ div[class*='text-center']
 ##DIV.shuoqiudiAPP
 ##DIV.bottom-banner
 ##DIV.fixed.right-2.bottom-2
+div.interstitial-ad 
+div.floating-ad
+div.repeated-ad
+video.advertisement 
+a.redirect-ad
+video.dynamic-ad
+video.ad-overlay
+aside.sidebar-ad
+div.repeated-ad
+div.transparent-ad
