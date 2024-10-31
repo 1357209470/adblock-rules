@@ -32,4 +32,4 @@ a[href*="ad"] img[src$=".gif"]
 div[class*="ad"] img[src$=".gif"]
 ##IMG[src*="inpage.gif"]
 div[class*="popup"]
-##DIV.popup
+##DIV.hl-pops-bg.hl-pops-bg-active
