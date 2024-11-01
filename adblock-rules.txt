@@ -7,7 +7,6 @@ div[class*='text-center']
 ##UL.space-y-2.mb-4.ml-4.list-disc.text-nord14
 ##div.di,div.di_img,div.ut1_img,div.di_mv
 ##DIV.ut1_img_content,DIV.ut1_img_content_js,DIV.ut1_img_ex_content
-##DIV.appdown
 ##DIV.bootom-fixed
 ##A[href^='/go.php'][ref='nofollow'][target='_blank']
 ##DIV.mvspan_2_s_k_i_p_row
