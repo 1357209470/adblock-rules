@@ -33,5 +33,5 @@ div[class*="ad"] img[src$=".gif"]
 div[class*="popup"]
 ##DIV.hl-pops-bg.hl-pops-bg-active,DIV.hl-poptips-wrap.hl-bg-site
 ##DIV.popup
-
+##div[class*="gif-ad"] 
 
