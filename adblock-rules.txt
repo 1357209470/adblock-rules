@@ -34,3 +34,4 @@ div[class*="popup"]
 ##DIV.hl-pops-bg.hl-pops-bg-active,DIV.hl-poptips-wrap.hl-bg-site
 ##DIV.popup
 
+##DIV.module
