@@ -36,4 +36,4 @@ div[class*="popup"]
 ##div[class*="gif-ad"] 
 ##img[style="width:100%"]
 ##DIV#io-popup-tips
-.mobile-download-frame
+##A.mobile-download-frame
