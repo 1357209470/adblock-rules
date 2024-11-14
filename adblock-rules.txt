@@ -37,4 +37,4 @@ div[class*="popup"]
 ##img[style="width:100%"]
 ##DIV#io-popup-tips
 ##A.mobile-download-frame
-
+##DIV#note.popup
