@@ -39,5 +39,5 @@ div[class*="popup"]
 ##A.mobile-download-frame
 ##div:has-text官方推荐APP
 ##[innerText*="官方推荐APP"]
-
+img[alt*="同城约炮"][src$=".gif"]
 
