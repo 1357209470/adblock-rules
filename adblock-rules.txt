@@ -38,4 +38,4 @@ div[class*="popup"]
 ##DIV#io-popup-tips
 ##A.mobile-download-frame
 
-##div[class*="ad"][text="官方推荐APP-无广告秒加载"]
+##div[class*="ad"][text=官方推荐APP-无广告秒加载 超多福利赠送]
