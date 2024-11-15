@@ -38,5 +38,6 @@ div[class*="popup"]
 ##DIV#io-popup-tips
 ##A.mobile-download-frame
 ##div:has-text官方推荐APP
+##[innerText*="官方推荐APP"]
 
 
