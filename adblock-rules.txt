@@ -40,4 +40,4 @@ div[class*="popup"]
 ##div:has-text官方推荐APP
 ##[innerText*="官方推荐APP"]
 img[alt*="同城约炮"][src$=".gif"]
-
+img[alt*="直播做爱"][src$=".gif"]
