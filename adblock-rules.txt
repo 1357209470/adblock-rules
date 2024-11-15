@@ -37,5 +37,6 @@ div[class*="popup"]
 ##img[style="width:100%"]
 ##DIV#io-popup-tips
 ##A.mobile-download-frame
+##div:has-text官方推荐APP
 
-##div[class*="ad"][text=官方推荐APP-无广告秒加载 超多福利赠送]
+
