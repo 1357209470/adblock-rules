@@ -39,3 +39,4 @@ div[class*="popup"]
 ##A.mobile-download-frame
 ##DIV.banner
 ##DIV.article-feedback-c-double
+##DIV.hidden-content
