@@ -40,3 +40,9 @@ div[class*="popup"]
 ##DIV.banner
 ##DIV.article-feedback-c-double
 ##DIV.hidden-content
+##DIV.search-ad
+##DIV.loading-ad
+##DIV.preload-ad
+##DIV.sticky-footer-ad
+##DIV.floating-ad
+##DIV.sticky-bottom-ad
