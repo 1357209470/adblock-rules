@@ -46,3 +46,4 @@ div[class*="popup"]
 ##DIV.sticky-footer-ad
 ##DIV.floating-ad
 ##DIV.sticky-bottom-ad
+##DIV.cdc-m-notice
