@@ -47,5 +47,5 @@ div[class*="popup"]
 ##DIV.floating-ad
 ##DIV.sticky-bottom-ad
 ##DIV.cdc-m-notice
-##DIV.yandex_ad__container
-##DIV.yandex_advertisement
+yandex.*##DIV.images-viewer-content2__behavioral-direct
+||yandex.*##DIV.images-viewer-content2__behavioral-direct
