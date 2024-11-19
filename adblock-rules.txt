@@ -48,3 +48,6 @@ div[class*="popup"]
 ##DIV.sticky-bottom-ad
 ##DIV.cdc-m-notice
 ##DIV.images-viewer-content2__behavioral-direct
+##DDI.yandex-suggest-ad
+##DIV.yandex-recommend-ad
+##DIV..yandex_ads
