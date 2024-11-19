@@ -51,3 +51,4 @@ div[class*="popup"]
 ##DDI.yandex-suggest-ad
 ##DIV.yandex-recommend-ad
 ##DIV..yandex_ads
+##DIV.react-component.i-bem.react-component_js_inited
