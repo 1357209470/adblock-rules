@@ -53,3 +53,5 @@ div[class*="popup"]
 ##DIV..yandex_ads
 ##DIV.react-component.i-bem.react-component_js_inited
 ##DIV.DirectInline.DirectInline_filled
+##DIV.mcp-feed-container
+##FLUENT-BUTTON.article-cont-read-button-on-app.accent
