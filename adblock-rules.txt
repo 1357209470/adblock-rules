@@ -64,4 +64,4 @@ an.yandex.ad
 ##img[alt="萝莉"]
 ##img[alt="澳门"]
 ##img[alt="荷官"]
-
+(\w+[\u4e00-\u9fa5]+)
