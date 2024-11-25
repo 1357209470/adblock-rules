@@ -58,3 +58,4 @@ an.yandex.impression
 an.yandex.loaded
 an.yandex.inline
 an.yandex.ad
+##img[alt="淫荡猫"]
