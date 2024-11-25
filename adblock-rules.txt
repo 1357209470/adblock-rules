@@ -60,3 +60,4 @@ an.yandex.inline
 an.yandex.ad
 ##img[alt="淫荡猫"]
 ##img[alt="母狗"]
+##img[alt="蜜桃"]
