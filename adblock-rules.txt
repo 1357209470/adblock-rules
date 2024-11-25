@@ -64,5 +64,10 @@ an.yandex.ad
 ##img[alt="萝莉"]
 ##img[alt="澳门"]
 ##img[alt="荷官"]
-script[src*="mta.mwvvgiuixq.shop"]
-script[src*="labsda.com"]
+##.download_btn
+##img[src*="ads"]
+##img[src*="ssmh"]
+##img[src*="game"]
+##script[src*="jads.js"]
+##script[src*="mta.mwvvgiuixq.shop"]
+##script[src*="labsda.com"]
