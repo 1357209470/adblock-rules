@@ -4,7 +4,6 @@ div[class*="ad-wrapper"]
 div[class*="ad-slot"]
 div[class*='a-d-block']
 div[class*='text-center']
-##UL.space-y-2.mb-4.ml-4.list-disc.text-nord14
 ##div.di,div.di_img,div.ut1_img,div.di_mv
 ##DIV.ut1_img_content,DIV.ut1_img_content_js,DIV.ut1_img_ex_content
 ##DIV.bootom-fixed
@@ -61,3 +60,5 @@ an.yandex.ad
 yandex.*##IMG[alt][style='width: 393.091px; height: 282px;']
 ##IMG[alt][style='width: 100%; height: 100%;']
 ##.lists-conten
+##UL[class*="space-y-2"]
+
