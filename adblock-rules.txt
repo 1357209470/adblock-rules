@@ -62,3 +62,4 @@ yandex.*##IMG[alt][style='width: 393.091px; height: 282px;']
 ##.lists-conten
 ##UL[class*="space-y-2"]
 ##DIV.plyr__video-wrapper
+||b10.justacdn.net^
