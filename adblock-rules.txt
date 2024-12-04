@@ -72,8 +72,6 @@ yandex.*##IMG[alt][style='width: 393.091px; height: 282px;']
 ##iframe[src*="ad"]
 ##iframe[src*="ads"]
 ##iframe[src*="banner"]
-||*.win^$script
-||*.top^$script
 ||*.cn/ad^
 ||*.com/ad^
 ||*/ads.js^
