@@ -64,7 +64,6 @@ yandex.*##IMG[alt][style='width: 393.091px; height: 282px;']
 ##DIV.plyr__video-wrapper
 ||b10.justacdn.net^
 ||we.561290.xyz^
-||*.xyz^$script
 ##script[src*="ad"]
 ##script[src*="ads"]
 ##script[src*="banner"]
@@ -73,7 +72,6 @@ yandex.*##IMG[alt][style='width: 393.091px; height: 282px;']
 ##iframe[src*="ad"]
 ##iframe[src*="ads"]
 ##iframe[src*="banner"]
-||*.xyz^$script
 ||*.win^$script
 ||*.top^$script
 ||*.cn/ad^
