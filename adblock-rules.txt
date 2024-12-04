@@ -106,3 +106,10 @@ yandex.*##IMG[alt][style='width: 393.091px; height: 282px;']
 ##iframe[src*="overlay"]
 ##script:inject(setTimeout, setInterval)
 ##script:inject(window.open)
+##div[style*="position: fixed"]
+##div[style*="position: absolute"]
+##script:inject(window.addEventListener)
+##script:inject(window.location)
+##.ad-container
+||example.com^$third-party
+##iframe[src*="adserver"]
