@@ -63,3 +63,6 @@ yandex.*##IMG[alt][style='width: 393.091px; height: 282px;']
 ##UL[class*="space-y-2"]
 ##DIV.plyr__video-wrapper
 ||b10.justacdn.net^
+||we.561290.xyz^
+||*.xyz^$script
+##script[src*="ads"]
