@@ -157,7 +157,7 @@ yandex.*##IMG[alt][style='width: 393.091px; height: 282px;']
 ##div[style*="display:none"]
 ##div[style*="visibility:hidden"]
 ##div[style*="opacity:0"]
-##div[style*="position: fixed"]
+
 
 ##IMG[src*="adicon"]
 ##IMG[src*="ad-logo"]
