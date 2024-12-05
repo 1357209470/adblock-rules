@@ -222,3 +222,4 @@ yandex.*##IMG[alt][style='width: 393.091px; height: 282px;']
 ||missav*.com##[class*="list-disc"]
 ||cdn.tsyndicate.com^
 ||missav*.com##[class*="space-y-2"]
+
