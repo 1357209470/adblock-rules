@@ -220,4 +220,19 @@ yandex.*##IMG[alt][style='width: 393.091px; height: 282px;']
 ##IMG[src*="advert"]
 ||cdn.tsyndicate.com^
 
+##script[src*="adv"]
+##script[src*="promo"]
+##script[src*="ad_banner"]
+##script[src*="popunder"]
+##script[src*="bannerload"]
+##script[src*="ad-delivery"]
+##script[src*="video-track"]
+##iframe[src*="trackers"]
+##iframe[src*="promo"]
+||cdn.adnxs.com^
+||cdn.doubleverify.com^
+||cdn.tracking-proxy.com^
+||cdn.metrics.com^
+||cdn.promos.com^
+||*.adsrv.net^
 
