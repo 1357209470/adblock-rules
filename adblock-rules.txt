@@ -214,11 +214,3 @@ yandex.*##IMG[alt][style='width: 393.091px; height: 282px;']
 ||*.org/banner/*?ad=
 ||*.net/ads/*?source=
 ||*.edu/track/*?utm=
-##div[style*="position: fixed"][style*="z-index: 9999"]
-##div[style*="position: fixed"][style*="right: 0"]
-##div[style*="position: fixed"][style*="bottom: 0"]
-##div[style*="position: fixed"][style*="width: 300px"]
-##div[style*="position: fixed"][style*="height: 250px"]
-##div[class*="ad"][style*="position: fixed"]
-##div[id*="banner"][style*="position: fixed"]
-##div[style^="position: fixed;"][style*="z-index: 9999"]
