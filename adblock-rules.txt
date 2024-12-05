@@ -214,3 +214,8 @@ yandex.*##IMG[alt][style='width: 393.091px; height: 282px;']
 ||*.org/banner/*?ad=
 ||*.net/ads/*?source=
 ||*.edu/track/*?utm=
+
+##IMG[src*="adicon"]
+##IMG[src*="ad-logo"]
+##IMG[src*="sponsored"]
+##IMG[src*="advert"]
