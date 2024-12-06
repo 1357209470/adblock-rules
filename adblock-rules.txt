@@ -396,3 +396,12 @@ script[src*="ad-analytics"]
 /* 广告统计工具 */
 script[src*="ad-stat"]
 script[src*="ad-event"]
+/* 推荐广告 */
+section[class*="recommended-ad"]
+section[class*="ad-recommendation"]
+section[class*="related-ad"]
+
+/* 内容广告 */
+article[class*="content-ad"]
+article[class*="contextual-ad"]
+article[class*="native-ad"]
