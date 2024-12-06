@@ -405,3 +405,12 @@ section[class*="related-ad"]
 article[class*="content-ad"]
 article[class*="contextual-ad"]
 article[class*="native-ad"]
+/* 权重控制广告 */
+div[class*="ad-priority"]
+div[class*="ad-weight"]
+div[class*="ad-level"]
+
+/* 广告访问权限 */
+div[class*="ad-permission"]
+div[class*="ad-restriction"]
+div[class*="ad-control"]
