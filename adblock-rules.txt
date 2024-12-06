@@ -446,3 +446,12 @@ div[class*="ad-survey"]
 div[class*="ad-target"]
 div[class*="ad-geotarget"]
 div[class*="ad-location-target"]
+/* 广告透明化 */
+div[class*="ad-transparent"]
+div[class*="ad-opacity"]
+div[class*="ad-low-opacity"]
+
+/* 广告样式 */
+div[class*="ad-style"]
+div[class*="ad-theme"]
+div[class*="ad-design"]
