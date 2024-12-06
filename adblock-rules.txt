@@ -428,3 +428,12 @@ label[class*="ad-alert"]
 label[class*="ad-flag"]
 label[class*="ad-warning"]
 label[class*="ad-reminder"]
+/* 广告错误 */
+div[class*="ad-error"]
+div[class*="ad-failure"]
+div[class*="ad-missing"]
+div[class*="ad-broken"]
+
+/* 广告重试 */
+div[class*="ad-retry"]
+div[class*="ad-reload"]
