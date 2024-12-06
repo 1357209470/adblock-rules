@@ -468,3 +468,15 @@ div[class*="ad-composite"]
 div[class*="ad-multicomponent"]
 div[class*="ad-combo"]
 div[class*="ad-composite-slot"]
+/* 大小调整的广告 */
+div[class*="ad-large"]
+div[class*="ad-big"]
+div[class*="ad-wide"]
+div[class*="ad-compact"]
+
+/* 布局改变的广告 */
+div[class*="ad-flex"]
+div[class*="ad-grid"]
+div[class*="ad-layout"]
+div[class*="ad-box"]
+div[class*="ad-column"]
