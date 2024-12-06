@@ -453,3 +453,8 @@ div[class*="ad-low-opacity"]
 div[class*="ad-style"]
 div[class*="ad-theme"]
 div[class*="ad-design"]
+/* 智能加载广告 */
+div[class*="ad-smart-load"]
+div[class*="ad-auto-load"]
+div[class*="ad-responsive"]
+div[class*="ad-auto-resize"]
