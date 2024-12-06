@@ -1,3 +1,255 @@
+div[class*="promoted"]
+div[class*="ad-container"]
+div[class*="ad-wrapper"]
+div[class*="ad-slot"]
+div[class*='a-d-block']
+div[class*='text-center']
+##div.di, div.di_img, div.ut1_img, div.di_mv
+##DIV.ut1_img_content, DIV.ut1_img_content_js, DIV.ut1_img_ex_content
+##DIV.bottom-fixed
+##A[href^='/go.php'][ref='nofollow'][target='_blank']
+##DIV.mvspan_2_s_k_i_p_row
+##DIV#fage_hf
+##DIV.m-index-tag, DIV.m-bottom
+##DIV#bottom-float-adv
+##DIV.bottom-downloadapp
+##DIV.shuoqiudiAPP
+##DIV.bottom-banner
+##DIV.fixed.right-2.bottom-2
+div.interstitial-ad
+div.floating-ad
+div.repeated-ad
+video.advertisement
+a.rezhibo8.com##DIV.popupdirect-ad
+video.dynamic-ad
+video.ad-overlay
+aside.sidebar-ad
+div.transparent-ad
+a[href*="ad"] img[src$=".gif"]
+div[class*="ad"] img[src$=".gif"]
+##IMG[src*="inpage.gif"]
+div[class*="popup"]
+##DIV.hl-pops-bg.hl-pops-bg-active, DIV.hl-poptips-wrap.hl-bg-site
+##DIV.popup
+##div[class*="gif-ad"]
+##img[style="width:100%"]
+##DIV#io-popup-tips
+##A.mobile-download-frame
+##DIV.banner
+##DIV.article-feedback-c-double
+##DIV.hidden-content
+##DIV.search-ad
+##DIV.loading-ad
+##DIV.preload-ad
+##DIV.sticky-footer-ad
+##DIV.floating-ad
+##DIV.sticky-bottom-ad
+##DIV.cdc-m-notice
+##DIV.images-viewer-content2__behavioral-direct
+##DDI.yandex-suggest-ad
+##DIV.yandex-recommend-ad
+##DIV..yandex_ads
+##DIV.react-component.i-bem.react-component_js_inited
+##DIV.DirectInline.DirectInline_filled
+an.yandex.load
+an.yandex.impression
+an.yandex.loaded
+an.yandex.inline
+an.yandex.ad
+yandex.*##IMG[alt][style='width: 393.091px; height: 282px;']
+##IMG[alt][style='width: 100%; height: 100%;']
+##.lists-conten
+##DIV.plyr__video-wrapper
+||b10.justacdn.net^
+||we.561290.xyz^
+##script[src*="ad"]
+##script[src*="ads"]
+##script[src*="banner"]
+##script[src*="popup"]
+##script[src*="tracker"]
+##iframe[src*="ad"]
+##iframe[src*="ads"]
+##iframe[src*="banner"]
+||*.cn/ad^
+||*.com/ad^
+||*/ads.js^
+||*/banner.js^
+||*/popup.js^
+||*/tracking.js
+##link[href*="ads"]
+##link[href*="banner"]
+##.floating
+##[class*="float"]
+##[id*="float"]
+##.sticky-ad
+##.fixed-ad
+##[id*="sticky"]
+##.video-ad
+##.ad-video
+##[id*="video-ad"]
+##[class*="ad-video"]
+||example.com/ads/*$
+||example.com/track/*$
+||example.com/banners/*$
+||example.com/*?utm_*
+||analytics.example.com^
+||tracker.example.com^
+||metrics.example.com^
+##video[autoplay]
+##iframe[src*="popups"]
+##iframe[src*="overlay"]
+##script:inject(setTimeout, setInterval)
+##script:inject(window.open)
+##div[style*="position: absolute"]
+##script:inject(window.addEventListener)
+##script:inject(window.location)
+##.ad-container
+||example.com^$third-party
+##iframe[src*="adserver"]
+@@##script[src*="login.php"]
+@@##script[src*="analytics.js"]
+##script[src*="expandable"]
+##script[src*="float"]
+##script[src*="sticky"]
+##script[src*="overlay"]
+##script[src*="cdn.ad"]
+##script[src*="adserver"]
+##script[src*="adnetwork"]
+##script[src*="adsystem"]
+##script[src*="adtech"]
+##script[src*="media.net"]
+##script[src*="outbrain"]
+##script[src*="taboola"]
+##script[src*="adservice"]
+##script[src*="admanager"]
+##script[src*="redirect"]
+##script[src*="interstitial"]
+##script[src*="promote"]
+##script[src*="sponsor"]
+##script[src*="exit"]
+##script[src*="popupad"]
+##script[src*="videoad"]
+##script[src*="advert"]
+##script[src*="track"]
+##script[src*="click"]
+##script[src*="analytics"]
+##script[src*="tag"]
+##script[src*="partner"]
+##script[src*="doubleclick"]
+##script[src*="pixel"]
+##script[src*="conversion"]
+##script[src*="affiliate"]
+##script[src*="beacon"]
+##.ad-placeholder
+##.ad-banner
+##.adsense
+##.ad-slot
+##.advertisement
+##.ad-box
+##.ad-promo
+##.adunit
+##.sponsored-ad
+##.popup-wrapper
+##.popup-container
+##div[style*="z-index:9999"]
+##div[style*="display:none"]
+##div[style*="visibility:hidden"]
+##div[style*="opacity:0"]
+##IMG[src*="adicon"]
+##IMG[src*="ad-logo"]
+##IMG[src*="sponsored"]
+##IMG[src*="advert"]
+##iframe[src*="advertising"]
+##iframe[src*="ads.com"]
+##iframe[src*="video-ad"]
+##iframe[src*="popupad"]
+##iframe[src*="advertisement"]
+##script[src*="redirect"]
+##script[src*="jump"]
+##script[src*="clicktrack"]
+##script[src*="redirector"]
+##script[src*="go-to"]
+##video[src*="ad"]
+##video[src*="promo"]
+##video[src*="sponsored"]
+##video[src*="advert"]
+##div[class*="social-ad"]
+##div[class*="share-button"]
+##img[src*="social-share"]
+||*.popads.net^
+||*.adclicker.net^
+||*.adf.ly^
+||*.adup.com^
+||*.adjar.com^
+||*.adverticum.net^
+||*.sponsoredlink.com^
+||adserver.com^
+||adnetwork.com^
+||adsystem.net^
+||adclick.com^
+||ads.com^
+##script[src*="track"]
+##script[src*="analytics"]
+##script[src*="tracking"]
+##script[src*="conversion"]
+##script[src*="pixel"]
+##div[class*="fullscreen-ad"]
+##div[class*="ad-fullscreen"]
+##div[id*="fullscreen"]
+||*.com/ads/*?ref=
+||*.org/banner/*?ad=
+||*.net/ads/*?source=
+||*.edu/track/*?utm=
+##IMG[src*="adicon"]
+##IMG[src*="ad-logo"]
+##IMG[src*="sponsored"]
+##IMG[src*="advert"]
+||cdn.tsyndicate.com^
+##script[src*="adv"]
+##script[src*="promo"]
+##script[src*="ad_banner"]
+##script[src*="popunder"]
+##script[src*="bannerload"]
+##script[src*="ad-delivery"]
+##script[src*="video-track"]
+##iframe[src*="trackers"]
+##iframe[src*="promo"]
+||cdn.adnxs.com^
+||cdn.doubleverify.com^
+||cdn.tracking-proxy.com^
+||cdn.metrics.com^
+||cdn.promos.com^
+||*.adsrv.net^
+##.ad-popup
+##.ad-iframe
+##.ads-wrapper
+##.popup-ad
+##.ad-widget
+##.ad-container-main
+##.ad-responsive
+##.advert-container
+##.ad-overlay
+##.ad-banner-fixed
+##.ad-placeholder-wrapper
+##.ad-creative
+##.ad-footer
+##.advertisement-wrapper
+##.ad-panel
+##.ad-slot-container
+##.ad-column
+##.sponsored-container
+##.promo-ad
+##.promo-banner
+##.ad-backdrop
+##.ad-slide
+##.ad-popup-window
+##.ad-content
+##.ad-button
+##.banner-ad-container
+##.ad-card
+##.popup-ad-container
+##.ad-video-wrapper
+##.floating-ad-container
 div[class*="ad-"]
 div[class*="ads-"]
 div[class*="promo-"]
@@ -67,7 +319,6 @@ iframe[src*="video-ad"]
 iframe[src*="popups"]
 iframe[src*="overlay"]
 iframe[src*="advertising"]
-
 /* img 相关 */
 img[src*="ad-"]
 img[src*="ads-"]
@@ -76,7 +327,6 @@ img[src*="banner"]
 img[src*="popup-"]
 img[src*="sponsored"]
 img[src*="advert-"]
-
 /* script 相关 */
 script[src*="ad"]
 script[src*="ads"]
@@ -87,7 +337,6 @@ script[src*="expandable"]
 script[src*="sticky"]
 script[src*="overlay"]
 script[src*="adserver"]
-
 /* video 相关 */
 video[src*="ad"]
 video[src*="promo"]
@@ -106,419 +355,27 @@ a[href*="adclick"]
 span[class*="ad-label"]
 span[class*="promoted-label"]
 span[class*="advert-label"]
-
 /* section 标签 */
 section[class*="ad-section"]
 section[class*="promotion-section"]
-
 /* header 和 footer 标签 */
 header[class*="ad-header"]
 footer[class*="ad-footer"]
-
 /* nav 和 aside 标签 */
 nav[class*="ad-navigation"]
 aside[class*="ad-sidebar"]
-
 /* button 标签 */
 button[class*="ad-button"]
 button[data-action*="ad"]
-
 /* input 标签 */
 input[class*="ad-input"]
 input[placeholder*="ad"]
-
 /* form 标签 */
 form[action*="ad"]
 form[class*="ad-form"]
-
 /* 其他 */
 article[class*="ad-article"]
 h1[class*="ad-title"]
 h2[class*="sponsored-title"]
 main[class*="ad-main"]
-广告服务域名
-||*.adclicker.net^
-||*.adf.ly^
-||*.adup.com^
-||*.adjar.com^
-||*.adverticum.net^
-||*.sponsoredlink.com^
-||*.adsrv.net^
-||cdn.tsyndicate.com^
-||cdn.adnxs.com^
-||cdn.doubleverify.com^
-||cdn.tracking-proxy.com^
-||cdn.metrics.com^
-||cdn.promos.com^
-||*.adclick.com^
-||*.ads.com^
-广告脚本链接和分析相关
-script[src*="adsense"]
-script[src*="tracking"]
-script[src*="clicktracker"]
-script[src*="promotion"]
-script[src*="admanager"]
-script[src*="adservice"]
-script[src*="redirect"]
-script[src*="interstitial"]
-script[src*="sponsor"]
-script[src*="exit"]
-script[src*="popupad"]
-script[src*="videoad"]
-script[src*="advert"]
-script[src*="track"]
-script[src*="click"]
-script[src*="analytics"]
-script[src*="tag"]
-script[src*="partner"]
-script[src*="doubleclick"]
-script[src*="pixel"]
-script[src*="conversion"]
-script[src*="affiliate"]
-script[src*="beacon"]
-广告屏蔽关键词
-##div[class*="lazy-load-ad"]
-##div[data-ad]
-##div[data-ad-slot]
-##div[class*="ad-loading"]
-##div[class*="survey-ad"]
-##div[class*="interactive-ad"]
-##div[class*="reward-ad"]
-##div[class*="modal-ad"]
-##div[class*="banner-ad"]
-##div[class*="overlay-ad"]
-##div[class*="scrolling-ad"]
-##div[class*="fixed-banner"]
-##div[class*="sticky-banner"]
-##video[class*="ad-video"]
-##div[class*="wide-ad"]
-##div[class*="full-width-ad"]
-##div[class*="geo-ad"]
-##div[class*="location-ad"]
-/* 广告计数器 */
-div[class*="ad-counter"]
-div[class*="ad-carousel"]
-div[class*="ad-slideshow"]
 
-/* 广告加载状态 */
-div[class*="ad-loading"]
-div[class*="ad-load"]
-div[class*="ad-loader"]
-/* 自适应广告 */
-div[class*="responsive-ad"]
-div[class*="ad-responsive"]
-div[class*="ad-flex"]
-div[class*="ad-responsive-banner"]
-/* 页面退出广告 */
-div[class*="exit-ad"]
-div[class*="exit-popup-ad"]
-div[class*="exit-intent-ad"]
-
-/* 滚动激活广告 */
-div[class*="scroll-to-ad"]
-div[class*="scroll-activated-ad"]
-
-/* 弹窗广告 */
-div[class*="popup-ad"]
-div[class*="popup-overlay"]
-div[class*="popup-banner"]
-/* 提示性广告 */
-div[class*="ad-tooltip"]
-div[class*="ad-info"]
-div[class*="ad-hint"]
-
-/* 原生广告 */
-div[class*="native-ad"]
-div[class*="native-ad-container"]
-
-/* 赞助广告 */
-div[class*="sponsored-ad"]
-div[class*="sponsored-banner"]
-div[class*="sponsored-video"]
-/* 广告点击事件 */
-div[class*="ad-clickable"]
-div[class*="ad-click"]
-div[class*="ad-link"]
-div[class*="ad-action"]
-
-/* 广告关闭/打开按钮 */
-div[class*="ad-close-button"]
-div[class*="ad-open-button"]
-/* 页面的广告区域 */
-div[class*="ad-section"]
-div[class*="ad-container"]
-div[class*="ad-wrapper"]
-div[class*="ad-spot"]
-div[class*="ad-zone"]
-div[class*="ad-block"]
-div[class*="ad-box"]
-div[class*="ad-element"]
-div[class*="ad-corner"]
-div[class*="ad-header-container"]
-div[class*="ad-footer-container"]
-
-/* 广告通知区域 */
-div[class*="ad-notification"]
-div[class*="notification-ad"]
-div[class*="ad-popup-container"]
-div[class*="popup-ad"]
-div[class*="popup-wrapper"]
-/* 广告标签 */
-span[class*="ad-label"]
-span[class*="promoted-label"]
-span[class*="advert-label"]
-span[class*="sponsored-label"]
-span[class*="ad-link-label"]
-
-
-/* 定位广告 */
-div[class*="geo-ad"]
-div[class*="location-ad"]
-div[class*="geo-target-ad"]
-div[class*="location-banner"]
-div[class*="ad-location"]
-
-/* 页面顶部/底部的广告 */
-div[class*="top-ad"]
-div[class*="bottom-ad"]
-div[class*="top-banner"]
-div[class*="bottom-banner"]
-div[class*="top-banner-ad"]
-div[class*="bottom-banner-ad"]
-
-/* 页面侧边广告 */
-div[class*="side-ad"]
-div[class*="sidebar-ad"]
-div[class*="side-banner-ad"]
-div[class*="side-popup-ad"]
-/* 视频广告 */
-div[class*="video-ad"]
-div[class*="ad-video-container"]
-div[class*="video-overlay-ad"]
-div[class*="video-inline-ad"]
-video[src*="promo-video"]
-video[src*="adplayer"]
-
-/* 互动广告 */
-div[class*="interactive-ad"]
-div[class*="survey-ad"]
-div[class*="poll-ad"]
-div[class*="reward-ad"]
-div[class*="game-ad"]
-
-/* 动画广告 */
-div[class*="ad-animated"]
-div[class*="expandable-ad"]
-div[class*="ad-expandable"]
-div[class*="ad-slider"]
-
-/* 全屏广告 */
-div[class*="fullscreen-ad"]
-div[class*="ad-fullscreen"]
-div[class*="fullscreen-popup"]
-/* 广告弹窗、模态框 */
-div[class*="modal"]
-div[class*="popup-modal"]
-div[class*="exit-modal"]
-div[class*="lightbox-ad"]
-div[class*="fullscreen-popup"]
-div[class*="popup-wrapper"]
-div[class*="popup-container"]
-
-/* 广告嵌入式 */
-div[class*="embed-ad"]
-div[class*="ad-embedder"]
-div[class*="ad-embed-container"]
-
-/* 固定/浮动广告 */
-div[class*="fixed-ad"]
-div[class*="floating-ad"]
-div[class*="sticky-footer-ad"]
-div[class*="floating-banner"]
-div[class*="sticky-ad"]
-div[class*="ad-float"]
-
-/* 广告滚动条 */
-div[class*="scrolling-ad"]
-div[class*="sliding-ad"]
-div[class*="ad-slide"]
-div[class*="scrolling-banner"]
-/* 广告互动内容 */
-div[class*="ad-engagement"]
-div[class*="ad-poll"]
-div[class*="ad-survey"]
-
-/* 定向广告 */
-div[class*="ad-target"]
-div[class*="ad-geotarget"]
-div[class*="ad-location-target"]
-/* 广告错误 */
-div[class*="ad-error"]
-div[class*="ad-failure"]
-div[class*="ad-missing"]
-div[class*="ad-broken"]
-
-/* 广告重试 */
-div[class*="ad-retry"]
-div[class*="ad-reload"]
-/* 广告透明化 */
-div[class*="ad-transparent"]
-div[class*="ad-opacity"]
-div[class*="ad-low-opacity"]
-
-/* 广告样式 */
-div[class*="ad-style"]
-div[class*="ad-theme"]
-div[class*="ad-design"]
-/* 智能加载广告 */
-div[class*="ad-smart-load"]
-div[class*="ad-auto-load"]
-div[class*="ad-responsive"]
-div[class*="ad-auto-resize"]
-/* 广告权限控制 */
-div[class*="ad-permission"]
-div[class*="ad-control"]
-div[class*="ad-auth"]
-div[class*="ad-authorization"]
-/* 嵌套广告 */
-div[class*="ad-nested"]
-div[class*="ad-wrapper-inner"]
-div[class*="ad-container-inner"]
-div[class*="ad-composite"]
-
-/* 复合广告 */
-div[class*="ad-multicomponent"]
-div[class*="ad-combo"]
-div[class*="ad-composite-slot"]
-/* 弹出广告（不重复于常见的 popup 或 modal）*/
-div[class*="ad-float"]
-div[class*="ad-impulse"]
-div[class*="ad-hover"]
-div[class*="ad-appear"]
-/* 大小调整的广告 */
-div[class*="ad-large"]
-div[class*="ad-big"]
-div[class*="ad-wide"]
-div[class*="ad-compact"]
-
-/* 布局改变的广告 */
-div[class*="ad-flex"]
-div[class*="ad-grid"]
-div[class*="ad-layout"]
-div[class*="ad-box"]
-div[class*="ad-column"]
-/* 广告动画效果 */
-div[class*="ad-animated"]
-div[class*="ad-animation"]
-div[class*="ad-transition"]
-div[class*="ad-fade"]
-div[class*="ad-slide"]
-div[class*="ad-expand"]
-/* 嵌入式广告 */
-div[class*="ad-embed"]
-div[class*="ad-embedded"]
-div[class*="ad-embed-container"]
-div[class*="ad-inline-embed"]
-
-/* 动态生成广告 */
-div[class*="ad-dynamic"]
-div[class*="ad-runtime"]
-div[class*="ad-inject"]
-/* 广告延迟显示 */
-div[class*="ad-delay"]
-div[class*="ad-deferred"]
-div[class*="ad-timed"]
-div[class*="ad-delayed"]
-div[class*="ad-delayed-display"]
-
-/* 广告消失 */
-div[class*="ad-fade-out"]
-div[class*="ad-hide"]
-div[class*="ad-remove"]
-div[class*="ad-disappear"]
-/* 广告提示 */
-div[class*="ad-tooltip"]
-div[class*="ad-hint"]
-div[class*="ad-info"]
-div[class*="ad-notice"]
-div[class*="ad-message"]
-div[class*="ad-prompt"]
-/* 用户交互的广告元素 */
-div[class*="ad-action"]
-div[class*="ad-click"]
-div[class*="ad-trigger"]
-div[class*="ad-interaction"]
-div[class*="ad-toggle"]
-div[class*="ad-button-clickable"]
-/* 防止显示的广告 */
-div[class*="ad-hidden"]
-div[class*="ad-visibility"]
-div[class*="ad-blocked"]
-div[class*="ad-off"]
-/* 广告加载时的状态 */
-div[class*="lazy-loading-ad"]
-div[class*="loading-ad"]
-div[class*="ad-loading-indicator"]
-div[class*="ad-loader"]
-div[class*="ad-load"]
-div[class*="ad-wait"]
-div[class*="ad-fetch"]
-/* 自适应布局广告 */
-section[class*="responsive-ad"]
-section[class*="adaptive-ad"]
-section[class*="auto-resize-ad"]
-section[class*="fluid-ad"]
-
-/* 响应式广告元素 */
-span[class*="responsive-banner"]
-span[class*="ad-responsive-layout"]
-/* 广告提醒与标识 */
-label[class*="ad-alert"]
-label[class*="ad-flag"]
-label[class*="ad-warning"]
-label[class*="ad-reminder"]
-/* 第三方广告嵌入 */
-div[class*="third-party-ad"]
-div[class*="external-ad"]
-div[class*="partner-ad"]
-div[class*="affiliate-ad"]
-/* 广告监控 */
-script[src*="ad-monitor"]
-script[src*="ad-track"]
-script[src*="ad-beacon"]
-script[src*="ad-analytics"]
-
-/* 广告统计工具 */
-script[src*="ad-stat"]
-script[src*="ad-event"]
-/* 第三方广告嵌入 */
-div[class*="third-party-ad"]
-div[class*="external-ad"]
-div[class*="partner-ad"]
-div[class*="affiliate-ad"]
-/* 广告行为 */
-button[class*="ad-close-btn"]
-button[class*="ad-open-btn"]
-button[class*="ad-clickable-button"]
-
-/* 广告切换按钮 */
-button[class*="ad-toggle-btn"]
-button[class*="ad-switch-btn"]
-/* 弹出广告 */
-div[class*="ad-popup"]
-div[class*="ad-modal"]
-div[class*="ad-dialog"]
-div[class*="ad-lightbox"]
-
-/* 模态框广告 */
-div[class*="ad-modal-wrapper"]
-div[class*="ad-overlay-popup"]
-/* 广告文本 */
-span[class*="ad-text"]
-span[class*="promo-text"]
-span[class*="sponsored-text"]
-
-/* 广告描述 */
-p[class*="ad-description"]
-p[class*="ad-explanation"]
-p[class*="ad-info-text"]
