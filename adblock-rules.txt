@@ -423,3 +423,8 @@ span[class*="sponsored-text"]
 p[class*="ad-description"]
 p[class*="ad-explanation"]
 p[class*="ad-info-text"]
+/* 广告提醒与标识 */
+label[class*="ad-alert"]
+label[class*="ad-flag"]
+label[class*="ad-warning"]
+label[class*="ad-reminder"]
