@@ -437,3 +437,12 @@ div[class*="ad-broken"]
 /* 广告重试 */
 div[class*="ad-retry"]
 div[class*="ad-reload"]
+/* 广告互动内容 */
+div[class*="ad-engagement"]
+div[class*="ad-poll"]
+div[class*="ad-survey"]
+
+/* 定向广告 */
+div[class*="ad-target"]
+div[class*="ad-geotarget"]
+div[class*="ad-location-target"]
