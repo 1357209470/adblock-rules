@@ -414,3 +414,12 @@ div[class*="ad-level"]
 div[class*="ad-permission"]
 div[class*="ad-restriction"]
 div[class*="ad-control"]
+/* 广告文本 */
+span[class*="ad-text"]
+span[class*="promo-text"]
+span[class*="sponsored-text"]
+
+/* 广告描述 */
+p[class*="ad-description"]
+p[class*="ad-explanation"]
+p[class*="ad-info-text"]
