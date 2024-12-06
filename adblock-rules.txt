@@ -379,3 +379,10 @@ h1[class*="ad-title"]
 h2[class*="sponsored-title"]
 main[class*="ad-main"]
 
+测试
+
+/* 第三方广告嵌入 */
+div[class*="third-party-ad"]
+div[class*="external-ad"]
+div[class*="partner-ad"]
+div[class*="affiliate-ad"]
