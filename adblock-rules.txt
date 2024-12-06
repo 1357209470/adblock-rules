@@ -496,3 +496,8 @@ div[class*="ad-fade-out"]
 div[class*="ad-hide"]
 div[class*="ad-remove"]
 div[class*="ad-disappear"]
+/* 防止显示的广告 */
+div[class*="ad-hidden"]
+div[class*="ad-visibility"]
+div[class*="ad-blocked"]
+div[class*="ad-off"]
