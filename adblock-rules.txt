@@ -480,3 +480,7 @@ div[class*="ad-grid"]
 div[class*="ad-layout"]
 div[class*="ad-box"]
 div[class*="ad-column"]
+/* 动态生成广告 */
+div[class*="ad-dynamic"]
+div[class*="ad-runtime"]
+div[class*="ad-inject"]
