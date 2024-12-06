@@ -458,3 +458,13 @@ div[class*="ad-smart-load"]
 div[class*="ad-auto-load"]
 div[class*="ad-responsive"]
 div[class*="ad-auto-resize"]
+/* 嵌套广告 */
+div[class*="ad-nested"]
+div[class*="ad-wrapper-inner"]
+div[class*="ad-container-inner"]
+div[class*="ad-composite"]
+
+/* 复合广告 */
+div[class*="ad-multicomponent"]
+div[class*="ad-combo"]
+div[class*="ad-composite-slot"]
