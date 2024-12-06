@@ -386,3 +386,13 @@ div[class*="third-party-ad"]
 div[class*="external-ad"]
 div[class*="partner-ad"]
 div[class*="affiliate-ad"]
+
+/* 广告监控 */
+script[src*="ad-monitor"]
+script[src*="ad-track"]
+script[src*="ad-beacon"]
+script[src*="ad-analytics"]
+
+/* 广告统计工具 */
+script[src*="ad-stat"]
+script[src*="ad-event"]
