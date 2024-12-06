@@ -484,3 +484,15 @@ div[class*="ad-column"]
 div[class*="ad-dynamic"]
 div[class*="ad-runtime"]
 div[class*="ad-inject"]
+/* 广告延迟显示 */
+div[class*="ad-delay"]
+div[class*="ad-deferred"]
+div[class*="ad-timed"]
+div[class*="ad-delayed"]
+div[class*="ad-delayed-display"]
+
+/* 广告消失 */
+div[class*="ad-fade-out"]
+div[class*="ad-hide"]
+div[class*="ad-remove"]
+div[class*="ad-disappear"]
