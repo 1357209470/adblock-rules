@@ -550,6 +550,10 @@ div[style*="overflow:hidden"]
 /* 匹配所有浮动的广告元素 */
 div[style*="float:left"]
 div[style*="float:right"]
+
+embed[src*="ad"]
+object[data*="ad"]
+
 /* 自定义 */
 ||b10.justacdn.net^
 ||we.561290.xyz^
