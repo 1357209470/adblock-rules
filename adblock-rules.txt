@@ -533,3 +533,12 @@ div[id*="ad-rotator"]
 div[id*="ad-counter"]
 div[id*="ad-timeout"]
 div[id*="ad-timer"]
+/* 浮动广告区域 ID */
+div[id*="floating-ad"]
+div[id*="floating-banner"]
+div[id*="floating-slot"]
+div[id*="floating-popup"]
+
+/* 浮动广告关闭按钮 ID */
+div[id*="floating-ad-close"]
+div[id*="popup-close"]
