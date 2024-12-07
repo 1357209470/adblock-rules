@@ -553,7 +553,26 @@ div[style*="float:right"]
 
 embed[src*="ad"]
 object[data*="ad"]
+script[src*="optimizely"] 
+script[src*="crazyegg"] 
+script[src*="mixpanel"]
+script[src*="webtrekk"]
+script[src*="ecommerce"]
+script[src*="sales"]
+script[src*="lead"]
+script[src*="funnel"]
+script[src*="measurement"]
+script[src*="visitor"]
+script[src*="trackingcode"]
+script[src*="impression"]
+script[src*="visitor"]
+script[src*="remarketing"]
+script[src*="hotjar"]
+script[src*="segment"]
+
 
 /* 自定义 */
 ||b10.justacdn.net^
 ||we.561290.xyz^
+/template/jable/statics/js/app.js$~3p
+##DIV.bootom-fixed
