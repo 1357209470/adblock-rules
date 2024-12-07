@@ -567,6 +567,9 @@ script[src*="hotjar"]
 script[src*="segment"]
 div[class*="ad-queued"]
 div[class*="ad-lazyload"]
+div[data-ad="true"],
+div[data-ad-id*="banner"]
+
 
 /*第三方广告和追踪 */
 ||*.net/ad^
