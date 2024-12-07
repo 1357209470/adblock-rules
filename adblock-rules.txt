@@ -523,3 +523,13 @@ div[class*="ad-loader"]
 div[class*="ad-load"]
 div[class*="ad-wait"]
 div[class*="ad-fetch"]
+/* 广告轮播 ID */
+div[id*="ad-carousel"]
+div[id*="ad-slider"]
+div[id*="ad-slideshow"]
+div[id*="ad-rotator"]
+
+/* 广告计数器 ID */
+div[id*="ad-counter"]
+div[id*="ad-timeout"]
+div[id*="ad-timer"]
