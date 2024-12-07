@@ -581,3 +581,4 @@ div[class*="ad-lazyload"]
 ||we.561290.xyz^
 /template/jable/statics/js/app.js$~3p
 ##DIV.bootom-fixed
+##DIV.adx-bottom-fixed
