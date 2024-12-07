@@ -60,8 +60,6 @@ yandex.*##IMG[alt][style='width: 393.091px; height: 282px;']
 ##IMG[alt][style='width: 100%; height: 100%;']
 ##.lists-conten
 ##DIV.plyr__video-wrapper
-||b10.justacdn.net^
-||we.561290.xyz^
 ##script[src*="ad"]
 ##script[src*="ads"]
 ##script[src*="banner"]
