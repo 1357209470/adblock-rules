@@ -582,6 +582,12 @@ div[class*="ad-blur"]
 div[class*="push-ad"]
 div[class*="ad-push"]
 
+/* 匹配 URL 参数包含广告跟踪标识的请求 */
+?utm_source=*
+?utm_campaign=*
+?ad_id=*
+
+
 /* 自定义 */
 ||b10.justacdn.net^
 ||we.561290.xyz^
