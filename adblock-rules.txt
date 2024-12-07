@@ -542,3 +542,11 @@ div[id*="floating-popup"]
 /* 浮动广告关闭按钮 ID */
 div[id*="floating-ad-close"]
 div[id*="popup-close"]
+/*隐藏和透明度相关*/
+div[style*="width:0"]
+div[style*="height:0"]
+/* 匹配所有溢出隐藏的元素 */
+div[style*="overflow:hidden"]
+/* 匹配所有浮动的广告元素 */
+div[style*="float:left"]
+div[style*="float:right"]
