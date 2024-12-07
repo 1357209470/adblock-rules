@@ -565,6 +565,8 @@ script[src*="visitor"]
 script[src*="remarketing"]
 script[src*="hotjar"]
 script[src*="segment"]
+div[class*="ad-queued"]
+div[class*="ad-lazyload"]
 
 /*第三方广告和追踪 */
 ||*.net/ad^
