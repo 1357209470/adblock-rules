@@ -569,7 +569,7 @@ div[class*="ad-queued"]
 div[class*="ad-lazyload"]
 div[data-ad="true"],
 div[data-ad-id*="banner"]
-
+div[class*="ad-blur"]
 
 /*第三方广告和追踪 */
 ||*.net/ad^
@@ -578,6 +578,9 @@ div[data-ad-id*="banner"]
 ||*.com/ad^
 ||example.com/ads/*$third-party
 
+/*推送广告 */
+div[class*="push-ad"]
+div[class*="ad-push"]
 
 /* 自定义 */
 ||b10.justacdn.net^
