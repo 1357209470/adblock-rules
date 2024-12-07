@@ -568,6 +568,11 @@ script[src*="remarketing"]
 script[src*="hotjar"]
 script[src*="segment"]
 
+/*第三方广告和追踪 */
+||*.net/ad^
+||*.org/ad^
+||example.com/ads/*$third-party
+
 
 /* 自定义 */
 ||b10.justacdn.net^
