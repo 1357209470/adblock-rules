@@ -549,6 +549,7 @@ div[style*="float:right"]
 
 embed[src*="ad"]
 object[data*="ad"]
+script[src*="ad-iframe"]
 script[src*="optimizely"] 
 script[src*="crazyegg"] 
 script[src*="mixpanel"]
