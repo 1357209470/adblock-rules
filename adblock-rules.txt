@@ -68,8 +68,6 @@ yandex.*##IMG[alt][style='width: 393.091px; height: 282px;']
 ##iframe[src*="ad"]
 ##iframe[src*="ads"]
 ##iframe[src*="banner"]
-||*.cn/ad^
-||*.com/ad^
 ||*/ads.js^
 ||*/banner.js^
 ||*/popup.js^
@@ -571,6 +569,8 @@ script[src*="segment"]
 /*第三方广告和追踪 */
 ||*.net/ad^
 ||*.org/ad^
+||*.cn/ad^
+||*.com/ad^
 ||example.com/ads/*$third-party
 
 
