@@ -29,8 +29,6 @@ a[href*="ad"] img[src$=".gif"]
 div[class*="ad"] img[src$=".gif"]
 ##IMG[src*="inpage.gif"]
 div[class*="popup"]
-##DIV.hl-pops-bg.hl-pops-bg-active, DIV.hl-poptips-wrap.hl-bg-site
-##DIV.popup
 ##div[class*="gif-ad"]
 ##img[style="width:100%"]
 ##DIV#io-popup-tips
@@ -56,8 +54,6 @@ an.yandex.impression
 an.yandex.loaded
 an.yandex.inline
 an.yandex.ad
-yandex.*##IMG[alt][style='width: 393.091px; height: 282px;']
-##IMG[alt][style='width: 100%; height: 100%;']
 ##.lists-conten
 ##DIV.plyr__video-wrapper
 ##script[src*="ad"]
@@ -449,6 +445,9 @@ div[class*="ad-low-opacity"]
 div[class*="ad-style"]
 div[class*="ad-theme"]
 div[class*="ad-design"]
+div[class*="ad-color"]
+div[class*="ad-appearance"]
+
 /* 智能加载广告 */
 div[class*="ad-smart-load"]
 div[class*="ad-auto-load"]
@@ -596,3 +595,7 @@ div[class*="ad-push"]
 /template/jable/statics/js/app.js$~3p
 ##DIV.bootom-fixed
 ##DIV.adx-bottom-fixed
+##DIV.hl-pops-bg.hl-pops-bg-active, DIV.hl-poptips-wrap.hl-bg-site
+##DIV.popup
+yandex.*##IMG[alt][style='width: 393.091px; height: 282px;']
+##IMG[alt][style='width: 100%; height: 100%;']
