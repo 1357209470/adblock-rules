@@ -569,6 +569,11 @@ div[class~="featured"]
 script[src*="jquery"]
 div[class*="ad-insert"]
 img[src*="ad-icon"]
+div:has(img[src*="ads"])
+div:has(img[src*="ad"])
+div:has(img[src*="ads"])
+div[class*="offer-"]
+
 
 /*第三方广告和追踪 */
 ||*.net/ad^
