@@ -41,18 +41,14 @@ div[class*="popup"]
 ##DIV.floating-ad
 ##DIV.sticky-bottom-ad
 ##DIV.cdc-m-notice
-##DIV.images-viewer-content2__behavioral-direct
 ##DDI.yandex-suggest-ad
 ##DIV.yandex-recommend-ad
 ##DIV..yandex_ads
-##DIV.react-component.i-bem.react-component_js_inited
-##DIV.DirectInline.DirectInline_filled
 an.yandex.load
 an.yandex.impression
 an.yandex.loaded
 an.yandex.inline
 an.yandex.ad
-##.lists-conten
 ##DIV.plyr__video-wrapper
 ##script[src*="ad"]
 ##script[src*="ads"]
@@ -616,3 +612,7 @@ yandex.*##IMG[alt][style='width: 393.091px; height: 282px;']
 ##IMG[alt][style='width: 100%; height: 100%;']
 ##div.di, div.di_img, div.ut1_img, div.di_mv
 ##DIV.ut1_img_content, DIV.ut1_img_content_js, DIV.ut1_img_ex_content
+##DIV.lists-content
+##DIV.react-component.i-bem.react-component_js_inited
+##DIV.DirectInline.DirectInline_filled
+##DIV.images-viewer-content2__behavioral-direct
