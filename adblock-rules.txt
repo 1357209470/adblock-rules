@@ -622,3 +622,4 @@ yandex.*##IMG[alt][style='width: 393.091px; height: 282px;']
 ##DIV.DirectInline.DirectInline_filled
 ##DIV.images-viewer-content2__behavioral-direct
 ##div[class*="stui-foot"]
+##div[class*="btn-open"]
