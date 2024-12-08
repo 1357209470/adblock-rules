@@ -624,4 +624,4 @@ yandex.*##IMG[alt][style='width: 393.091px; height: 282px;']
 ##div[class*="stui-foot"]
 ##div[class*="btn-open"]
 zhibo8.com##DIV.top-header,A.btn-open
-sports.sina.cn##SECTION#j_card_miniVideo,SECTION.fl_words.rf.j_cmnt_bottom,DIV.ld_com_bar
+sports.sina.cn##SECTION.fl_words.rf.j_cmnt_bottom,SECTION#j_card_miniVideo,DIV.ld_com_bar_btn,DIV.ld_com_bar,DIV.ldy_art_bottom_button_box.j_callST
