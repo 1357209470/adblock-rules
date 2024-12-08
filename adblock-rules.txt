@@ -623,3 +623,4 @@ yandex.*##IMG[alt][style='width: 393.091px; height: 282px;']
 ##DIV.images-viewer-content2__behavioral-direct
 ##div[class*="stui-foot"]
 ##div[class*="btn-open"]
+zhibo8.com##DIV.top-header,A.btn-open
