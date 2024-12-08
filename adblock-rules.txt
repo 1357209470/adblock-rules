@@ -584,7 +584,7 @@ script[src*="adsbygoogle.js"]
 script[src*="popup.js"]
 script[src*="adtrack.js"]
 script[src*="banner.js"]
-
+div[class*="ad-block"]
 /*第三方广告和追踪 */
 ||*.net/ad^
 ||*.org/ad^
