@@ -573,7 +573,11 @@ div:has(img[src*="ads"])
 div:has(img[src*="ad"])
 div:has(img[src*="ads"])
 div[class*="offer-"]
-##div[class*="app-download"]
+script[src*="analytics.js"]
+script[src*="adblock.js"]
+script[src*="ads.js"]
+script[src*="impression.js"]
+script[src*="track.js"]
 
 /*第三方广告和追踪 */
 ||*.net/ad^
@@ -624,4 +628,5 @@ yandex.*##IMG[alt][style='width: 393.091px; height: 282px;']
 ##div[class*="stui-foot"]
 ##div[class*="btn-open"]
 zhibo8.com##DIV.top-header,A.btn-open
-sports.sina.cn##SECTION.fl_words.rf.j_cmnt_bottom,SECTION#j_card_miniVideo,DIV.ld_com_bar_btn,DIV.ld_com_bar,DIV.ldy_art_bottom_button_box.j_callST
+##div[class*="app-download"]
+sports.sina.cn##DIV.ldy_art_bottom_button_box.j_callST,DIV.ld_com_bar,SECTION#j_card_miniVideo,SECTION.fl_words.rf.j_cmnt_bottom
