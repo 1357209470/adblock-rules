@@ -630,10 +630,10 @@ input[type="checkbox"]
 
 
 /*第三方广告和追踪 */
-||*.net/ad^
-||*.org/ad^
-||*.cn/ad^
-||*.com/ad^
+||*.net/ad/*^
+||*.org/ad/*^
+||*.cn/ad/*^
+||*.com/ad/*^
 ||*.xyz/ad/*^
 ||example.com/ads/*$third-party
 
