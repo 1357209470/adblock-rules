@@ -609,8 +609,21 @@ script[src*="advertising"]
 script[src*="openx"]
 script[src*="audience"]
 script[src*="googlesyndication"]
-
-
+div[class*="content"]
+div[class^="top-"]
+div[class^="nav-"]
+div[class^="stui-"]
+div[class$="foot"]
+div[class$="menu"]
+div[class$="header"]
+div[class~="sidebar"]
+div[class~="stui-foot"]
+div[class~="menu-item"]
+div[class*="stui-foot"][class*="top"]
+[data-role="header"]
+[class*="footer"][id="main"]
+[class~="card button"]
+[data-type="image"][class*="img-"]
 
 
 /*第三方广告和追踪 */
