@@ -599,6 +599,16 @@ script[src*="adclick"]
 script[src*="campaign"]
 script[src*="placement"]
 link[href*="adblock"]
+script[src*="cdnjs.cloudflare.com"]
+script[src*="static.ads"]
+script[src*="cdn.jsdelivr.net"]
+script[src*="adnxs"]
+script[src*="adx"]
+script[src*="flashtalking"]
+script[src*="advertising"]
+script[src*="openx"]
+script[src*="audience"]
+script[src*="googlesyndication"]
 
 
 
