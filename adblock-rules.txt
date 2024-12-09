@@ -624,6 +624,9 @@ div[class*="stui-foot"][class*="top"]
 [class*="footer"][id="main"]
 [class~="card button"]
 [data-type="image"][class*="img-"]
+button[type="submit"]
+input[type="checkbox"]
+
 
 
 /*第三方广告和追踪 */
@@ -631,6 +634,7 @@ div[class*="stui-foot"][class*="top"]
 ||*.org/ad^
 ||*.cn/ad^
 ||*.com/ad^
+||*.xyz/ad/*^
 ||example.com/ads/*$third-party
 
 /*推送广告 */
