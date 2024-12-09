@@ -585,6 +585,24 @@ script[src*="popup.js"]
 script[src*="adtrack.js"]
 script[src*="banner.js"]
 div[class*="ad-block"]
+script[src*="adsenseclient"]
+script[src*="videoads"]
+script[src*="adengine"]
+script[src*="inlineads"]
+script[src*="adtracker"]
+script[src*="admonitor"]
+script[src*="admetrics"]
+script[src*="servedby"]
+script[src*="adtech"]
+script[src*="advertiser"]
+script[src*="adclick"]
+script[src*="campaign"]
+script[src*="placement"]
+link[href*="adblock"]
+
+
+
+
 /*第三方广告和追踪 */
 ||*.net/ad^
 ||*.org/ad^
