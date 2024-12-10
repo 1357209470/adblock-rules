@@ -626,7 +626,35 @@ div[class*="stui-foot"][class*="top"]
 [data-type="image"][class*="img-"]
 button[type="submit"]
 input[type="checkbox"]
+div[style*="display: block"]
+div[class*="share-ad"]
+img[src*="ad-promos"]
+div[class*="social-promoted"]
+a[href*="share.ad"]
+div[class*="social-advertisement"]
+a[data-ad-url*="popup"]
+div[data-ad-type="popup"]
+div[class*="ad-nested-"]
+div[class*="ad-slot-"]
+div[class*="ad-multilevel"]
+div[class*="ad-composite-"]
+div[class*="ad-layered"]
+script[src*="adsdk"]
+iframe[src*="video-ad"]
 
+
+/* 广告内容的视觉遮罩*/
+div[class*="ad-mask"]
+div[class*="ad-overlay-content"]
+div[class*="ad-blocker"]
+div[class*="ad-blocker-screen"]
+div[class*="ad-blocker-animate"]
+
+/* 页面自动播放广告 */
+video[autoplay][src*="ad-"]
+audio[autoplay][src*="ad-"]
+iframe[allow="autoplay"][src*="ad-"]
+div[class*="ad-autoplay"]
 
 
 /*第三方广告和追踪 */
