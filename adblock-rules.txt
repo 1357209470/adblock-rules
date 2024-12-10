@@ -641,7 +641,7 @@ div[class*="ad-composite-"]
 div[class*="ad-layered"]
 script[src*="adsdk"]
 iframe[src*="video-ad"]
-
+||yandex.*^$script
 
 /* 广告内容的视觉遮罩*/
 div[class*="ad-mask"]
