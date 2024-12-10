@@ -708,6 +708,7 @@ yandex.*##IMG[alt][style='width: 393.091px; height: 282px;']
 ##div[class*="btn-open"]
 zhibo8.com##DIV.top-header,A.btn-open
 ##div[class*="app-download"]
-sports.sina.cn##DIV.ldy_art_bottom_button_box.j_callST,DIV.ld_com_bar,SECTION#j_card_miniVideo,SECTION.fl_words.rf.j_cmnt_bottom
+sports.sina.cn##DIV.ldy_art_bottom_button_box.j_callST,DIV.ld_com_bar,SECTION#j_card_miniVideo,SECTION.fl_words.rf.j_cmnt_bottom,SECTION.fl_words.rf.j_cmnt_bottom
+
 ##DIV[class*="head-adblock"]
 hupu.com##DIV.tabs-component-search,SECTION.footer,tabs-component-occu-1
