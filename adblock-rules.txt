@@ -643,7 +643,15 @@ script[src*="adsdk"]
 iframe[src*="video-ad"]
 ||yandex.*^$script
 
-
+script[src*="firebase"]
+script[src*="cdn"]
+script[src*="gtm"]
+script[src*="cloudflare"]
+script[src*="cookie"]
+script[src*="captcha"]
+script[src*="pwa"]
+script[src*="thirdparty"]
+script[src*="analytics.js"
 script[src$=".js"]
 script:not([src])
 script[src*="example.com"]
