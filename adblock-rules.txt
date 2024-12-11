@@ -643,6 +643,21 @@ script[src*="adsdk"]
 iframe[src*="video-ad"]
 ||yandex.*^$script
 
+
+script[src$=".js"]
+script:not([src])
+script[src*="example.com"]
+script[src*="/vendor/"]
+script[async]
+script[defer]
+script[src*="modernizr"]
+script[src*="google"]
+script:not([data-*])
+script[src^="//"]
+script:not([id="trusted-script"]):not([class="trusted-script"])
+
+
+
 /* 广告内容的视觉遮罩*/
 div[class*="ad-mask"]
 div[class*="ad-overlay-content"]
