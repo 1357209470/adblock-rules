@@ -640,9 +640,6 @@ div[class*="ad-multilevel"]
 div[class*="ad-composite-"]
 div[class*="ad-layered"]
 script[src*="adsdk"]
-iframe[src*="video-ad"]
-||yandex.*^$script
-
 script[src*="firebase"]
 script[src*="cdn"]
 script[src*="gtm"]
