@@ -663,6 +663,29 @@ script[src*="google"]
 script:not([data-*])
 script[src^="//"]
 script:not([id="trusted-script"]):not([class="trusted-script"])
+div[class*="ad-block"]
+div[class*="ad-wrapper"]
+div[class*="advertisement"]
+div[class*="ad-iframe"]
+div[class*="ad-placement"]
+div[class*="ad-bottom-bar"]
+||ads.example.com^$image
+||example.com/ads/*$image
+||example.com/*ad*.jpg$image
+||example.com/*banner*.png$image
+||example.com/*advertisement*.gif$image
+
+
+/* 页面内广告脚本 */
+||example.com/ad.js$script
+||example.com/ads.js$script
+||ads.example.com/adloader.js$script
+||ads.example.com/adtracker.js$script
+
+/* 广告活动 ID、跟踪标识符 */
+||example.com/?ad_campaign=*$
+||example.com/?ad_id=*$
+||example.com/?tracking_id=*$
 
 
 
