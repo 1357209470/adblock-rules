@@ -5,7 +5,6 @@ div[class*="ad-wrapper"]
 div[class*="ad-slot"]
 div[class*='a-d-block']
 div[class*='text-center']
-##DIV.bottom-fixed
 ##A[href^='/go.php'][ref='nofollow'][target='_blank']
 ##DIV.mvspan_2_s_k_i_p_row
 ##DIV#fage_hf
@@ -15,7 +14,7 @@ div[class*='text-center']
 ##DIV.bottom-downloadapp
 ##DIV.shuoqiudiAPP
 ##DIV.bottom-banner
-##DIV.fixed.right-2.bottom-2
+##DIV.fixed.right-2.boottom-2
 div.interstitial-ad
 div.floating-ad
 div.repeated-ad
@@ -814,3 +813,4 @@ div[class*="ad-overlap"]
 ||b10.justacdn.net^
 ||we.561290.xyz^
 /template/jable/statics/js/app.js$~3p
+##DIV.bootom-fixed
