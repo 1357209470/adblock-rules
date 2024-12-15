@@ -682,7 +682,6 @@ div[class*="ad-push"]
 ?utm_campaign=*
 ?ad_id=*
 /* yandex广告 */
-||*yandex*^
 ||*yandex*/*ads/*
 ||*yandex*/*banner*
 ||*yandex*/*promo*
@@ -697,6 +696,15 @@ div[class*="ad-push"]
 ||*yandex*/*banner/*$image
 ||*yandex*^$regex=.*(ads|banner|promo|track).*
 @@||*yandex*^$document
+
+/*第三方广告和追踪 */
+||*.net/ad/*^
+||*.org/ad/*^
+||*.cn/ad/*^
+||*.com/ad/*^
+||*.xyz/ad/*^
+||example.com/ads/*$third-party
+
 /* 广告位置与层级 */
 div[class*="ad-position"]
 div[class*="ad-placement"]
