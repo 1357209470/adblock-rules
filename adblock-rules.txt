@@ -875,3 +875,4 @@ div[class*="sponsored-content"]
 ##DIV.bootom-fixed
 zhibo8.com##DIV.top-header,A.btn-open
 ##DIV.plyr__video-wrapper
+hupu.com##DIV.tabs-component-search,DIV.tabs-component-occu-1,SECTION.footer
