@@ -812,6 +812,9 @@ div[class*="ad-stacked"]
 div[class*="ad-overlap"]
 
 ## 新补充
+##div[class*="ad-plugin"]
+##iframe[src*="ads-widget"]
+||*.adcdn.com^
 ##a[href*="advertisement"]
 ##a[href*="ad."]
 ##div[class*="third-party-ad"]
