@@ -50,7 +50,6 @@ an.yandex.impression
 an.yandex.loaded
 an.yandex.inline
 an.yandex.ad
-##DIV.plyr__video-wrapper
 
 ## 脚本选择器
 ##script[src*="ad"]
@@ -875,3 +874,4 @@ div[class*="sponsored-content"]
 /template/jable/statics/js/app.js$~3p
 ##DIV.bootom-fixed
 zhibo8.com##DIV.top-header,A.btn-open
+##DIV.plyr__video-wrapper
