@@ -59,10 +59,10 @@ an.yandex.ad
 ##iframe[src*="ad"]
 ##iframe[src*="ads"]
 ##iframe[src*="banner"]
-||*/ads.js^
-||*/banner.js^
-||*/popup.js^
-||*/tracking.js
+||*ads.js^
+||*banner.js^
+||*popup.js^
+||*tracking.js^
 ##link[href*="ads"]
 ##link[href*="banner"]
 ##.floating
