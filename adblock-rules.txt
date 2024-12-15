@@ -876,3 +876,11 @@ div[class*="sponsored-content"]
 zhibo8.com##DIV.top-header,A.btn-open
 ##DIV.plyr__video-wrapper
 hupu.com##DIV.tabs-component-search,DIV.tabs-component-occu-1,SECTION.footer
+##DIV.adx-bottom-fixed
+##div[class*="btn-open"]
+##div[class*="stui-foot"]
+##DIV.hl-pops-bg.hl-pops-bg-active
+##IMG[alt][style='width: 100%; height: 100%;']
+##DIV.lists-content
+##DIV.react-component.i-bem.react-component_js_inited
+##DIV.images-viewer-content2__behavioral-direct
