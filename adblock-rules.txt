@@ -800,6 +800,8 @@ div[class*="ad-push"]
 ||*.com/ad/*^
 ||*.xyz/ad/*^
 ||example.com/ads/*$third-party
+||*.trackingads.net^
+||*.admonitor.com^
 
 ## 广告位置与层级
 div[class*="ad-position"]
@@ -808,6 +810,26 @@ div[class*="ad-layer"]
 div[class*="ad-z-index"]
 div[class*="ad-stacked"]
 div[class*="ad-overlap"]
+
+## 新补充
+iframe[src*="adframe"]
+div[class*="ad-overlay-lightbox"]
+||*.adserver.net^
+||*.advertisement.com^
+##script[src*="ad_click"]
+##iframe[src*="advertisement.com"]
+##script[src*="async_ads"]
+##script[src*="ad_plugin"]
+div[class*="ad-widget-container"]
+div[class*="ad-lightbox"]
+div[class*="ad-timer"]
+div[class*="partner-ads"]
+div[class*="ad-network"]
+
+div[class*="popup-ad-close"]
+div[class*="ad-top-bar"]
+div[class*="ad-sticky-top"]
+div[class*="sponsored-content"]
 
 ## 自定义
 ||b10.justacdn.net^
