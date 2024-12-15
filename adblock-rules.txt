@@ -1,3 +1,4 @@
+## 广告选择器
 div[class*="promoted"]
 div[class*="ad-container"]
 div[class*="ad-wrapper"]
@@ -51,6 +52,8 @@ an.yandex.loaded
 an.yandex.inline
 an.yandex.ad
 ##DIV.plyr__video-wrapper
+
+## 脚本选择器
 ##script[src*="ad"]
 ##script[src*="ads"]
 ##script[src*="banner"]
@@ -90,6 +93,8 @@ an.yandex.ad
 ##div[style*="position: absolute"]
 ##script:inject(window.addEventListener)
 ##script:inject(window.location)
+
+## 其他广告选择器
 ##.ad-container
 ||example.com^$third-party
 ##iframe[src*="adserver"]
@@ -163,6 +168,8 @@ an.yandex.ad
 ##div[class*="social-ad"]
 ##div[class*="share-button"]
 ##img[src*="social-share"]
+
+## 其他规则
 ||*.popads.net^
 ||*.adclicker.net^
 ||*.adf.ly^
@@ -237,6 +244,8 @@ an.yandex.ad
 ##.popup-ad-container
 ##.ad-video-wrapper
 ##.floating-ad-container
+
+## 其他广告分类
 div[class*="ad-"]
 div[class*="ads-"]
 div[class*="promo-"]
@@ -296,7 +305,8 @@ div[class*="ad-hider"]
 div[class*="ad-video-container"]
 div[class*="ad-video-player"]
 div[class*="ad-frame-container"]
-/* iframe 相关 */
+
+## iframe 相关
 iframe[src*="ad"]
 iframe[src*="ads"]
 iframe[src*="promo"]
@@ -306,7 +316,8 @@ iframe[src*="video-ad"]
 iframe[src*="popups"]
 iframe[src*="overlay"]
 iframe[src*="advertising"]
-/* img 相关 */
+
+## img 相关
 img[src*="ad-"]
 img[src*="ads-"]
 img[src*="promo"]
@@ -314,7 +325,8 @@ img[src*="banner"]
 img[src*="popup-"]
 img[src*="sponsored"]
 img[src*="advert-"]
-/* script 相关 */
+
+## script 相关
 script[src*="ad"]
 script[src*="ads"]
 script[src*="banner"]
@@ -324,13 +336,16 @@ script[src*="expandable"]
 script[src*="sticky"]
 script[src*="overlay"]
 script[src*="adserver"]
-/* video 相关 */
+
+## video 相关
 video[src*="ad"]
 video[src*="promo"]
 video[src*="sponsored"]
 video[src*="advert"]
 video[autoplay="true"]
 video[autoplay="autoplay"]
+
+## a 相关
 a[href*="ad-"]
 a[href*="sponsored"]
 a[href*="promo"]
@@ -338,161 +353,197 @@ a[href*="adsense"]
 a[href*="banner"]
 a[href*="go.php"]
 a[href*="adclick"]
-/* span 标签 */
+
+## span 标签
 span[class*="ad-label"]
 span[class*="promoted-label"]
 span[class*="advert-label"]
-/* section 标签 */
+
+## section 标签
 section[class*="ad-section"]
 section[class*="promotion-section"]
-/* header 和 footer 标签 */
+
+## header 和 footer 标签
 header[class*="ad-header"]
 footer[class*="ad-footer"]
-/* nav 和 aside 标签 */
+
+## nav 和 aside 标签
 nav[class*="ad-navigation"]
 aside[class*="ad-sidebar"]
-/* button 标签 */
+
+## button 标签
 button[class*="ad-button"]
 button[data-action*="ad"]
-/* input 标签 */
+
+## input 标签
 input[class*="ad-input"]
 input[placeholder*="ad"]
-/* form 标签 */
+
+## form 标签
 form[action*="ad"]
 form[class*="ad-form"]
-/* 其他 */
+
+## 其他
 article[class*="ad-article"]
 h1[class*="ad-title"]
 h2[class*="sponsored-title"]
 main[class*="ad-main"]
-/* 第三方广告嵌入 */
+
+## 第三方广告嵌入
 div[class*="third-party-ad"]
 div[class*="external-ad"]
 div[class*="partner-ad"]
 div[class*="affiliate-ad"]
-/* 广告监控 */
+
+## 广告监控
 script[src*="ad-monitor"]
 script[src*="ad-track"]
 script[src*="ad-beacon"]
 script[src*="ad-analytics"]
-/* 广告统计工具 */
+
+## 广告统计工具
 script[src*="ad-stat"]
 script[src*="ad-event"]
-/* 推荐广告 */
+
+## 推荐广告
 section[class*="recommended-ad"]
 section[class*="ad-recommendation"]
 section[class*="related-ad"]
-/* 内容广告 */
+
+## 内容广告
 article[class*="content-ad"]
 article[class*="contextual-ad"]
 article[class*="native-ad"]
-/* 权重控制广告 */
+
+## 权重控制广告
 div[class*="ad-priority"]
 div[class*="ad-weight"]
 div[class*="ad-level"]
-/* 广告访问权限 */
+
+## 广告访问权限
 div[class*="ad-permission"]
 div[class*="ad-restriction"]
 div[class*="ad-control"]
-/* 广告文本 */
+
+## 广告文本
 span[class*="ad-text"]
 span[class*="promo-text"]
 span[class*="sponsored-text"]
-/* 广告描述 */
+
+## 广告描述
 p[class*="ad-description"]
 p[class*="ad-explanation"]
 p[class*="ad-info-text"]
-/* 广告提醒与标识 */
+
+## 广告提醒与标识
 label[class*="ad-alert"]
 label[class*="ad-flag"]
 label[class*="ad-warning"]
 label[class*="ad-reminder"]
-/* 广告错误 */
+
+## 广告错误
 div[class*="ad-error"]
 div[class*="ad-failure"]
 div[class*="ad-missing"]
 div[class*="ad-broken"]
-/* 广告重试 */
+
+## 广告重试
 div[class*="ad-retry"]
 div[class*="ad-reload"]
-/* 广告互动内容 */
+
+## 广告互动内容
 div[class*="ad-engagement"]
 div[class*="ad-poll"]
 div[class*="ad-survey"]
-/* 定向广告 */
+
+## 定向广告
 div[class*="ad-target"]
 div[class*="ad-geotarget"]
 div[class*="ad-location-target"]
-/* 广告透明化 */
+
+## 广告透明化
 div[class*="ad-transparent"]
 div[class*="ad-opacity"]
 div[class*="ad-low-opacity"]
-/* 广告样式 */
+
+## 广告样式
 div[class*="ad-style"]
 div[class*="ad-theme"]
 div[class*="ad-design"]
 div[class*="ad-color"]
 div[class*="ad-appearance"]
-/* 智能加载广告 */
+
+## 智能加载广告
 div[class*="ad-smart-load"]
 div[class*="ad-auto-load"]
 div[class*="ad-responsive"]
 div[class*="ad-auto-resize"]
-/* 嵌套广告 */
+
+## 嵌套广告
 div[class*="ad-nested"]
 div[class*="ad-wrapper-inner"]
 div[class*="ad-container-inner"]
 div[class*="ad-composite"]
-/* 复合广告 */
+
+## 复合广告
 div[class*="ad-multicomponent"]
 div[class*="ad-combo"]
 div[class*="ad-composite-slot"]
-/* 大小调整的广告 */
+
+## 大小调整的广告
 div[class*="ad-large"]
 div[class*="ad-big"]
 div[class*="ad-wide"]
 div[class*="ad-compact"]
-/* 布局改变的广告 */
+
+## 布局改变的广告
 div[class*="ad-flex"]
 div[class*="ad-grid"]
 div[class*="ad-layout"]
 div[class*="ad-box"]
 div[class*="ad-column"]
-/* 动态生成广告 */
+
+## 动态生成广告
 div[class*="ad-dynamic"]
 div[class*="ad-runtime"]
 div[class*="ad-inject"]
-/* 广告延迟显示 */
+
+## 广告延迟显示
 div[class*="ad-delay"]
 div[class*="ad-deferred"]
 div[class*="ad-timed"]
 div[class*="ad-delayed"]
 div[class*="ad-delayed-display"]
-/* 广告消失 */
+
+## 广告消失
 div[class*="ad-fade-out"]
 div[class*="ad-hide"]
 div[class*="ad-remove"]
 div[class*="ad-disappear"]
-/* 防止显示的广告 */
+
+## 防止显示的广告
 div[class*="ad-hidden"]
 div[class*="ad-visibility"]
 div[class*="ad-blocked"]
 div[class*="ad-off"]
-/* 用户交互的广告元素 */
+
+## 用户交互的广告元素
 div[class*="ad-action"]
 div[class*="ad-click"]
 div[class*="ad-trigger"]
 div[class*="ad-interaction"]
 div[class*="ad-toggle"]
 div[class*="ad-button-clickable"]
-/* 广告提示 */
+
+## 广告提示
 div[class*="ad-tooltip"]
 div[class*="ad-hint"]
 div[class*="ad-info"]
 div[class*="ad-notice"]
 div[class*="ad-message"]
 div[class*="ad-prompt"]
-/* 广告加载时的状态 */
+
+## 广告加载时的状态
 div[class*="lazy-loading-ad"]
 div[class*="loading-ad"]
 div[class*="ad-loading-indicator"]
@@ -500,33 +551,44 @@ div[class*="ad-loader"]
 div[class*="ad-load"]
 div[class*="ad-wait"]
 div[class*="ad-fetch"]
-/* 广告轮播 ID */
+
+## 广告轮播 ID
 div[id*="ad-carousel"]
 div[id*="ad-slider"]
 div[id*="ad-slideshow"]
 div[id*="ad-rotator"]
-/* 广告计数器 ID */
+
+## 广告计数器 ID
 div[id*="ad-counter"]
 div[id*="ad-timeout"]
 div[id*="ad-timer"]
-/* 浮动广告区域 ID */
+
+## 浮动广告区域 ID
 div[id*="floating-ad"]
 div[id*="floating-banner"]
 div[id*="floating-slot"]
 div[id*="floating-popup"]
-/* 浮动广告关闭按钮 ID */
+
+## 浮动广告关闭按钮 ID
 div[id*="floating-ad-close"]
 div[id*="popup-close"]
-/*隐藏和透明度相关*/
+
+## 隐藏和透明度相关
 div[style*="width:0"]
 div[style*="height:0"]
-/* 匹配所有溢出隐藏的元素 */
+
+## 匹配所有溢出隐藏的元素
 div[style*="overflow:hidden"]
-/* 匹配所有浮动的广告元素 */
+
+## 匹配所有浮动的广告元素
 div[style*="float:left"]
 div[style*="float:right"]
+
+## 嵌入广告
 embed[src*="ad"]
 object[data*="ad"]
+
+## 其他脚本
 script[src*="ad-iframe"]
 script[src*="optimizely"]
 script[src*="crazyegg"]
@@ -544,6 +606,8 @@ script[src*="visitor"]
 script[src*="remarketing"]
 script[src*="hotjar"]
 script[src*="segment"]
+
+## 广告队列
 div[class*="ad-queued"]
 div[class*="ad-lazyload"]
 div[data-ad="true"]
@@ -551,13 +615,25 @@ div[data-ad-id*="banner"]
 div[class*="ad-blur"]
 div[class*="ad-hide-on-load"]
 div[class~="featured"]
+
+## jQuery
 script[src*="jquery"]
+
+## 广告插入
 div[class*="ad-insert"]
+
+## 广告图标
 img[src*="ad-icon"]
+
+## 选择器包含广告
 div:has(img[src*="ads"])
 div:has(img[src*="ad"])
 div:has(img[src*="ads"])
+
+## 优惠选择器
 div[class*="offer-"]
+
+## 广告监控脚本
 script[src*="analytics.js"]
 script[src*="adblock.js"]
 script[src*="ads.js"]
@@ -569,6 +645,8 @@ script[src*="adsbygoogle.js"]
 script[src*="popup.js"]
 script[src*="adtrack.js"]
 script[src*="banner.js"]
+
+## 广告阻止
 div[class*="ad-block"]
 script[src*="adsenseclient"]
 script[src*="videoads"]
@@ -583,7 +661,11 @@ script[src*="advertiser"]
 script[src*="adclick"]
 script[src*="campaign"]
 script[src*="placement"]
+
+## 广告屏蔽
 link[href*="adblock"]
+
+## CDN
 script[src*="cdnjs.cloudflare.com"]
 script[src*="static.ads"]
 script[src*="cdn.jsdelivr.net"]
@@ -594,6 +676,8 @@ script[src*="advertising"]
 script[src*="openx"]
 script[src*="audience"]
 script[src*="googlesyndication"]
+
+## 内容选择器
 div[class*="content"]
 div[class^="top-"]
 div[class^="nav-"]
@@ -622,6 +706,8 @@ div[class*="ad-slot-"]
 div[class*="ad-multilevel"]
 div[class*="ad-composite-"]
 div[class*="ad-layered"]
+
+## 广告 SDK
 script[src*="adsdk"]
 script[src*="firebase"]
 script[src*="cdn"]
@@ -643,45 +729,56 @@ script[src*="google"]
 script:not([data-*])
 script[src^="//"]
 script:not([id="trusted-script"]):not([class="trusted-script"])
+
+## 广告阻止
 div[class*="ad-block"]
 div[class*="ad-wrapper"]
 div[class*="advertisement"]
 div[class*="ad-iframe"]
 div[class*="ad-placement"]
 div[class*="ad-bottom-bar"]
+
+## 广告图像
 ||ads.example.com^$image
 ||example.com/ads/*$image
 ||example.com/*ad*.jpg$image
 ||example.com/*banner*.png$image
 ||example.com/*advertisement*.gif$image
-/* 页面内广告脚本 */
+
+## 页面内广告脚本
 ||example.com/ad.js$script
 ||example.com/ads.js$script
 ||ads.example.com/adloader.js$script
 ||ads.example.com/adtracker.js$script
-/* 广告活动 ID、跟踪标识符 */
+
+## 广告活动 ID、跟踪标识符
 ||example.com/?ad_campaign=*$ 
 ||example.com/?ad_id=*$ 
 ||example.com/?tracking_id=*$ 
-/* 广告内容的视觉遮罩 */
+
+## 广告内容的视觉遮罩
 div[class*="ad-mask"]
 div[class*="ad-overlay-content"]
 div[class*="ad-blocker"]
 div[class*="ad-blocker-screen"]
 div[class*="ad-blocker-animate"]
-/* 页面自动播放广告 */
+
+## 页面自动播放广告
 video[autoplay][src*="ad-"]
 audio[autoplay][src*="ad-"]
 iframe[allow="autoplay"][src*="ad-"]
 div[class*="ad-autoplay"]
-/* 推送广告 */
+
+## 推送广告
 div[class*="push-ad"]
 div[class*="ad-push"]
-/* 匹配 URL 参数包含广告跟踪标识的请求 */
+
+## 匹配 URL 参数包含广告跟踪标识的请求
 ?utm_source=*
 ?utm_campaign=*
 ?ad_id=*
-/* yandex广告 */
+
+## yandex广告
 ||*yandex*/*ads/*
 ||*yandex*/*banner*
 ||*yandex*/*promo*
@@ -697,7 +794,7 @@ div[class*="ad-push"]
 ||*yandex*^$regex=.*(ads|banner|promo|track).*
 @@||*yandex*^$document
 
-/*第三方广告和追踪 */
+## 第三方广告和追踪
 ||*.net/ad/*^
 ||*.org/ad/*^
 ||*.cn/ad/*^
@@ -705,33 +802,15 @@ div[class*="ad-push"]
 ||*.xyz/ad/*^
 ||example.com/ads/*$third-party
 
-/* 广告位置与层级 */
+## 广告位置与层级
 div[class*="ad-position"]
 div[class*="ad-placement"]
 div[class*="ad-layer"]
 div[class*="ad-z-index"]
 div[class*="ad-stacked"]
 div[class*="ad-overlap"]
-/* 自定义 */
+
+## 自定义
 ||b10.justacdn.net^
 ||we.561290.xyz^
 /template/jable/statics/js/app.js$~3p
-##DIV.bootom-fixed
-##DIV.adx-bottom-fixed
-##DIV.hl-pops-bg.hl-pops-bg-active
-##DIV.popup
-yandex.*##IMG[alt][style='width: 393.091px; height: 282px;']
-##IMG[alt][style='width: 100%; height: 100%;']
-##div.di
-div.di_img
-div.ut1_img
-div.di_mv
-##DIV.ut1_img_content
-##DIV.ut1_img_content_js
-##DIV.ut1_img_ex_content
-##DIV.lists-content
-##DIV.react-component.i-bem.react-component_js_inited
-##DIV.DirectInline.DirectInline_filled
-##DIV.images-viewer-content2__behavioral-direct
-##div[class*="stui-foot"]
-##div[class*="btn-open"]
