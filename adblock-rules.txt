@@ -812,6 +812,23 @@ div[class*="ad-stacked"]
 div[class*="ad-overlap"]
 
 ## 新补充
+##a[href*="advertisement"]
+##a[href*="ad."]
+##div[class*="third-party-ad"]
+##script[src*="thirdparty-ad.js"]
+
+##div[class*="ad-interstitial"]
+##div[class*="ad-infinite-scroll"]
+##script[src*="lazyload.js"]
+##div[class*="lazyload-ad"]
+##div[class*="overlay-ad"]
+##script[src*="track.js"]
+##div[class*="floating-ad"]
+##div[class*="ad-loader"]
+##div[class*="sticky-ad"]
+##script[src*="ads-loader.js"]
+##script[src*="load-ad.js"]
+##script[src*="retargeting.js"]
 a[href*="ad-click"]
 ##script[src*="analytics-tracking"]
 ##script[src*="track_event"]
@@ -854,3 +871,4 @@ div[class*="sponsored-content"]
 ||we.561290.xyz^
 /template/jable/statics/js/app.js$~3p
 ##DIV.bootom-fixed
+zhibo8.com##DIV.top-header,A.btn-open
