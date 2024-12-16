@@ -788,6 +788,12 @@ div[class*="ad-stacked"]
 div[class*="ad-overlap"]
 
 ## 新补充
+
+
+div[class*="slide-ad"]
+div[class*="slide-in-ad"]
+div[class*="slide-out-ad"]
+div[class*="slide-banner"]
 div[class*="ad-panel"]
 div[class*="ad-widget"]
 button[class*="ad-skip"]
