@@ -7,14 +7,6 @@ div[class*='a-d-block']
 div[class*='text-center']
 ##A[href^='/go.php'][ref='nofollow'][target='_blank']
 ##DIV.mvspan_2_s_k_i_p_row
-##DIV#fage_hf
-##DIV.m-index-tag
-##DIV.m-bottom
-##DIV#bottom-float-adv
-##DIV.bottom-downloadapp
-##DIV.shuoqiudiAPP
-##DIV.bottom-banner
-##DIV.fixed.right-2.boottom-2
 div.interstitial-ad
 div.floating-ad
 div.repeated-ad
@@ -777,21 +769,7 @@ div[class*="ad-push"]
 ?utm_campaign=*
 ?ad_id=*
 
-## yandex广告
-||*yandex*/*ads/*
-||*yandex*/*banner*
-||*yandex*/*promo*
-||*yandex*^$script
-||*yandex*^$image
-||*yandex*^$stylesheet
-||*yandex*^$media
-*##[id^="yandex-ad-"]
-*##[class*="ads"]
-||*.adfox.ru^
-||*yandex*/*ads/*$image
-||*yandex*/*banner/*$image
-||*yandex*^$regex=.*(ads|banner|promo|track).*
-@@||*yandex*^$document
+
 
 ## 第三方广告和追踪
 ||*.net/ad/*^
@@ -915,3 +893,10 @@ hupu.com##DIV.tabs-component-search,DIV.tabs-component-occu-1,SECTION.footer
 ##DIV.lists-content
 ##DIV.react-component.i-bem.react-component_js_inited
 ##DIV.images-viewer-content2__behavioral-direct
+##DIV#fage_hf
+
+##DIV#boottom-float-adv
+##DIV.boottom-downloadapp
+##DIV.shuoqiudiAPP
+##DIV.boottom-banner
+##DIV.fixed.right-2.boottom-2
