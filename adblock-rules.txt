@@ -917,3 +917,4 @@ hupu.com##DIV.tabs-component-search,DIV.tabs-component-occu-1,SECTION.footer
 ##DIV.fixed.right-2.boottom-2
 ##A[href^='/go.php'][ref='nofollow'][target='_blank']
 ##DIV.mvspan_2_s_k_i_p_row
+##DIV.popup
