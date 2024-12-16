@@ -787,9 +787,56 @@ div[class*="ad-z-index"]
 div[class*="ad-stacked"]
 div[class*="ad-overlap"]
 
+## 广告数据缓存
+script[src*="ad-cache-sync"]
+script[src*="ad-sync-cache"]
+script[src*="ad-cache-async"]
+
+## 广告缓存与优化
+script[src*="ad-cache"]
+script[src*="ad-cache-script"]
+script[src*="ad-optimization"]
+
+## 广告预加载
+script[src*="ad-preload"]
+script[src*="ad-prior-load"]
+script[src*="preload-ad"]
+
+## 广告背景/透明广告
+div[style*="background-image:url('ad-banner.jpg')"]
+div[style*="background-color:#f00"]
+div[class*="ad-background"]
+div[class*="transparent-ad"]
+
+## 广告弹出和动画脚本
+script[src*="banner-ad.js"]
+script[src*="popup-ad.js"]
+script[src*="slide-ad.js"]
+script[src*="modal-ad.js"]
+
+
+
 ## 新补充
-
-
+div[class*="geo-ad"]
+script[src*="ad-queue"]
+script[src*="adframework.js"]
+script[src*="adengine.js"]
+script[src*="ad-scheduler"]
+script[src*="ad-timer"]
+div[class*="ad-column-layout"]
+div[class*="ad-unit-container"]
+div[class*="ad-block-layout"]
+img[src*="ad-image.gif"]
+script[src*="ad-scripts.js"]
+img[src*="ad-image.jpg"]
+img[src*="ad-image.png"]
+img[src*="ad-image.webp"]
+img[src*="ad-image.PHP"]
+div[class*="ad-slide-show"]
+div[class*="ad-timed"]
+div[class*="ad-delayed"]
+div[class*="ad-plugin"]
+iframe[src*="embedded-ad"]
 div[class*="slide-ad"]
 div[class*="slide-in-ad"]
 div[class*="slide-out-ad"]
@@ -805,7 +852,7 @@ div[class*="ad-holder"]
 iframe[src*="browserad"]
 iframe[src*="browserad-server"]
 script[src*="browserad.js"]
-##script[src*="auto-load-ad.js"]
+##script[src*="auto-load
 ##script[src*="inject-ad.js"]
 ##div[class*="ad-plugin"]
 ##iframe[src*="ads-widget"]
