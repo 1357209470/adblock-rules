@@ -998,3 +998,4 @@ hupu.com##DIV.tabs-component-search,DIV.tabs-component-occu-1,SECTION.footer
 ##A[href^='/go.php'][ref='nofollow'][target='_blank']
 ##DIV.mvspan_2_s_k_i_p_row
 ##DIV.popup
+##DIV.di_img
