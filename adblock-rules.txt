@@ -999,3 +999,4 @@ hupu.com##DIV.tabs-component-search,DIV.tabs-component-occu-1,SECTION.footer
 ##DIV.mvspan_2_s_k_i_p_row
 ##DIV.popup
 ##DIV.di_img
+##DIV.ut1_img_content,DIV.ut1_img_content_js,DIV.ut1_img_ex_content
