@@ -814,9 +814,42 @@ script[src*="popup-ad.js"]
 script[src*="slide-ad.js"]
 script[src*="modal-ad.js"]
 
+##  推荐广告与内容嵌入
+section[class*="recommended-ad"]
+section[class*="suggested-ad"]
+div[class*="related-ad"]
+div[class*="content-ad"]
+div[class*="recommended-content"]
 
+##  隐藏空白广告容器
+div:empty
+div[style*="height:0px"]
+div[style*="display:block!important"]
 
 ## 新补充
+
+div[style*="height:1px"] 
+div[style*="height:auto"] 
+div[style*="min-height:0"]
+div[style*="border"] 
+div[style*="border:1px"]
+div[style*="overflow:scroll"]
+div[style*="margin:0 auto"]
+div[style*="padding:0"]
+div[style*="opacity:0"]
+div[style*="opacity:0.1"]
+div[style*="opacity:0.5"]
+div[style*="filter:alpha(opacity=0)"]
+div[style*="top:0"]
+div[style*="bottom:0"]
+div[style*="position:sticky"]
+div[style*="width:0px"] 
+div[style*="height:0px"]
+div[class*="sidebar-ad"]
+script[src*="ad-monitoring"]
+iframe[src*="ad-placement"]
+div[style*="background-image:url('ad-')]
+div[class*="ad-flyout"]
 div[class*="geo-ad"]
 script[src*="ad-queue"]
 script[src*="adframework.js"]
