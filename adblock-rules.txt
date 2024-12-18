@@ -975,6 +975,9 @@ div[class*="popup-ad-close"]
 div[class*="ad-top-bar"]
 div[class*="ad-sticky-top"]
 div[class*="sponsored-content"]
+div[class*="mx-auto"]
+div[class*="relative"]
+
 
 ## 自定义
 ||b10.justacdn.net^
