@@ -828,6 +828,9 @@ div[style*="display:block!important"]
 
 ## 新补充
 
+div[id="html-ad"]
+div[id="html-ads"]
+div[data-type="banner"]
 div[style*="height:1px"] 
 div[style*="height:auto"] 
 div[style*="min-height:0"]
