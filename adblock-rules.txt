@@ -42,14 +42,6 @@ an.yandex.inline
 an.yandex.ad
 
 ## 脚本选择器
-##script[src*="ad"]
-##script[src*="ads"]
-##script[src*="banner"]
-##script[src*="popup"]
-##script[src*="tracker"]
-##iframe[src*="ad"]
-##iframe[src*="ads"]
-##iframe[src*="banner"]
 ||*ads.js^
 ||*banner.js^
 ||*popup.js^
@@ -316,15 +308,19 @@ img[src*="sponsored"]
 img[src*="advert-"]
 
 ## script 相关
-script[src*="ad"]
-script[src*="ads"]
-script[src*="banner"]
-script[src*="popup"]
-script[src*="tracker"]
-script[src*="expandable"]
-script[src*="sticky"]
-script[src*="overlay"]
-script[src*="adserver"]
+script[src*="ad"],
+script[src*="ads"],
+script[src*="banner"],
+script[src*="popup"],
+script[src*="tracker"],
+script[src*="expandable"],
+script[src*="sticky"],
+script[src*="overlay"],
+script[src*="adserver"],
+iframe[src*="ad"],
+iframe[src*="ads"],
+iframe[src*="banner"]
+
 
 ## video 相关
 video[src*="ad"]
