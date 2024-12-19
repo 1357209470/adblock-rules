@@ -822,8 +822,25 @@ div:empty
 div[style*="height:0px"]
 div[style*="display:block!important"]
 
-## 新补充
+## 广告信息提示框
+div[class*="ad-tooltip"]
+div[class*="ad-hint"]
+div[class*="ad-info"]
+div[class*="ad-notice"]
+div[class*="ad-alert"]
+div[class*="ad-warning"]
 
+
+## 新补充
+div[class*="poll-ad"]
+script[src*="ad-stat"]
+div[class*="ad-social-share"]
+div[style*="display: inline-block"]
+div[class*="ad-full-screen"]
+div[class*="ad-footer-top"]
+div[class*="survey-ad"]
+script[src*="ad-script.js"]
+script[src*="popup-ad-script.js"]
 script[src*="sdk"]
 script[src*="anti-adblock"]
 script[src*="flash"]
@@ -845,7 +862,7 @@ script[src*="advertise"]
 script[src*="/ads/"]
 script[src*="/static/"]
 script[src*="cdn.advertiser.com"]
-
+script[src*="track-ad.js"]
 script[src*="content.ad"]
 script[src*="securepubads.g.doubleclick.net"]
 script[src*="adroll.js"]
