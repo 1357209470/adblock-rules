@@ -108,7 +108,6 @@ an.yandex.ad
 ##script[src*="tag"]
 ##script[src*="partner"]
 ##script[src*="doubleclick"]
-##script[src*="pixel"]
 ##script[src*="conversion"]
 ##script[src*="affiliate"]
 ##script[src*="beacon"]
