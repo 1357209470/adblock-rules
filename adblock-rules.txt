@@ -1019,6 +1019,7 @@ div[class*="relative"]
 
 
 ## 自定义
+||cdn.miaosdk.com
 ||b10.justacdn.net^
 ||we.561290.xyz^
 /template/jable/statics/js/app.js$~3p
@@ -1046,3 +1047,4 @@ hupu.com##DIV.tabs-component-search,DIV.tabs-component-occu-1,SECTION.footer
 ##DIV.di_img
 ##DIV.ut1_img_content,DIV.ut1_img_content_js,DIV.ut1_img_ex_content
 ##DIV.ut1_img
+
