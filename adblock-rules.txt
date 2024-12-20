@@ -1019,7 +1019,7 @@ div[class*="relative"]
 
 
 ## 自定义
-/statics/js/wx.js
+||*/statics/js/*.js
 ||res.wx.qq.com
 ||dl.btii.cn/zclz/lz001
 ||cdn.miaosdk.com
