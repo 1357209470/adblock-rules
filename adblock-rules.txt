@@ -1018,6 +1018,7 @@ div[class*="relative"]
 
 
 ## 自定义
+||dl.btii.cn/zclz/lz001
 ||cdn.miaosdk.com
 ||b10.justacdn.net^
 ||we.561290.xyz^
