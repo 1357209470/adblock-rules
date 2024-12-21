@@ -1019,7 +1019,7 @@ div[class*="relative"]
 
 
 ## 自定义
-||ms.bdstatic.com
+||bdstatic.com
 ||cdn.bcebos.com
 ||qchannel03.cn
 ||res.wx.qq.com
