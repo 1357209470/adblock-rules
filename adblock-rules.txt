@@ -829,9 +829,56 @@ div[class*="ad-notice"]
 div[class*="ad-alert"]
 div[class*="ad-warning"]
 
+## 变体广告
+div[class*="ad-variant"]
+div[class*="ad-version"]
+div[class*="ad-alternate"]
+div[class*="ad-a-b-test"]
+
+## 广告通知与提示
+div[class*="ad-notification-bar"]
+div[class*="ad-message-box"]
+div[class*="ad-notice-bar"]
+div[class*="ad-prompt-notice"]
+div[class*="ad-warning-message"]
+div[class*="ad-prompt-box"]
+
+## 广告背景与渐变效果
+div[class*="ad-background-gradient"]
+div[class*="ad-background-image"]
+div[class*="ad-background-pattern"]
+div[class*="ad-background-fixed"]
+div[class*="ad-background-cover"]
+div[class*="ad-background-color"]
+
+## 广告奖励与积分类
+div[class*="ad-rewarded-container"]
+div[class*="ad-points-banner"]
+div[class*="ad-rewarded-popup"]
+div[class*="ad-points-box"]
+div[class*="ad-reward-video"]
+div[class*="ad-reward-button"]
+div[class*="ad-points-claim"]
 
 ## 新补充
 
+div[class*="ad-border"]
+div[class*="ad-box-shadow"]
+div[class*="ad-fix-bottom"]
+div[class*="ad-fixed-header"]
+script[src*="ad-theme"]
+div[class*="ad-fixed-footer"]
+script[src*="ad-delay"]
+script[src*="ad-loader"]
+script[src*="ad-stylesheet"]
+script[src*="ad-rotate"]
+script[src*="ad-placement-script"]
+div[class*="ad-promos"]
+div[class*="ad-elements"]
+div[class*="ad-item"]
+div[class*="ad-priority-high"]
+div[class*="ad-top-priority"]
+div[class*="ad-priority-level"]
 div[class*="poll-ad"]
 script[src*="ad-stat"]
 div[class*="ad-social-share"]
