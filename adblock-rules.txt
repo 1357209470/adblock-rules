@@ -1164,3 +1164,4 @@ hupu.com##DIV.tabs-component-search,DIV.tabs-component-occu-1,SECTION.footer
 ##DIV.ut1_img
 ##DIV#ad-container
 a.rezhibo8.com##DIV.popupdirect-ad
+##DIV.mobile-download-popup
