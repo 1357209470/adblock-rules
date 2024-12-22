@@ -1128,6 +1128,7 @@ div[class*="relative"]
 div[class*="ad-loading"]
 
 ## 自定义
+||cdn.jsdelivr.net/*.gif
 ||bdstatic.com
 ||cdn.bcebos.com
 ||qchannel03.cn
