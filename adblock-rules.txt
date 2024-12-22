@@ -904,7 +904,7 @@ div[class*="ad-brightness"]
 
 
 ## 新补充
-
+div[class*="ad-nav-bar"]
 div[class*="ad-track-log"]
 div[class*="ad-event-logger"]
 div[class*="ad-skin-"]
@@ -914,7 +914,7 @@ div[class*="ad-zoom-out"]
 div[class*="ad-zoom-in"]
 div[class*="ad-fade-in"]
 div[class*="ad-shake"]
-
+div[class*="ad-stop"]
 div[class*="ad-blink"]
 div[class*="ad-bounce"]
 div[class*="ad-visible"]
