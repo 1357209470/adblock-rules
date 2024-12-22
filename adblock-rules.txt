@@ -886,8 +886,28 @@ div[class*="ad-layout-responsive"]
 div[class*="ad-flex"]
 
 
+## 广告自定义样式与装饰
+div[class*="ad-custom-style"]
+div[class*="ad-decorator"]
+div[class*="ad-custom-decorator"]
+div[class*="ad-theme-custom"]
+div[class*="ad-style-wrapper"]
+div[class*="ad-themes-box"]
+div[class*="ad-style-setting"]
+
+## 广告视觉效果与过滤
+div[class*="ad-vignette"]
+div[class*="ad-sepia"]
+div[class*="ad-grayscale"]
+div[class*="ad-negative"]
+div[class*="ad-brightness"]
+
+
 ## 新补充
 
+div[class*="ad-track-log"]
+div[class*="ad-event-logger"]
+div[class*="ad-skin-"]
 div[class*="ad-quiz"]
 div[class*="ad-slide-in"]
 div[class*="ad-zoom-out"]
@@ -1105,7 +1125,7 @@ div[class*="ad-sticky-top"]
 div[class*="sponsored-content"]
 div[class*="mx-auto"]
 div[class*="relative"]
-
+div[class*="ad-loading"]
 
 ## 自定义
 ||bdstatic.com
