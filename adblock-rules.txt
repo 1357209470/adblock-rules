@@ -860,8 +860,50 @@ div[class*="ad-reward-video"]
 div[class*="ad-reward-button"]
 div[class*="ad-points-claim"]
 
+## 广告背景视频与音
+div[class*="ad-video-background"]
+div[class*="ad-background-video"]
+div[class*="ad-video-overlay"]
+div[class*="ad-audio-banner"]
+div[class*="ad-video-banner"]
+div[class*="ad-background-audio"]
+
+## 广告区域与边距
+div[class*="ad-padding"]
+div[class*="ad-margin"]
+div[class*="ad-gap"]
+div[class*="ad-spacing"]
+div[class*="ad-space-container"]
+div[class*="ad-content-space"]
+
+## 广告自适应与响应式
+div[class*="ad-responsive"]
+div[class*="ad-adaptive"]
+div[class*="ad-fluid"]
+div[class*="ad-auto-resize"]
+div[class*="ad-resize"]
+div[class*="ad-layout-responsive"]
+div[class*="ad-flex"]
+
+
 ## 新补充
 
+div[class*="ad-quiz"]
+div[class*="ad-slide-in"]
+div[class*="ad-zoom-out"]
+div[class*="ad-zoom-in"]
+div[class*="ad-fade-in"]
+div[class*="ad-shake"]
+
+div[class*="ad-blink"]
+div[class*="ad-bounce"]
+div[class*="ad-visible"]
+div[class*="ad-state-visible"]
+div[class*="ad-state-hidden"]
+div[class*="ad-social-share"]
+div[class*="ad-social-media"]
+div[class*="ad-social-widget"]
+div[class*="ad-cta-"]
 div[class*="ad-border"]
 div[class*="ad-box-shadow"]
 div[class*="ad-fix-bottom"]
