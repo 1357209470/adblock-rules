@@ -1120,6 +1120,8 @@ div[class*="ad-loading"]
 div[class="modal-content"]
 
 ## 自定义
+
+||cdn.leisu.com
 ||pstatp.com
 ||cdn.jsdelivr.net/*.gif
 ||bdstatic.com
@@ -1130,6 +1132,7 @@ div[class="modal-content"]
 ||cdn.miaosdk.com
 ||b10.justacdn.net^
 ||we.561290.xyz^
+/d/js/bobos/show22.js
 /template/jable/statics/js/app.js$~3p
 ##DIV.bootom-fixed
 zhibo8.com##DIV.top-header,A.btn-open
