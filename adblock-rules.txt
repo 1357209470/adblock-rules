@@ -1132,7 +1132,7 @@ div[class="modal-content"]
 ||cdn.miaosdk.com
 ||b10.justacdn.net^
 ||we.561290.xyz^
-/d/js/bobos/show22.js
+/d/js/bobos/show.js
 /template/jable/statics/js/app.js$~3p
 ##DIV.bootom-fixed
 zhibo8.com##DIV.top-header,A.btn-open
