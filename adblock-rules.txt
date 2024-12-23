@@ -1117,6 +1117,7 @@ div[class*="sponsored-content"]
 div[class*="mx-auto"]
 div[class*="relative"]
 div[class*="ad-loading"]
+div[class="modal-content"]
 
 ## 自定义
 ||pstatp.com
