@@ -19,14 +19,6 @@ div[class*="ad"] img[src$=".gif"]
 div[class*="popup"]
 ##div[class*="gif-ad"]
 ##img[style="width:100%"]
-##DIV#io-popup-tips
-##A.mobile-download-frame
-##DIV.banner
-##DIV.article-feedback-c-double
-##DIV.hidden-content
-##DIV.search-ad
-##DIV.loading-ad
-##DIV.preload-ad
 ##DIV.sticky-footer-ad
 ##DIV.floating-ad
 ##DIV.sticky-bottom-ad
@@ -1165,3 +1157,12 @@ hupu.com##DIV.tabs-component-search,DIV.tabs-component-occu-1,SECTION.footer
 ##DIV#ad-container
 a.rezhibo8.com##DIV.popupdirect-ad
 ##DIV.mobile-download-popup
+##DIV.fixed.right-2.bottom-2
+##DIV#io-popup-tips
+##A.mobile-download-frame
+##DIV.banner
+##DIV.article-feedback-c-double
+##DIV.hidden-content
+##DIV.search-ad
+##DIV.loading-ad
+##DIV.preload-ad
