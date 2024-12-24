@@ -38,7 +38,9 @@ an.yandex.ad
 ||*popup.js^
 ||*tracking.js^
 ##link[href*="ads"]
+##link[href*="ad"]
 ##link[href*="banner"]
+link[href*="promo"]
 ##.floating
 ##[class*="float"]
 ##[id*="float"]
@@ -895,6 +897,11 @@ div[class*="ad-brightness"]
 
 
 ## 新补充
+link[href*="icon"]
+link[href*="favicon"]
+link[href*="stylesheet"]
+style[type*="text/css"]
+style[media*="screen"]
 div[class*="ad-nav-bar"]
 div[class*="ad-track-log"]
 div[class*="ad-event-logger"]
@@ -1118,9 +1125,11 @@ div[class*="mx-auto"]
 div[class*="relative"]
 div[class*="ad-loading"]
 div[class="modal-content"]
-
+img[title*="thumbnail"]
 ## 自定义
 
+||fonts.googleapis.com
+||media.ethicalads.io
 ||cdn.leisu.com
 ||pstatp.com$~3p
 ||cdn.jsdelivr.net/*.gif
