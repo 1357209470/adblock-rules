@@ -144,6 +144,9 @@ div[style*="z-index:9999"]
 ##img[src*="social-share"]
 
 ## 其他规则
+||*.openx.net^
+||*.adnxs.com^
+||cdn.tsyndicate.com^
 ||*.adfaqs.com^
 ||*.adform.net^
 ||*.exelator.com^
@@ -179,7 +182,6 @@ div[style*="z-index:9999"]
 ##IMG[src*="ad-logo"]
 ##IMG[src*="sponsored"]
 ##IMG[src*="advert"]
-||cdn.tsyndicate.com^
 ##script[src*="adv"]
 ##script[src*="promo"]
 ##script[src*="ad_banner"]
