@@ -2,7 +2,6 @@
 div[class*="promoted"]
 div[class*="ad-container"]
 div[class*="ad-wrapper"]
-div[class*="ad-slot"]
 div[class*='a-d-block']
 div[class*='text-center']
 div.interstitial-ad
