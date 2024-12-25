@@ -1166,6 +1166,7 @@ img[title*="thumbnail"]
 ||cdn.miaosdk.com
 ||b10.justacdn.net^
 ||we.561290.xyz^
+/yingshiyihao/img/load.gif
 /template/jable/statics/js/app.js$~3p
 ##DIV.bootom-fixed
 zhibo8.com##DIV.top-header,A.btn-open
