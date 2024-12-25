@@ -144,6 +144,10 @@ div[style*="z-index:9999"]
 ##img[src*="social-share"]
 
 ## 其他规则
+||*.revcontent.com^
+||*.popcash.net^
+||*.clicksor.com^
+||*.exponential.com^
 ||*.openx.net^
 ||*.adnxs.com^
 ||cdn.tsyndicate.com^
