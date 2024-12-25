@@ -917,7 +917,50 @@ div[class*="ad-grayscale"]
 div[class*="ad-negative"]
 div[class*="ad-brightness"]
 
+## 透明背景相关
 
+div[style*="width: 100%;"]
+div[style*="height: 100%;"]
+div[style*="width: 100vw;"]
+div[style*="height: 50px;"]
+div[style*="height: 300px;"]
+img[style*="width: 100%;"]
+img[style*="height: auto;"]
+div[style*="transform: scale("]
+div[style*="transform: translate("]
+div[style*="transform: translateY("]
+div[style*="transform: translateX("]
+div[style*="transform: rotate("]
+
+div[style*="width: 200px;"]
+div[style*="height: 250px;"]
+div[style*="max-width: 300px;"]
+div[style*="min-width: 100px;"]
+div[style*="max-height: 200px;"]
+div[style*="height: 100px;"]
+div[style*="background-size: cover;"]
+div[style*="background-repeat: no-repeat;"]
+div[style*="background-position: center;"]
+
+div[style*="visibility: collapse;"]
+img[style*="width: 100%"]
+img[style*="height: auto;"]
+img[style*="width: 100%; height: auto;"]
+img[style*="max-width: 100%;"]
+div[style*="background-image: url("]
+div[style*="background-color: #000;"]
+div[style*="opacity:0."]
+div[style*="background: rgba(0, 0, 0, 0.")]
+div[style*="z-index: 1000;"],
+div[style*="width: 100vw;"],
+div[style*="height: 100vh;"]
+div[style*="top: 0;"],
+div[style*="left: 0;"]
+div[style*="background: url("]
+div[style*="background: linear-gradient"]
+div[style*="background-color: #fff;"]
+div[style*="visibility: collapse;"]
+div[style*="background-color: transparent;"]
 ## 新补充
 
 
