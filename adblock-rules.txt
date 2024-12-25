@@ -628,9 +628,14 @@ div:has(img[src*="ad"])
 div[class*="offer-"]
 
 ## 广告监控脚本
+script[src*="linkbucks.js"]
+script[src*="adf.ly.js"]
+script[src*="clicky.js"]
+script[src*="sentry.js"]
+script[src*="vwo.js"]
 script[src*="analytics.js"]
 script[src*="adblock.js"]
-script[src*="ads.js"]
+script[src*="clicktale.js"]
 script[src*="impression.js"]
 script[src*="track.js"]
 script[src*="ads.js"]
@@ -914,6 +919,15 @@ div[class*="ad-brightness"]
 
 
 ## 新补充
+
+
+script[src*="adcolony"]
+script[src*="tapjoy"]
+script[src*="pardot"]
+script[src*="quantcast"]
+script[src*="snowplow"]
+script[src*="hubspot"]
+div[class*="billboard"]
 a[href*="ad-network"]
 script[src*="ad-service.js"]
 script[src*="ad-blocker.js"]
@@ -1164,6 +1178,7 @@ div[class*="ad-loading"]
 div[class="modal-content"]
 img[title*="thumbnail"]
 div[class*="ad-space"]
+script[src*="gtag"]
 
 ## 自定义
 
