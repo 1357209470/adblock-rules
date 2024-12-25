@@ -980,8 +980,8 @@ div[style*="position: fixed; bottom: 0;"]
 
 ## 新补充
 
-
-
+div[class*="pop-"]
+div[class*="box-"]
 script[src*="adcolony"]
 script[src*="tapjoy"]
 script[src*="pardot"]
