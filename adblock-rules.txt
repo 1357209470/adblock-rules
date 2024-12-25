@@ -73,6 +73,7 @@ link[href*="promo"]
 ##iframe[src*="adserver"]
 @@##script[src*="login.php"]
 @@##script[src*="analytics.js"]
+script[src*="advert.js"]
 ##script[src*="expandable"]
 ##script[src*="float"]
 ##script[src*="sticky"]
@@ -605,7 +606,6 @@ img[src*="ad-icon"]
 ## 选择器包含广告
 div:has(img[src*="ads"])
 div:has(img[src*="ad"])
-div:has(img[src*="ads"])
 
 ## 优惠选择器
 div[class*="offer-"]
@@ -897,6 +897,7 @@ div[class*="ad-brightness"]
 
 
 ## 新补充
+img[src*="sponsor"]
 link[href*="icon"]
 link[href*="favicon"]
 link[href*="stylesheet"]
@@ -1179,3 +1180,4 @@ a.rezhibo8.com##DIV.popupdirect-ad
 ##DIV.loading-ad
 ##DIV.preload-ad
 ##DIV[align='center']
+
