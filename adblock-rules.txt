@@ -905,7 +905,10 @@ div[class*="ad-brightness"]
 
 
 ## 新补充
-
+a[href*="ad-network"]
+script[src*="ad-service.js"]
+script[src*="ad-blocker.js"]
+a[href*="clickad"]
 img[src*="product-image"]
 img[src*="avatar"]
 a[href*="contact"]
@@ -1151,7 +1154,7 @@ div[class*="relative"]
 div[class*="ad-loading"]
 div[class="modal-content"]
 img[title*="thumbnail"]
-
+div[class*="ad-space"]
 
 ## 自定义
 
