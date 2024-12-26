@@ -1028,13 +1028,16 @@ div[class^="top-ad-"]
 
 ## 透明背景相关
 
-##div[style*="width: 100%;"]
-##div[style*="height: 100%;"]
-##div[style*="width: 100vw;"]
-##div[style*="height: 50px;"]
-##div[style*="height: 300px;"]
-##img[style*="width: 100%;"]
-##img[style*="height: auto;"]
+##img[class*="ad-"][style*="height: auto;"]
+##div[class*="ad-"][style*="height: 300px;"]
+
+##img[class*="ad-"][style*="width: 100%;"]
+
+##div[class*="ad-"][style*="height: 50px;"]
+##div[class*="ad-"][style*="width: 100vw;"]
+##div[class*="ad-"][style*="height: 100%;"]
+##div[class*="ad-"][style*="width: 100%;"]
+
 ##div[style*="transform: scale("]
 ##div[style*="transform: translate("]
 ##div[style*="transform: translateY("]
@@ -1284,7 +1287,6 @@ div[class^="top-ad-"]
 ##div[class*="ad-top-bar"]
 ##div[class*="ad-sticky-top"]
 ##div[class*="sponsored-content"]
-##div[class*="mx-auto"]
 ##div[class*="ad-"][class*="relative"]
 ##div[class*="ad-loading"]
 ##div[class="modal-content"]
