@@ -866,8 +866,10 @@ div[style*="z-index:9999"]
 
 ## 隐藏空白广告容器
 
-##div:empty
+##div[style*="width:0px"] 
 ##div[style*="height:0px"]
+##div:empty[style*="visibility: hidden"]
+##div:empty[style*="display: none"]
 ##div[style*="display:block!important"]
 
 ## 广告信息提示
@@ -1106,8 +1108,6 @@ div[style*="z-index:9999"]
 ##div[style*="top:0"]
 ##div[style*="bottom:0"]
 ##div[style*="position:sticky"]
-##div[style*="width:0px"] 
-##div[style*="height:0px"]
 ##div[class*="sidebar-ad"]
 ##script[src*="ad-monitoring"]
 ##iframe[src*="ad-placement"]
