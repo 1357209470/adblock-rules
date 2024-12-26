@@ -1227,7 +1227,7 @@ script[src*="&"]
 script[src*="?"]
 
 ## 自定义
-
+||cdn-tos.bytecdntp.com$3p
 ||fonts.googleapis.com
 ||media.ethicalads.io
 ||cdn.leisu.com
@@ -1281,3 +1281,4 @@ a.rezhibo8.com##DIV.popupdirect-ad
 ##DIV.preload-ad
 ##DIV[align='center']
 
+hermes.hupu.com/h.gif@m.hupu.com
