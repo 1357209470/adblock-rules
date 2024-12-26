@@ -993,8 +993,10 @@ div[style*="z-index:9999"]
 ## 新补充
 
 ##script[src*="adtrack"]
-##div[class*="pop-"]
-##div[class*="box-"]
+##div[class*="popup-pop-"]
+##div[class*="ad-box-"]
+##div[class*="banner-box-"]
+##div[class*="popup-box-"]
 ##script[src*="adcolony"]
 ##script[src*="tapjoy"]
 ##script[src*="pardot"]
