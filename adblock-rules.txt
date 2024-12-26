@@ -1,22 +1,18 @@
 ## 广告选择器
 div[class*="promoted"]
 div[class*="ad-container"]
-div[class*="ad-wrapper"]
 div[class*='a-d-block']
 div[class*='text-center']
 div.interstitial-ad
 div.floating-ad
 div.repeated-ad
-video.advertisement
-video.dynamic-ad
-video.ad-overlay
 aside.sidebar-ad
 div.transparent-ad
 a[href*="ad"] img[src$=".gif"]
 div[class*="ad"] img[src$=".gif"]
 ##IMG[src*="inpage.gif"]
 div[class*="popup"]
-##div[class*="gif-ad"]
+##DIV[class*="gif-ad"]
 ##img[style="width:100%"]
 ##DIV.sticky-footer-ad
 ##DIV.floating-ad
@@ -31,11 +27,14 @@ an.yandex.loaded
 an.yandex.inline
 an.yandex.ad
 
-## 脚本选择器
-||*ads.js^
-||*banner.js^
-||*popup.js^
-||*tracking.js^
+||example.com/ads/*$
+||example.com/track/*$
+||example.com/banners/*$
+||example.com/*?utm_*
+||analytics.example.com^
+||tracker.example.com^
+||metrics.example.com
+||example.com^$third-party
 ##link[href*="ads"]
 ##link[href*="ad"]
 ##link[href*="banner"]
@@ -46,19 +45,6 @@ link[href*="promo"]
 ##.sticky-ad
 ##.fixed-ad
 ##[id*="sticky"]
-##.video-ad
-##.ad-video
-##[id*="video-ad"]
-##[class*="ad-video"]
-||example.com/ads/*$
-||example.com/track/*$
-||example.com/banners/*$
-||example.com/*?utm_*
-||analytics.example.com^
-||tracker.example.com^
-||metrics.example.com
-||example.com^$third-party
-##video[autoplay]
 ##iframe[src*="popups"]
 ##iframe[src*="overlay"]
 ##script:inject(setTimeout, setInterval)
@@ -71,8 +57,6 @@ link[href*="promo"]
 ##.ad-container
 ##iframe[src*="adserver"]
 @@##script[src*="login.php"]
-@@##script[src*="analytics.js"]
-script[src*="advert.js"]
 ##script[src*="expandable"]
 ##script[src*="float"]
 ##script[src*="sticky"]
@@ -93,7 +77,6 @@ script[src*="advert.js"]
 ##script[src*="sponsor"]
 ##script[src*="exit"]
 ##script[src*="popupad"]
-##script[src*="videoad"]
 ##script[src*="advert"]
 ##script[src*="track"]
 ##script[src*="click"]
@@ -126,7 +109,7 @@ div[style*="z-index:9999"]
 ##IMG[src*="advert"]
 ##iframe[src*="advertising"]
 ##iframe[src*="ads.com"]
-##iframe[src*="video-ad"]
+
 ##iframe[src*="popupad"]
 ##iframe[src*="advertisement"]
 ##script[src*="redirect"]
@@ -134,15 +117,12 @@ div[style*="z-index:9999"]
 ##script[src*="clicktrack"]
 ##script[src*="redirector"]
 ##script[src*="go-to"]
-##video[src*="ad"]
-##video[src*="promo"]
-##video[src*="sponsored"]
-##video[src*="advert"]
 ##div[class*="social-ad"]
 ##div[class*="share-button"]
 ##img[src*="social-share"]
 
 ## 其他规则
+||*.adcdn.com^
 ||*.juicyads.com^
 ||*.outbrain.com^
 ||*.appnexus.com^
@@ -174,6 +154,18 @@ div[style*="z-index:9999"]
 ||adsystem.net^
 ||adclick.com^
 ||ads.com^
+||*.com/ads/*?ref=
+||*.org/banner/*?ad=
+||*.net/ads/*?source=
+||*.edu/track/*?utm=
+||cdn.adnxs.com^
+||cdn.doubleverify.com^
+||cdn.tracking-proxy.com^
+||cdn.metrics.com^
+||cdn.promos.com^
+||*.adsrv.net^
+||*.adserver.net^
+||*.advertisement.com^
 ##script[src*="track"]
 ##script[src*="analytics"]
 ##script[src*="tracking"]
@@ -182,10 +174,6 @@ div[style*="z-index:9999"]
 ##div[class*="fullscreen-ad"]
 ##div[class*="ad-fullscreen"]
 ##div[id*="fullscreen"]
-||*.com/ads/*?ref=
-||*.org/banner/*?ad=
-||*.net/ads/*?source=
-||*.edu/track/*?utm=
 ##IMG[src*="adicon"]
 ##IMG[src*="ad-logo"]
 ##IMG[src*="sponsored"]
@@ -196,15 +184,8 @@ div[style*="z-index:9999"]
 ##script[src*="popunder"]
 ##script[src*="bannerload"]
 ##script[src*="ad-delivery"]
-##script[src*="video-track"]
 ##iframe[src*="trackers"]
 ##iframe[src*="promo"]
-||cdn.adnxs.com^
-||cdn.doubleverify.com^
-||cdn.tracking-proxy.com^
-||cdn.metrics.com^
-||cdn.promos.com^
-||*.adsrv.net^
 ##.ad-popup
 ##.ad-iframe
 ##.ads-wrapper
@@ -233,7 +214,6 @@ div[style*="z-index:9999"]
 ##.banner-ad-container
 ##.ad-card
 ##.popup-ad-container
-##.ad-video-wrapper
 ##.floating-ad-container
 
 ## 其他广告分类
@@ -249,13 +229,9 @@ div[class*="fixed-"]
 div[class*="sliding-"]
 div[class*="scrolling-"]
 div[class*="embed-ad"]
-div[class*="ad-container"]
-div[class*="ad-wrapper"]
 div[class*="ad-slot"]
 div[class*="ad-banner"]
-div[class*="ad-box"]
 div[class*="ad-unit"]
-div[class*="ad-video"]
 div[class*="ad-frame"]
 div[class*="ad-content"]
 div[class*="ad-overlay"]
@@ -267,7 +243,6 @@ div[class*="ad-slide"]
 div[class*="ad-clickable"]
 div[class*="ad-inline"]
 div[class*="ad-embedded"]
-div[class*="ad-tooltip"]
 div[class*="ad-notification"]
 div[class*="ad-footer"]
 div[class*="ad-header"]
@@ -291,18 +266,12 @@ div[class*="ad-banner-wrapper"]
 div[class*="ad-footer-container"]
 div[class*="ad-header-container"]
 div[class*="ad-corner"]
-div[class*="ad-hider"]
-div[class*="ad-video-container"]
-div[class*="ad-video-player"]
 div[class*="ad-frame-container"]
 
 ## iframe 相关
-iframe[src*="ad"]
-iframe[src*="ads"]
 iframe[src*="promo"]
 iframe[src*="banner"]
 iframe[src*="adserver"]
-iframe[src*="video-ad"]
 iframe[src*="popups"]
 iframe[src*="overlay"]
 iframe[src*="advertising"]
@@ -331,13 +300,35 @@ iframe[src*="ads"],
 iframe[src*="banner"]
 
 
-## video 相关
+## video相关
+
+div[class*="ad-video-player"]
+div[class*="ad-hider"]
+div[class*="ad-video-container"]
 video[src*="ad"]
 video[src*="promo"]
 video[src*="sponsored"]
 video[src*="advert"]
 video[autoplay="true"]
 video[autoplay="autoplay"]
+video.advertisement
+video.dynamic-ad
+video.ad-overlay
+##script[src*="videoad"]
+##iframe[src*="video-ad"]
+##script[src*="video-track"]
+##.ad-video-wrapper
+##video[src*="sponsored"]
+##video[src*="advert"]
+##video[src*="ad"]
+##video[src*="promo"]
+##.video-ad
+##.ad-video
+##[id*="video-ad"]
+##[class*="ad-video"]
+##video[autoplay]
+script[src*="videoads"]
+iframe[src*="video-ad"]
 
 ## a 相关
 a[href*="ad-"]
@@ -529,13 +520,6 @@ div[class*="ad-interaction"]
 div[class*="ad-toggle"]
 div[class*="ad-button-clickable"]
 
-## 广告提示
-div[class*="ad-tooltip"]
-div[class*="ad-hint"]
-div[class*="ad-info"]
-div[class*="ad-notice"]
-div[class*="ad-message"]
-div[class*="ad-prompt"]
 
 ## 广告加载时的状态
 div[class*="lazy-loading-ad"]
@@ -582,7 +566,7 @@ div[style*="float:right"]
 embed[src*="ad"]
 object[data*="ad"]
 
-## 其他脚本
+## 其他选择器
 script[src*="ad-iframe"]
 script[src*="optimizely"]
 script[src*="crazyegg"]
@@ -626,7 +610,35 @@ div:has(img[src*="ad"])
 ## 优惠选择器
 div[class*="offer-"]
 
-## 广告监控脚本
+## 广告脚本
+||*ads.js^
+||*banner.js^
+||*popup.js^
+||*tracking.js^
+script[src*="dynamic.js"]
+script[src*="async-ad.js"]
+script[src*="tracking.js"]
+script[src*="browserad.js"]
+##script[src*="inject-ad.js"]
+##script[src*="thirdparty-ad.js"]
+script[src*="ad-scripts.js"]
+script[src*="adframework.js"]
+script[src*="adengine.js"]
+script[src*="adroll.js"]
+script[src*="ad-script.js"]
+script[src*="popup-ad-script.js"]
+script[src*="track-ad.js"]
+script[src*="jquery.min.js"]
+script[src*="ad-service.js"]
+script[src*="ad-blocker.js"]
+script[src*="analytics.js"]
+script[src$=".js"]
+script[src*="banner-ad.js"]
+script[src*="popup-ad.js"]
+script[src*="slide-ad.js"]
+script[src*="modal-ad.js"]
+@@##script[src*="analytics.js"]
+script[src*="advert.js"]
 script[src*="linkbucks.js"]
 script[src*="adf.ly.js"]
 script[src*="clicky.js"]
@@ -643,11 +655,32 @@ script[src*="adsbygoogle.js"]
 script[src*="popup.js"]
 script[src*="adtrack.js"]
 script[src*="banner.js"]
+script[src*="schedule.js"]
+script[src*="control.js"]
+script[src*="adserver.js"]
+script[src*="interaction"]
+script[src*="interaction.js"]
+##script[src*="ads.js?"]
+##script[src*="ad.js?"]
+##script[src*="track.js"]
+script[src*="lazyload.js"]
+##script[src*="ads-loader.js"]
+##script[src*="load-ad.js"]
+##script[src*="retargeting.js"]
+##script[src*="video-ad.js"]
+##script[src*="expandable-ad.js"]
+
+
+## 页面内广告脚本
+||example.com/ad.js$script
+||example.com/ads.js$script
+||ads.example.com/adloader.js$script
+||ads.example.com/adtracker.js$script
+
 
 ## 广告阻止
 div[class*="ad-block"]
 script[src*="adsenseclient"]
-script[src*="videoads"]
 script[src*="adengine"]
 script[src*="inlineads"]
 script[src*="adtracker"]
@@ -715,8 +748,6 @@ script[src*="cookie"]
 script[src*="captcha"]
 script[src*="pwa"]
 script[src*="thirdparty"]
-script[src*="analytics.js"]
-script[src$=".js"]
 script:not([src])
 script[src*="example.com"]
 script[src*="/vendor/"]
@@ -733,7 +764,6 @@ div[class*="ad-block"]
 div[class*="ad-wrapper"]
 div[class*="advertisement"]
 div[class*="ad-iframe"]
-div[class*="ad-placement"]
 div[class*="ad-bottom-bar"]
 
 ## 广告图像
@@ -743,16 +773,15 @@ div[class*="ad-bottom-bar"]
 ||example.com/*banner*.png$image
 ||example.com/*advertisement*.gif$image
 
-## 页面内广告脚本
-||example.com/ad.js$script
-||example.com/ads.js$script
-||ads.example.com/adloader.js$script
-||ads.example.com/adtracker.js$script
 
 ## 广告活动 ID、跟踪标识符
 ||example.com/?ad_campaign=*$ 
 ||example.com/?ad_id=*$ 
 ||example.com/?tracking_id=*$ 
+||*.example.com/ad/*
+||*.example.com/ads/*$third-party
+||*.example.com/*?ad_id=
+
 
 ## 广告内容的视觉遮罩
 div[class*="ad-mask"]
@@ -817,11 +846,7 @@ div[style*="background-color:#f00"]
 div[class*="ad-background"]
 div[class*="transparent-ad"]
 
-## 广告弹出和动画脚本
-script[src*="banner-ad.js"]
-script[src*="popup-ad.js"]
-script[src*="slide-ad.js"]
-script[src*="modal-ad.js"]
+
 
 ##  推荐广告与内容嵌入
 section[class*="recommended-ad"]
@@ -835,7 +860,9 @@ div:empty
 div[style*="height:0px"]
 div[style*="display:block!important"]
 
-## 广告信息提示框
+## 广告信息提示
+div[class*="ad-message"]
+div[class*="ad-prompt"]
 div[class*="ad-tooltip"]
 div[class*="ad-hint"]
 div[class*="ad-info"]
@@ -974,6 +1001,7 @@ div[style*="position: fixed; bottom: 0;"]
 
 ## 新补充
 
+script[src*="adtrack"]
 div[class*="pop-"]
 div[class*="box-"]
 script[src*="adcolony"]
@@ -984,8 +1012,6 @@ script[src*="snowplow"]
 script[src*="hubspot"]
 div[class*="billboard"]
 a[href*="ad-network"]
-script[src*="ad-service.js"]
-script[src*="ad-blocker.js"]
 a[href*="clickad"]
 img[src*="product-image"]
 img[src*="avatar"]
@@ -996,7 +1022,6 @@ a[href*="news"]
 a[href*="about"]
 script[src*="bootstrap"]
 script[src*="vue"]
-script[src*="jquery.min.js"]
 script[src*="angular"]
 script[src*="react"]
 div[class*="slider"]
@@ -1024,7 +1049,6 @@ div[class*="ad-bounce"]
 div[class*="ad-visible"]
 div[class*="ad-state-visible"]
 div[class*="ad-state-hidden"]
-div[class*="ad-social-share"]
 div[class*="ad-social-media"]
 div[class*="ad-social-widget"]
 div[class*="ad-cta-"]
@@ -1052,15 +1076,12 @@ div[style*="display: inline-block"]
 div[class*="ad-full-screen"]
 div[class*="ad-footer-top"]
 div[class*="survey-ad"]
-script[src*="ad-script.js"]
-script[src*="popup-ad-script.js"]
 script[src*="sdk"]
 script[src*="anti-adblock"]
 script[src*="flash"]
 script[src*="adsblock"]
 script[src*="html5"]
 script[src*="block"]
-script[src*="carousel"]
 script[src*="defer"]
 script[src*="preload"]
 script[src*="carousel"]
@@ -1075,10 +1096,8 @@ script[src*="advertise"]
 script[src*="/ads/"]
 script[src*="/static/"]
 script[src*="cdn.advertiser.com"]
-script[src*="track-ad.js"]
 script[src*="content.ad"]
 script[src*="securepubads.g.doubleclick.net"]
-script[src*="adroll.js"]
 script[src*="mobile"]
 div[id="html-ad"]
 div[id="html-ads"]
@@ -1107,15 +1126,12 @@ div[style*="background-image:url('ad-')]
 div[class*="ad-flyout"]
 div[class*="geo-ad"]
 script[src*="ad-queue"]
-script[src*="adframework.js"]
-script[src*="adengine.js"]
 script[src*="ad-scheduler"]
 script[src*="ad-timer"]
 div[class*="ad-column-layout"]
 div[class*="ad-unit-container"]
 div[class*="ad-block-layout"]
 img[src*="ad-image.gif"]
-script[src*="ad-scripts.js"]
 img[src*="ad-image.jpg"]
 img[src*="ad-image.png"]
 img[src*="ad-image.webp"]
@@ -1135,20 +1151,15 @@ button[class*="ad-skip"]
 button[class*="ad-play"]
 button[class*="ad-pause"]
 div[class*="ad-holder"]
-##script[src*="inject-ad.js"]
 ##script[src*="ad-push"]
 iframe[src*="browserad"]
 iframe[src*="browserad-server"]
-script[src*="browserad.js"]
 ##script[src*="auto-load
-##script[src*="inject-ad.js"]
 ##div[class*="ad-plugin"]
 ##iframe[src*="ads-widget"]
-||*.adcdn.com^
 ##a[href*="advertisement"]
 ##a[href*="ad."]
 ##div[class*="third-party-ad"]
-##script[src*="thirdparty-ad.js"]
 img[src*="lazyload"]
 div[style*="background-color:transparent"]
 div[style*="filter:blur"]
@@ -1157,9 +1168,6 @@ div[style*="color:transparent"]
 div[style*="position:absolute"]
 div[style*="display:block"]
 div[style*="display:inline"]
-script[src*="dynamic.js"]
-script[src*="async-ad.js"]
-script[src*="tracking.js"]
 script[src*="inject"]
 script[src*="lazyload"]
 script[src*="ads"][src*="lazyload"]
@@ -1171,48 +1179,29 @@ div[class*="float"]
 div[id*="modal"]
 div[data-info*="test"]
 div[data-id*="123"]
-img[src*="lazyload"]
 div[class*="button"]
-script[src*="schedule.js"]
-script[src*="control.js"]
-script[src*="adserver.js"]
-script[src*="interaction"]
-script[src*="interaction.js"]
-##script[src*="ads.js?"]
-##script[src*="ad.js?"]
 ##div[class*="ad-interstitial"]
 ##div[class*="ad-infinite-scroll"]
-##script[src*="lazyload.js"]
 ##div[class*="lazyload-ad"]
 ##div[class*="overlay-ad"]
-##script[src*="track.js"]
 ##div[class*="floating-ad"]
 ##div[class*="ad-loader"]
 ##div[class*="sticky-ad"]
-##script[src*="ads-loader.js"]
-##script[src*="load-ad.js"]
-##script[src*="retargeting.js"]
 a[href*="ad-click"]
 ##script[src*="analytics-tracking"]
 ##script[src*="track_event"]
 ##script[src*="tracking-pixel"]
 div[class*="ad-delay-display"]
 a[href*="ad-serving"]
-div[class*="ad-overlay-popup"]
 div[class*="ad-interactive"]
 a[href*="go.ad"]
 div[class*="ad-redirect"]
-##script[src*="ad-reload"]
-##script[src*="video-ad.js"]
-##script[src*="expandable-ad.js"]
 div[class*="ad-overlay-popup"]
 div[class*="ad-landing-page"]
 div[class*="ad-carousel"]
 ##script[src*="ad-reload"]
 iframe[src*="adframe"]
 div[class*="ad-overlay-lightbox"]
-||*.adserver.net^
-||*.advertisement.com^
 ##script[src*="ad_click"]
 ##iframe[src*="advertisement.com"]
 ##script[src*="async_ads"]
@@ -1234,6 +1223,8 @@ div[class="modal-content"]
 img[title*="thumbnail"]
 div[class*="ad-space"]
 script[src*="gtag"]
+script[src*="&"]
+script[src*="?"]
 
 ## 自定义
 
