@@ -1,33 +1,26 @@
 ## 广告选择器
-
 ##div[class*="promoted"]
 ##div[class*="ad-container"]
-##div[class*='a-d-block']
-##div[class*='text-center']
-##div.interstitial-ad
-##div.floating-ad
-##div.repeated-ad
-##div.aside.sidebar-ad
-##div.transparent-ad
+##div[class*="a-d-block"]
+##div[class*="text-center"]
+##div[class*="interstitial-ad"]
+##div[class*="floating-ad"]
+##div[class*="repeated-ad"]
+##div[class*="aside sidebar-ad"]
+##div[class*="transparent-ad"]
 ##a[href*="ad"] img[src$=".gif"]
 ##div[class*="ad"] img[src$=".gif"]
 ##IMG[src*="inpage.gif"]
 ##div[class*="popup"]
 ##DIV[class*="gif-ad"]
 ##img[style="width:100%"]
-##DIV.sticky-footer-ad
-##DIV.floating-ad
-##DIV.sticky-bottom-ad
-##DIV.cdc-m-notice
-##DDI.yandex-suggest-ad
-##DIV.yandex-recommend-ad
-##DIV..yandex_ads
-
-||an.yandex.load
-||an.yandex.impression
-||an.yandex.loaded
-||an.yandex.inline
-||an.yandex.ad
+##DIV[class*="sticky-footer-ad"]
+##DIV[class*="floating-ad"]
+##DIV[class*="sticky-bottom-ad"]
+##DIV[class*="cdc-m-notice"]
+##DDI[class*="yandex-suggest-ad"]
+##DIV[class*="yandex-recommend-ad"]
+##DIV[class*="yandex_ads"]
 
 ||example.com/ads/*$
 ||example.com/track/*$
@@ -37,11 +30,19 @@
 ||tracker.example.com^
 ||metrics.example.com
 ||example.com^$third-party
+||an.yandex.load
+||an.yandex.impression
+||an.yandex.loaded
+||an.yandex.inline
+||an.yandex.ad
+
+
+
 ##link[href*="ads"]
-##link[href*="adblock"]
 ##link[href*="ad"]
 ##link[href*="banner"]
 ##link[href*="promo"]
+##link[href*="adblock"]
 ##.floating
 ##[class*="float"]
 ##[id*="float"]
@@ -52,11 +53,14 @@
 ##iframe[src*="overlay"]
 ##script:inject(setTimeout, setInterval)
 ##script:inject(window.open)
-##div[style*="position: absolute"]
 ##script:inject(window.addEventListener)
 ##script:inject(window.location)
+##div[style*="position: absolute"]
+
+
 
 ## 其他广告选择器
+
 ##.ad-container
 @@##script[src*="login.php"]
 ##script[src*="expandable"]
@@ -122,6 +126,9 @@ div[style*="z-index:9999"]
 ##div[class*="social-ad"]
 ##div[class*="share-button"]
 ##img[src*="social-share"]
+
+
+
 
 ## 其他规则
 ||*.adcdn.com^
@@ -218,7 +225,11 @@ div[style*="z-index:9999"]
 ##.popup-ad-container
 ##.floating-ad-container
 
+
+
+
 ## 其他广告分类
+
 ##div[class*="ad-"]
 ##div[class*="ads-"]
 ##div[class*="promo-"]
@@ -270,8 +281,6 @@ div[style*="z-index:9999"]
 ##div[class*="ad-corner"]
 ##div[class*="ad-frame-container"]
 
-
-## iframe 相关
 ##iframe[src*="promo"]
 ##iframe[src*="banner"]
 ##iframe[src*="adserver"]
@@ -279,31 +288,26 @@ div[style*="z-index:9999"]
 ##iframe[src*="overlay"]
 ##iframe[src*="advertising"]
 
-## img 相关
 ##img[src*="ad-"]
 ##img[src*="ads-"]
-#img[src*="promo"]
-#img[src*="banner"]
-#img[src*="popup-"]
+##img[src*="promo"]
+##img[src*="banner"]
+##img[src*="popup-"]
 ##img[src*="sponsored"]
 ##img[src*="advert-"]
 
-## script 相关
-##script[src*="ad"],
-##script[src*="ads"],
-##script[src*="banner"],
-##script[src*="popup"],
-##script[src*="tracker"],
-##script[src*="expandable"],
-##script[src*="sticky"],
-##script[src*="overlay"],
-##script[src*="adserver"],
-##iframe[src*="ad"],
-##iframe[src*="ads"],
+##script[src*="ad"]
+##script[src*="ads"]
+##script[src*="banner"]
+##script[src*="popup"]
+##script[src*="tracker"]
+##script[src*="expandable"]
+##script[src*="sticky"]
+##script[src*="overlay"]
+##script[src*="adserver"]
+##iframe[src*="ad"]
+##iframe[src*="ads"]
 ##iframe[src*="banner"]
-
-
-## video相关
 
 ##div[class*="ad-video-player"]
 ##div[class*="ad-hider"]
@@ -333,7 +337,6 @@ div[style*="z-index:9999"]
 ##script[src*="videoads"]
 ##iframe[src*="video-ad"]
 
-## a 相关
 ##a[href*="ad-"]
 ##a[href*="sponsored"]
 ##a[href*="promo"]
@@ -342,7 +345,6 @@ div[style*="z-index:9999"]
 ##a[href*="go.php"]
 ##a[href*="adclick"]
 
-## span 标签
 ##span[class*="ad-label"]
 ##span[class*="promoted-label"]
 ##span[class*="advert-label"]
@@ -364,43 +366,36 @@ div[style*="z-index:9999"]
 ##button[data-action*="ad"]
 
 ## input 标签
-
 ##input[class*="ad-input"]
 ##input[placeholder*="ad"]
 
 ## form 标签
-
 ##form[action*="ad"]
 ##form[class*="ad-form"]
 
 ## 其他
-
 ##article[class*="ad-article"]
 ##h1[class*="ad-title"]
 ##h2[class*="sponsored-title"]
 ##main[class*="ad-main"]
 
 ## 第三方广告嵌入
-
 ##div[class*="third-party-ad"]
 ##div[class*="external-ad"]
 ##div[class*="partner-ad"]
 ##div[class*="affiliate-ad"]
 
 ## 广告监控
-
 ##script[src*="ad-monitor"]
 ##script[src*="ad-track"]
 ##script[src*="ad-beacon"]
 ##script[src*="ad-analytics"]
 
 ## 广告统计
-
 ##script[src*="ad-stat"]
 ##script[src*="ad-event"]
 
 ## 推荐广告
-
 ##section[class*="recommended-ad"]
 ##section[class*="ad-recommendation"]
 ##section[class*="related-ad"]
@@ -411,56 +406,47 @@ div[style*="z-index:9999"]
 ##article[class*="native-ad"]
 
 ## 权重控制广告
-
 ##div[class*="ad-priority"]
 ##div[class*="ad-weight"]
 ##div[class*="ad-level"]
 
 ## 广告访问权限
-
 ##div[class*="ad-permission"]
 ##div[class*="ad-restriction"]
 ##div[class*="ad-control"]
 
 ## 广告文本
-
 ##span[class*="ad-text"]
 ##span[class*="promo-text"]
 ##span[class*="sponsored-text"]
 
 ## 广告描述
-
 ##p[class*="ad-description"]
 ##p[class*="ad-explanation"]
 ##p[class*="ad-info-text"]
 
 ## 广告提醒与标识
-
 ##label[class*="ad-alert"]
 ##label[class*="ad-flag"]
 ##label[class*="ad-warning"]
 ##label[class*="ad-reminder"]
 
 ## 广告错误
-
 ##div[class*="ad-error"]
 ##div[class*="ad-failure"]
 ##div[class*="ad-missing"]
 ##div[class*="ad-broken"]
 
 ## 广告重试
-
 ##div[class*="ad-retry"]
 ##div[class*="ad-reload"]
 
 ## 广告互动内容
-
 ##div[class*="ad-engagement"]
 ##div[class*="ad-poll"]
 ##div[class*="ad-survey"]
 
 ## 定向广告
-
 ##div[class*="ad-target"]
 ##div[class*="ad-geotarget"]
 ##div[class*="ad-location-target"]
@@ -471,7 +457,6 @@ div[style*="z-index:9999"]
 ##div[class*="ad-low-opacity"]
 
 ## 广告样式
-
 ##div[class*="ad-style"]
 ##div[class*="ad-theme"]
 ##div[class*="ad-design"]
@@ -479,34 +464,29 @@ div[style*="z-index:9999"]
 ##div[class*="ad-appearance"]
 
 ## 智能加载广告
-
 ##div[class*="ad-smart-load"]
 ##div[class*="ad-auto-load"]
 ##div[class*="ad-responsive"]
 ##div[class*="ad-auto-resize"]
 
 ## 嵌套广告
-
 ##div[class*="ad-nested"]
 ##div[class*="ad-wrapper-inner"]
 ##div[class*="ad-container-inner"]
 ##div[class*="ad-composite"]
 
 ## 复合广告
-
 ##div[class*="ad-multicomponent"]
 ##div[class*="ad-combo"]
 ##div[class*="ad-composite-slot"]
 
 ## 大小调整的广告
-
 ##div[class*="ad-large"]
 ##div[class*="ad-big"]
 ##div[class*="ad-wide"]
 ##div[class*="ad-compact"]
 
 ## 布局改变的广告
-
 ##div[class*="ad-flex"]
 ##div[class*="ad-grid"]
 ##div[class*="ad-layout"]
@@ -526,21 +506,18 @@ div[style*="z-index:9999"]
 ##div[class*="ad-delayed-display"]
 
 ## 广告消失
-
 ##div[class*="ad-fade-out"]
 ##div[class*="ad-hide"]
 ##div[class*="ad-remove"]
 ##div[class*="ad-disappear"]
 
 ## 防止显示的广告
-
 ##div[class*="ad-hidden"]
 ##div[class*="ad-visibility"]
 ##div[class*="ad-blocked"]
 ##div[class*="ad-off"]
 
 ## 用户交互的广告元素
-
 ##div[class*="ad-action"]
 ##div[class*="ad-click"]
 ##div[class*="ad-trigger"]
@@ -548,9 +525,7 @@ div[style*="z-index:9999"]
 ##div[class*="ad-toggle"]
 ##div[class*="ad-button-clickable"]
 
-
 ## 广告加载时的状态
-
 ##div[class*="lazy-loading-ad"]
 ##div[class*="loading-ad"]
 ##div[class*="ad-loading-indicator"]
@@ -560,51 +535,46 @@ div[style*="z-index:9999"]
 ##div[class*="ad-fetch"]
 
 ## 广告轮播 ID
-
 ##div[id*="ad-carousel"]
 ##div[id*="ad-slider"]
 ##div[id*="ad-slideshow"]
 ##div[id*="ad-rotator"]
 
 ## 广告计数器 ID
-
 ##div[id*="ad-counter"]
 ##div[id*="ad-timeout"]
 ##div[id*="ad-timer"]
 
 ## 浮动广告区域 ID
-
 ##div[id*="floating-ad"]
 ##div[id*="floating-banner"]
 ##div[id*="floating-slot"]
 ##div[id*="floating-popup"]
 
 ## 浮动广告关闭按钮 ID
-
 ##div[id*="floating-ad-close"]
 ##div[id*="popup-close"]
 
 ## 隐藏和透明度相关
-
 ##div[style*="width:0"]
 ##div[style*="height:0"]
 
 ## 匹配所有溢出隐藏的元素
-
 ##div[style*="overflow:hidden"]
 
 ## 匹配所有浮动的广告元素
-
 ##div[style*="float:left"]
 ##div[style*="float:right"]
 
 ## 嵌入广告
-
 ##embed[src*="ad"]
 ##object[data*="ad"]
 
+
+
 ## 其他选择器
 
+##div[class*="offer-"]
 ##script[src*="ad-iframe"]
 ##script[src*="optimizely"]
 ##script[src*="crazyegg"]
@@ -623,7 +593,6 @@ div[style*="z-index:9999"]
 ##script[src*="hotjar"]
 ##script[src*="segment"]
 ##script[src*="jquery"]
-
 ##div[class*="ad-queued"]
 ##div[class*="ad-lazyload"]
 ##div[data-ad="true"]
@@ -631,24 +600,11 @@ div[style*="z-index:9999"]
 ##div[class*="ad-blur"]
 ##div[class*="ad-hide-on-load"]
 ##div[class~="featured"]
-
-
-## 广告插入
-
 ##div[class*="ad-insert"]
-
-## 广告图标
-
 ##img[src*="ad-icon"]
 
-## 选择器包含广告
 
 
-
-
-## 优惠选择器
-
-##div[class*="offer-"]
 
 ## 广告脚本
 
@@ -719,9 +675,7 @@ div[style*="z-index:9999"]
 ||ads.example.com/adloader.js$script
 ||ads.example.com/adtracker.js$script
 
-
 ## 广告阻止
-
 
 ##script[src*="adsenseclient"]
 ##script[src*="adengine"]
@@ -735,7 +689,6 @@ div[style*="z-index:9999"]
 ##script[src*="adclick"]
 ##script[src*="campaign"]
 ##script[src*="placement"]
-
 
 
 ## CDN
@@ -753,7 +706,7 @@ div[style*="z-index:9999"]
 
 ## 内容选择器
 
-div[class^="top-ad-"]
+##div[class^="top-ad-"]
 ##div[class^="nav-"]
 ##div[class^="stui-"]
 ##div[class$="foot"]
@@ -780,6 +733,8 @@ div[class^="top-ad-"]
 ##div[class*="ad-multilevel"]
 ##div[class*="ad-composite-"]
 ##div[class*="ad-layered"]
+
+
 
 ## 广告 SDK
 
@@ -812,21 +767,21 @@ div[class^="top-ad-"]
 ##div[class*="ad-bottom-bar"]
 
 ## 广告图像
+
 ||ads.example.com^$image
 ||example.com/ads/*$image
 ||example.com/*ad*.jpg$image
 ||example.com/*banner*.png$image
 ||example.com/*advertisement*.gif$image
 
-
 ## 广告活动 ID、跟踪标识符
+
 ||example.com/?ad_campaign=*$ 
 ||example.com/?ad_id=*$ 
 ||example.com/?tracking_id=*$ 
 ||*.example.com/ad/*
 ||*.example.com/ads/*$third-party
 ||*.example.com/*?ad_id=
-
 
 ## 广告内容的视觉遮罩
 
@@ -850,7 +805,7 @@ div[class^="top-ad-"]
 
 ## 匹配 URL 参数包含广告跟踪标识的请求
 
-[\?&]utm_source=[^&]+ 
+[\?&]utm_source=[^&]+
 ?utm_campaign=*
 ?ad_id=*
 
@@ -901,9 +856,7 @@ div[class^="top-ad-"]
 ##div[class*="ad-background"]
 ##div[class*="transparent-ad"]
 
-
-
-##  推荐广告与内容嵌入
+## 推荐广告与内容嵌入
 
 ##section[class*="recommended-ad"]
 ##section[class*="suggested-ad"]
@@ -911,7 +864,7 @@ div[class^="top-ad-"]
 ##div[class*="content-ad"]
 ##div[class*="recommended-content"]
 
-##  隐藏空白广告容器
+## 隐藏空白广告容器
 
 ##div:empty
 ##div[style*="height:0px"]
@@ -972,102 +925,67 @@ div[class^="top-ad-"]
 ##div[class*="ad-video-banner"]
 ##div[class*="ad-background-audio"]
 
-## 广告区域与边距
 
-##div[class*="ad-padding"]
-##div[class*="ad-margin"]
-##div[class*="ad-gap"]
-##div[class*="ad-spacing"]
-##div[class*="ad-space-container"]
-##div[class*="ad-content-space"]
+
+## 广告区域与边距
+##div[class*="ad-padding"]:not([class*="ad-content-space"])
+##div[class*="ad-margin"]:not([class*="ad-content-space"])
+##div[class*="ad-gap"]:not([class*="ad-space-container"])
+##div[class*="ad-spacing"]:not([class*="ad-space-container"])
+##div[class*="ad-space-container"]:not([class*="ad-padding"])
+##div[class*="ad-content-space"]:not([class*="ad-gap"])
 
 ## 广告自适应与响应
-
-##div[class*="ad-responsive"]
-##div[class*="ad-adaptive"]
-##div[class*="ad-fluid"]
-##div[class*="ad-auto-resize"]
-##div[class*="ad-resize"]
-##div[class*="ad-layout-responsive"]
-##div[class*="ad-flex"]
-
+##div[class*="ad-responsive"]:not([class*="ad-flex"])
+##div[class*="ad-adaptive"]:not([class*="ad-layout-responsive"])
+##div[class*="ad-fluid"]:not([class*="ad-auto-resize"])
+##div[class*="ad-auto-resize"]:not([class*="ad-layout-responsive"])
+##div[class*="ad-resize"]:not([class*="ad-flex"])
+##div[class*="ad-layout-responsive"]:not([class*="ad-fluid"])
+##div[class*="ad-flex"]:not([class*="ad-adaptive"])
 
 ## 广告自定义样式与装饰
-
-##div[class*="ad-custom-style"]
-##div[class*="ad-decorator"]
-##div[class*="ad-custom-decorator"]
-##div[class*="ad-theme-custom"]
-##div[class*="ad-style-wrapper"]
-##div[class*="ad-themes-box"]
-##div[class*="ad-style-setting"]
+##div[class*="ad-custom-style"]:not([class*="ad-theme-custom"])
+##div[class*="ad-decorator"]:not([class*="ad-style-wrapper"])
+##div[class*="ad-custom-decorator"]:not([class*="ad-themes-box"])
+##div[class*="ad-theme-custom"]:not([class*="ad-style-setting"])
+##div[class*="ad-style-wrapper"]:not([class*="ad-themes-box"])
+##div[class*="ad-themes-box"]:not([class*="ad-style-setting"])
+##div[class*="ad-style-setting"]:not([class*="ad-custom-style"])
 
 ## 广告视觉效果与过滤
-
-##div[class*="ad-vignette"]
-##div[class*="ad-sepia"]
-##div[class*="ad-grayscale"]
-##div[class*="ad-negative"]
-##div[class*="ad-brightness"]
-
+##div[class*="ad-vignette"]:not([class*="ad-negative"])
+##div[class*="ad-sepia"]:not([class*="ad-brightness"])
+##div[class*="ad-grayscale"]:not([class*="ad-negative"])
+##div[class*="ad-negative"]:not([class*="ad-sepia"])
+##div[class*="ad-brightness"]:not([class*="ad-vignette"])
 
 ## 广告的边距和内边距
-
-##div[style*="margin: 0px;"]
-##div[style*="padding: 0px;"]
-##div[style*="margin-left: -100%;"]
-##div[style*="padding-top: 20px;"]
-##div[style*="margin-right: 50px;"]
-##div[style*="padding: 15px;"]
-##div[style*="padding-bottom: 10px;"]
-##div[style*="margin-top: -50px;"]
-##div[style*="padding: 0px 0px 30px 0px;"]
-##div[style*="margin-bottom: 30px;"]
-
-
+##div[style*="margin: 0px;"]:not([style*="padding: 0px;"])
+##div[style*="padding: 0px;"]:not([style*="margin: 0px;"])
+##div[style*="margin-left: -100%;"]:not([style*="padding-top: 20px;"])
+##div[style*="padding-top: 20px;"]:not([style*="margin-right: 50px;"])
+##div[style*="margin-right: 50px;"]:not([style*="padding: 15px;"])
+##div[style*="padding: 15px;"]:not([style*="padding-bottom: 10px;"])
+##div[style*="padding-bottom: 10px;"]:not([style*="margin-top: -50px;"])
+##div[style*="margin-top: -50px;"]:not([style*="padding: 0px 0px 30px 0px;"])
+##div[style*="padding: 0px 0px 30px 0px;"]:not([style*="margin-bottom: 30px;"])
+##div[style*="margin-bottom: 30px;"]:not([style*="background-color: transparent;"])
 
 ## 透明背景相关
+##img[class*="ad-"][style*="height: auto;"]:not([class*="ad-background-image"])
+##div[class*="ad-"][style*="height: 300px;"]:not([style*="background-color: transparent;"])
+##img[class*="ad-"][style*="width: 100%;"]:not([style*="max-width: 100%;"])
+##div[class*="ad-"][style*="height: 50px;"]:not([style*="background-image: url("])
+##div[class*="ad-"][style*="width: 100vw;"]:not([style*="background-color: rgba(0, 0, 0, 0);"])
+##div[class*="ad-"][style*="height: 100%;"]:not([style*="background-size: cover;"])
+##div[class*="ad-"][style*="width: 100%;"]:not([style*="background-repeat: no-repeat;"])
+##div[style*="transform: scale("]:not([style*="transform: rotate("])
+##div[style*="transform: translate("]:not([style*="transform: translateY("])
+##div[style*="transform: translateY("]:not([style*="transform: translateX("])
+##div[style*="transform: translateX("]:not([style*="background-position: center;"])
 
-##img[class*="ad-"][style*="height: auto;"]
-##div[class*="ad-"][style*="height: 300px;"]
 
-##img[class*="ad-"][style*="width: 100%;"]
-
-##div[class*="ad-"][style*="height: 50px;"]
-##div[class*="ad-"][style*="width: 100vw;"]
-##div[class*="ad-"][style*="height: 100%;"]
-##div[class*="ad-"][style*="width: 100%;"]
-
-##div[style*="transform: scale("]
-##div[style*="transform: translate("]
-##div[style*="transform: translateY("]
-##div[style*="transform: translateX("]
-##div[style*="transform: rotate("]
-##div[style*="width: 200px;"]
-##div[style*="height: 250px;"]
-##div[style*="max-width: 300px;"]
-##div[style*="min-width: 100px;"]
-##div[style*="max-height: 200px;"]
-##div[style*="height: 100px;"]
-##div[style*="background-size: cover;"]
-##div[style*="background-repeat: no-repeat;"]
-##div[style*="background-position: center;"]
-##div[style*="visibility: collapse;"]
-##img[style*="max-width: 100%;"]
-##div[style*="background-image: url("]
-##div[style*="background-color: #000;"]
-##div[style*="opacity: 0;"]
-##div[style*="background: rgba(0, 0, 0, 0);"]
-##div[style*="z-index: 1000;"]
-##div[style*="height: 100vh;"]
-##div[style*="top: 0;"]
-##div[style*="left: 0;"]
-##div[style*="background: url("]
-##div[style*="background: linear-gradient"]
-##div[style*="background-color: #fff;"]
-##div[style*="background-color: transparent;"]
-##div[style*="position: fixed; top: 0;"]
-##div[style*="position: fixed; bottom: 0;"]
 
 
 ## 新补充
@@ -1295,6 +1213,8 @@ div[class^="top-ad-"]
 ##script[src*="gtag"]
 ##script[src*="&"]
 ##script[src*="?"]
+
+
 
 ## 自定义
 
