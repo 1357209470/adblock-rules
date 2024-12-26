@@ -1227,7 +1227,7 @@ script[src*="&"]
 script[src*="?"]
 
 ## 自定义
-||cdn-tos.bytecdntp.com$3p
+||bytecdntp.com$3p
 ||fonts.googleapis.com
 ||media.ethicalads.io
 ||cdn.leisu.com
