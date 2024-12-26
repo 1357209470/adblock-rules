@@ -753,8 +753,7 @@ div[style*="z-index:9999"]
 
 ## 内容选择器
 
-##div[class*="content"]
-##div[class^="top-"]
+div[class^="top-ad-"]
 ##div[class^="nav-"]
 ##div[class^="stui-"]
 ##div[class$="foot"]
