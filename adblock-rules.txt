@@ -1222,7 +1222,7 @@ div[style*="z-index:9999"]
 
 ## 自定义
 
-||bytecdntp.com$3p
+@@||bytecdntp.com$3p
 ||fonts.googleapis.com
 ||media.ethicalads.io
 ||cdn.leisu.com
