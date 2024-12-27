@@ -1,9 +1,13 @@
+
+
+
 《 DIV 》
 
 ##DIV.sticky-footer-ad
 ##DIV.floating-ad
 ##DIV.sticky-bottom-ad
 ##DIV.cdc-m-notice
+##DIV[data-ad="true"]
 ##DDI.yandex-suggest-ad
 ##DIV.yandex-recommend-ad
 ##DIV..yandex_ads
@@ -66,12 +70,18 @@
 ##DIV[style*="width:0"]
 ##DIV[style*="height:0"]
 ##DIV[style*="opacity:0"]
+##DIV[style*="width:0px"] 
+##DIV[style*="height:0px"]
+##DIV[style*="top:0"]
+##DIV[style*="bottom:0"]
 ##DIV[style*="position: absolute"]
 ##DIV[style*="display:none"]
 ##DIV[style*="visibility:hidden"]
 ##DIV[style*="overflow:hidden"]
 ##DIV[style*="float:left"]
 ##DIV[style*="float:right"]
+##DIV[style*="background-image: url('ads.example.com")]
+##DIV[style*="position:sticky"]
 
 《SCRIPT》
 
@@ -121,12 +131,22 @@
 ##script:inject(window.location)
 ##script:inject(setTimeout, setInterval)
 ##script:inject(window.open)
-
-
+##script[src*="adv"]
+##script[src*="promo"]
+##script[src*="ad_banner"]
+##script[src*="popunder"]
+##script[src*="bannerload"]
+##script[src*="ad-delivery"]
+##script[src*="analytics-tracking"]
+##script[src*="track_event"]
+##script[src*="tracking-pixel"]
+##script[src*="ad_click"]
+##script[src*="async_ads"]
+##script[src*="ad_plugin"]
 《IMG》
 
-##img[src*="ad-"]
-##img[src*="ads-"]
+##IMG[src*="ad-"]
+##IMG[src*="ads-"]
 ##IMG[src*="social-share"]
 ##IMG[src*="adicon"]
 ##IMG[src*="ad-logo"]
@@ -143,7 +163,7 @@
 ##IMG[src*="ad-logo"]
 ##IMG[src*="sponsored"]
 ##IMG[src*="advert"]
-
+##IMG[loading="lazy"][src*="ads"]
 
 《 || 》
 
@@ -309,6 +329,7 @@
 
 《CLASS》
 
+##DIV[class*="sidebar-ad"]
 ##DIV[class*="social-ad"]
 ##DIV[class*="share-button"]=
 ##DIV[class="ads-container"] > img
@@ -316,6 +337,13 @@
 ##DIV[class*='a-d-block']
 ##DIV[class*="gif-ad"]
 ##DIV[class*="ad-fullscreen"]
+##DIV[class*="ad-interstitial"]
+##DIV[class*="ad-infinite-scroll"]
+##DIV[class*="lazyload-ad"]
+##DIV[class*="overlay-ad"]
+##DIV[class*="floating-ad"]
+##DIV[class*="ad-loader"]
+##DIV[class*="sticky-ad"]
 
 《IFRAME》
 
@@ -325,7 +353,7 @@
 ##iframe[src*="advertisement"]
 ##iframe[src*="trackers"]
 ##iframe[src*="promo"]
-
+##iframe[src*="advertisement.com"]
 
 
 《  ID  》
@@ -333,16 +361,37 @@
 ##[id*="float"]
 ##[id*="sticky"]
 ##DIV[id*="fullscreen"]
-
+##DIV[id*="ad-carousel"]
+##DIV[id*="ad-slider"]
+##DIV[id*="ad-slideshow"]
+##DIV[id*="ad-rotator"]
+##DIV[id*="ad-counter"]
+##DIV[id*="ad-timeout"]
+##DIV[id*="ad-timer"]
+##DIV[id*="floating-ad"]
+##DIV[id*="floating-banner"]
+##DIV[id*="floating-slot"]
+##DIV[id*="floating-popup"]
+##DIV[id*="floating-ad-close"]
+##DIV[id*="popup-close"]
 
 《VIDEO》
 
+##[id*="video-ad"]
+##[class*="ad-video"]
+##.ad-video-wrapper
+##video[src*="sponsored"]
+##video[src*="advert"]
+##video[src*="ad"]
+##video[src*="promo"]
+##.video-ad
+##.ad-video
 
 
 
 《自定义》
 
-||bytecdntp.com$3p
+
 ||fonts.googleapis.com
 ||media.ethicalads.io
 ||cdn.leisu.com
