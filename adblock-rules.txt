@@ -84,6 +84,9 @@
 ##DIV[style*="z-index:-1"]
 ##DIV[style*="z-index: 9999"]
 ##DIV[style*="z-index: 1000"]
+##DIV[style*="width: 728px"][style*="height: 90px"]
+##DIV[style*="width: 300px"][style*="height: 250px"]
+
 ##DIV[style*="background-image: url('ads.example.com")]
 
 
@@ -91,6 +94,7 @@
 《SCRIPT》
 
 ##script[src*="adv"]
+##script[src*="adx"]
 ##script[src*="promo"]
 ##script[src*="pixel"]
 ##script[src*="float"]
@@ -156,6 +160,7 @@
 
 ##IMG[src*="ad-"]
 ##IMG[src*="ads-"]
+##IMG[alt*="ad"]
 ##IMG[src*="adicon"]
 ##IMG[src*="ad-image"]
 ##IMG[src*="sponsored"]
@@ -245,7 +250,9 @@
 ||*.adsystem.com^
 ||*.ad-network.com^
 
+||example.com/ads/*$xhr
 ||ads.examplecdn.net^
+||example-ads.com^$script
 ||example.com/ad.js$script
 ||example.com/ads.js$script
 ||ads.example.com/adloader.js$script
@@ -345,10 +352,15 @@
 ##script[src*="retargeting.js"]
 ##script[src*="video-ad.js"]
 ##script[src*="expandable-ad.js"]
+##script:inject(abp/elementhide.js)
+
 
 
 《CLASS》
 
+##DIV[class*="ad_"]
+##DIV[class^="ad-"]
+##DIV[class^="ads-"]
 ##DIV[class*="float"]
 ##DIV[class*="gif-ad"]
 ##DIV[class*="ad-embed"]
@@ -398,6 +410,7 @@
 《IFRAME》
 
 ##iframe[name*="ad"]
+##iframe[src*="ads"]
 ##iframe[src*="promo"]
 ##iframe[src*="popups"]
 ##iframe[src*="overlay"]
@@ -447,16 +460,20 @@
 《A》
 
 ##a[href*="ads"]
-##a[href*="ad"]
 ##a[href*="ad."]
+##a[href*="?ad="]
+##a[href*="/ad/"]
 ##a[href*="offer"]
 ##a[href*="ad_id="]
 ##a[href*="ad-link"]
 ##a[href*="advertisement"]
-##a[target="_blank"][href*="ad"]
+##a[href*="ad"]:not(.non-ad)
+##a[target="_blank"][href*="/ad/"]
+##a[target="_blank"][href*="?ad="]
 ##a[href*="ad-link"][rel="nofollow"]
 ##a[href*="popup-link"][target="_blank"]
 ##a[target="_blank"][href*="advertisement"]
+##a[target="_blank"][href*="ad"]:not(.exclude-ad)
 
 
 《BUTTON》
@@ -523,13 +540,16 @@ a.rezhibo8.com##DIV.popupdirect-ad
 ##DIV#io-popup-tips
 ##A.mobile-download-frame
 ##DIV.banner
-##DIV.article-feedback-c-double
-##DIV.hidden-content
+
+
 ##DIV.search-ad
 ##DIV.loading-ad
 ##DIV.preload-ad
-##DIV.adx-bottom-fixed
 ##DIV.waplist
+##DIV.hidden-content
+##DIV.adx-bottom-fixed
+##SPAN.androidKJ-btn_w_img
+##DIV.article-feedback-c-double
 ##DIV.hl-pops-bg.hl-pops-bg-active
 ##DIV[align='center']
 hermes.hupu.com/h.gif@m.hupu.com
