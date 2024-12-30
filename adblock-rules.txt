@@ -506,7 +506,7 @@
 ||cdn.leisu.com
 ||pstatp.com$~3p
 ||cdn.jsdelivr.net/*.gif
-||bdstatic.com
+||bdstatic.com$~3p
 ||cdn.bcebos.com
 ||qchannel03.cn
 ||res.wx.qq.com
@@ -540,8 +540,6 @@ a.rezhibo8.com##DIV.popupdirect-ad
 ##DIV#io-popup-tips
 ##A.mobile-download-frame
 ##DIV.banner
-
-
 ##DIV.search-ad
 ##DIV.loading-ad
 ##DIV.preload-ad
