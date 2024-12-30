@@ -465,15 +465,12 @@
 ##a[href*="/ad/"]
 ##a[href*="offer"]
 ##a[href*="ad_id="]
-##a[href*="ad-link"]
 ##a[href*="advertisement"]
-##a[href*="ad"]:not(.non-ad)
 ##a[target="_blank"][href*="/ad/"]
 ##a[target="_blank"][href*="?ad="]
-##a[href*="ad-link"][rel="nofollow"]
-##a[href*="popup-link"][target="_blank"]
-##a[target="_blank"][href*="advertisement"]
-##a[target="_blank"][href*="ad"]:not(.exclude-ad)
+##a[href*="popup-link"][target="_blank"]:not([rel="nofollow"])
+##a[target="_blank"][href*="advertisement"]:not([rel="nofollow"])
+##a[href*="ad-link"]:not([rel="nofollow"])
 
 
 《BUTTON》
