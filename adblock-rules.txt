@@ -459,7 +459,6 @@
 《A》
 
 ##a[href*="ads"]
-##a[href*="ad."]
 ##a[href*="?ad="]
 ##a[href*="/ad/"]
 ##a[href*="offer"]
