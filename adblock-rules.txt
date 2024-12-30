@@ -358,7 +358,6 @@
 
 《CLASS》
 
-##DIV[class*="ad_"]
 ##DIV[class^="ad-"]
 ##DIV[class^="ads-"]
 ##DIV[class*="float"]
