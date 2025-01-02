@@ -70,7 +70,7 @@
 ##DIV[style*="bottom:0"]
 ##DIV[style*="width:0"]
 ##DIV[style*="height:0"]
-##DIV[style*="opacity:0"]
+##DIV[style*="opacity:0;"]
 ##DIV[style*="width:0px"] 
 ##DIV[style*="height:0px"]
 ##DIV[style*="display:none"]
@@ -163,6 +163,7 @@
 ##IMG[alt*="ad"]
 ##IMG[src*="adicon"]
 ##IMG[src*="ad-image"]
+##IMG[src*="ad-carousel"]
 ##IMG[src*="sponsored"]
 ##IMG[src*="advert"]
 ##img[style="width:100%"]
@@ -306,6 +307,7 @@
 ##script[src*="inject-ad.js"]
 ##script[src*="thirdparty-ad.js"]
 ##script[src*="ad-scripts.js"]
+##script[src*="adsync.js"]
 ##script[src*="adframework.js"]
 ##script[src*="adengine.js"]
 ##script[src*="adroll.js"]
@@ -367,19 +369,14 @@
 ##DIV[class*="sidebar-ad"]
 ##DIV[class*="social-ad"]
 ##DIV[class*="ad-queued"]
-##DIV[class*="share-button"]
 ##DIV[class*="ad-strip"]
 ##DIV[class*='a-d-block']
 ##DIV[class*="ad-loader"]
 ##DIV[class*="sticky-ad"]
-##DIV[class*="lazyload-ad"]
-##DIV[class*="overlay-ad"]
-##DIV[class*="floating-ad"]
-##DIV[class*="multi-step-ad"]
 ##DIV[class*="ad-flow"]
+##DIV[class*="ad-async"]
 ##DIV[class*="ad-step"]
 ##DIV[class*="ad-delay"]
-##DIV[class*="ad-deferred"]
 ##DIV[class*="ad-timed"]
 ##DIV[class*="ad-delayed"]
 ##DIV[class*="nav-ad"]
@@ -392,6 +389,12 @@
 ##DIV[class*="stui-foot"]
 ##DIV[class*="store-ad"]
 ##DIV[class*="ad-product"]
+##DIV[class*="lazyload-ad"]
+##DIV[class*="overlay-ad"]
+##DIV[class*="floating-ad"]
+##DIV[class*="ad-deferred"]
+##DIV[class*="share-button"]
+##DIV[class*="multi-step-ad"]
 ##DIV[class*="bottom-nav-ad"]
 ##DIV[class*="fullscreen-ad"]
 ##DIV[class*="ad-fullscreen"]
@@ -463,6 +466,9 @@
 ##a[href*="/ad/"]
 ##a[href*="offer"]
 ##a[href*="ad_id="]
+##a[href*="ad.html"]
+##a[href*="ad_link"]
+##a[href*="buyad"]
 ##a[href*="advertisement"]
 ##a[target="_blank"][href*="/ad/"]
 ##a[target="_blank"][href*="?ad="]
@@ -502,7 +508,7 @@
 ||pstatp.com$~3p
 ||cdn.jsdelivr.net/*.gif
 ||bdstatic.com$~3p
-||cdn.bcebos.com
+||cdn.bcebos.com$~3p
 ||qchannel03.cn
 ||res.wx.qq.com
 ||dl.btii.cn/zclz/lz001
