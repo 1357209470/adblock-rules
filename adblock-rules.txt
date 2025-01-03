@@ -526,6 +526,7 @@ hupu.com##DIV.tabs-component-search,DIV.tabs-component-occu-1,SECTION.footer
 ##DIV.react-component.i-bem.react-component_js_inited
 ##DIV.images-viewer-content2__behavioral-direct
 ##DIV#fage_hf
+##A.banner
 ##DIV#boottom-float-adv
 ##DIV.boottom-downloadapp
 ##DIV.shuoqiudiAPP
