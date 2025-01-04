@@ -385,6 +385,7 @@
 ##DIV[class*="top-nav-ad"]
 ##DIV[class*="product-ad"]
 ##DIV[class*="shop-ad"]
+##DIV[class*="btn-open"]
 ##DIV[class*="stui-foot"]
 ##DIV[class*="store-ad"]
 ##DIV[class*="ad-product"]
@@ -479,6 +480,7 @@
 《BUTTON》
 
 ##button[class*="ad-button"]
+##button[class*="banner-btn"]
 ##button[class*="skip-ad"]
 
 《AJAX》
