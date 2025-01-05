@@ -339,7 +339,6 @@
 ##script[src*="adsbygoogle.js"]
 ##script[src*="popup.js"]
 ##script[src*="adtrack.js"]
-##script[src*="banner.js"]
 ##script[src*="schedule.js"]
 ##script[src*="control.js"]
 ##script[src*="adserver.js"]
