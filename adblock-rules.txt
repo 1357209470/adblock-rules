@@ -350,7 +350,7 @@
 ##script[src*="retargeting.js"]
 ##script[src*="video-ad.js"]
 ##script[src*="expandable-ad.js"]
-##script:inject(abp/elementhide.js)
+
 
 
 
