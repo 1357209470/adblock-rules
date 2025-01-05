@@ -67,7 +67,6 @@
 《STYLE》
 
 ##DIV[style*="top:0"]
-##DIV[style*="bottom:0"]
 ##DIV[style*="width:0"]
 ##DIV[style*="height:0"]
 ##DIV[style*="opacity:0;"]
@@ -385,6 +384,7 @@
 ##DIV[class*="top-nav-ad"]
 ##DIV[class*="product-ad"]
 ##DIV[class*="shop-ad"]
+##DIV[class*="btn-open"]
 ##DIV[class*="stui-foot"]
 ##DIV[class*="store-ad"]
 ##DIV[class*="ad-product"]
@@ -476,6 +476,11 @@
 ##a[href*="ad-link"]:not([rel="nofollow"])
 
 
+《BUTTON》
+
+##button[class*="ad-button"]
+##button[class*="banner-btn"]
+##button[class*="skip-ad"]
 
 《AJAX》
 
