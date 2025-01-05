@@ -311,7 +311,6 @@
 ##script[src*="adengine.js"]
 ##script[src*="adroll.js"]
 ##script[src*="ad-script.js"]
-##script[src*="popup-ad-script.js"]
 ##script[src*="track-ad.js"]
 ##script[src*="jquery.min.js"]
 ##script[src*="ad-service.js"]
