@@ -459,23 +459,6 @@
 
 
 
-《A》
-
-##a[href*="ads"]
-##a[href*="?ad="]
-##a[href*="/ad/"]
-##a[href*="offer"]
-##a[href*="ad_id="]
-##a[href*="ad.html"]
-##a[href*="ad_link"]
-##a[href*="buyad"]
-##a[href*="advertisement"]
-##a[target="_blank"][href*="/ad/"]
-##a[target="_blank"][href*="?ad="]
-##a[href*="popup-link"][target="_blank"]:not([rel="nofollow"])
-##a[target="_blank"][href*="advertisement"]:not([rel="nofollow"])
-##a[href*="ad-link"]:not([rel="nofollow"])
-
 
 
 
