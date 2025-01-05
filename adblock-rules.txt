@@ -66,28 +66,7 @@
 
 《STYLE》
 
-##DIV[style*="top:0"]
-##DIV[style*="bottom:0"]
-##DIV[style*="width:0"]
-##DIV[style*="height:0"]
-##DIV[style*="opacity:0;"]
-##DIV[style*="width:0px"] 
-##DIV[style*="height:0px"]
-##DIV[style*="display:none"]
-##DIV[style*="visibility:hidden"]
-##DIV[style*="overflow:hidden"]
-##DIV[style*="float:left"]
-##DIV[style*="float:right"]
-##DIV[style*="position: absolute"]
-##DIV[style*="position:sticky"]
-##DIV[style*="box-shadow"]
-##DIV[style*="z-index:-1"]
-##DIV[style*="z-index: 9999"]
-##DIV[style*="z-index: 1000"]
-##DIV[style*="width: 728px"][style*="height: 90px"]
-##DIV[style*="width: 300px"][style*="height: 250px"]
 
-##DIV[style*="background-image: url('ads.example.com")]
 
 
 
