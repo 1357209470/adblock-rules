@@ -295,55 +295,7 @@
 
 
 
-《CLASS》
 
-##DIV[class^="ad-"]
-##DIV[class^="ads-"]
-##DIV[class*="float"]
-##DIV[class*="gif-ad"]
-##DIV[class*="ad-embed"]
-##DIV[class*="display-ad"]
-##DIV[class*="sidebar-ad"]
-##DIV[class*="social-ad"]
-##DIV[class*="ad-queued"]
-##DIV[class*="ad-strip"]
-##DIV[class*='a-d-block']
-##DIV[class*="ad-loader"]
-##DIV[class*="sticky-ad"]
-##DIV[class*="ad-flow"]
-##DIV[class*="ad-async"]
-##DIV[class*="ad-step"]
-##DIV[class*="ad-delay"]
-##DIV[class*="ad-timed"]
-##DIV[class*="ad-delayed"]
-##DIV[class*="nav-ad"]
-##DIV[class*="menu-ad"]
-##DIV[class*="navbar-ad"]
-##DIV[class*="top-nav-ad"]
-##DIV[class*="product-ad"]
-##DIV[class*="shop-ad"]
-##DIV[class*="btn-open"]
-##DIV[class*="stui-foot"]
-##DIV[class*="store-ad"]
-##DIV[class*="ad-product"]
-##DIV[class*="lazyload-ad"]
-##DIV[class*="overlay-ad"]
-##DIV[class*="floating-ad"]
-##DIV[class*="ad-deferred"]
-##DIV[class*="share-button"]
-##DIV[class*="multi-step-ad"]
-##DIV[class*="bottom-nav-ad"]
-##DIV[class*="fullscreen-ad"]
-##DIV[class*="ad-fullscreen"]
-##DIV[class*="ad-interstitial"]
-##DIV[class*="ad-infinite-scroll"]
-##DIV[class="ads-container"] > img
-##DIV[class="ad-container"] > img
-##DIV[class*="ad-delayed-display"]
-##DIV[class*="ad-interactive-step"]
-##DIV[class*="popup-ad"]:mouse-event(click)
-##DIV[class*="sticky-ad"]:mouse-event(hover)
-##DIV[class*="ad-overlay"]:mouse-event(focus)
 
 
 《IFRAME》
