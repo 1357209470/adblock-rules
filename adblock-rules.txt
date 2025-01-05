@@ -315,7 +315,6 @@
 ##script[src*="ad-service.js"]
 ##script[src*="ad-blocker.js"]
 ##script[src*="analytics.js"]
-##script[src$=".js"]
 ##script[src*="banner-ad.js"]
 ##script[src*="popup-ad.js"]
 ##script[src*="slide-ad.js"]
