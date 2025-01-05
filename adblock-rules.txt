@@ -296,7 +296,6 @@
 《 JS 》
 
 ||*ads.js^
-||*popup.js^
 ||*tracking.js^
 ##script[src*="adloader.js"]
 ##script[src*="dynamic.js"]
