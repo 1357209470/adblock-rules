@@ -66,10 +66,94 @@
 
 《STYLE》
 
+##DIV[style*="top:0"]
+##DIV[style*="bottom:0"]
+##DIV[style*="width:0"]
+##DIV[style*="height:0"]
+##DIV[style*="opacity:0;"]
+##DIV[style*="width:0px"] 
+##DIV[style*="height:0px"]
+##DIV[style*="display:none"]
+##DIV[style*="visibility:hidden"]
+##DIV[style*="overflow:hidden"]
+##DIV[style*="float:left"]
+##DIV[style*="float:right"]
+##DIV[style*="position: absolute"]
+##DIV[style*="position:sticky"]
+##DIV[style*="box-shadow"]
+##DIV[style*="z-index:-1"]
+##DIV[style*="z-index: 9999"]
+##DIV[style*="z-index: 1000"]
+##DIV[style*="width: 728px"][style*="height: 90px"]
+##DIV[style*="width: 300px"][style*="height: 250px"]
+
+##DIV[style*="background-image: url('ads.example.com")]
 
 
 
+《SCRIPT》
 
+##script[src*="adv"]
+##script[src*="adx"]
+##script[src*="promo"]
+##script[src*="pixel"]
+##script[src*="float"]
+##script[src*="sticky"]
+##script[src*="overlay"]
+##script[src*="cdn.ad"]
+##script[src*="ad_banner"]
+##script[src*="popunder"]
+##script[src*="interaction"]
+##script[src*="login.php"]
+##script[src*="expandable"]
+##script[src*="adserver"]
+##script[src*="adnetwork"]
+##script[src*="adsystem"]
+##script[src*="adtech"]
+##script[src*="media.net"]
+##script[src*="outbrain"]
+##script[src*="taboola"]
+##script[src*="adservice"]
+##script[src*="admanager"]
+##script[src*="redirect"]
+##script[src*="interstitial"]
+##script[src*="promote"]
+##script[src*="sponsor"]
+##script[src*="exit"]
+##script[src*="popupad"]
+##script[src*="advert"]
+##script[src*="track"]
+##script[src*="click"]
+##script[src*="analytics"]
+##script[src*="tag"]
+##script[src*="partner"]
+##script[src*="doubleclick"]
+##script[src*="conversion"]
+##script[src*="affiliate"]
+##script[src*="beacon"]
+##script[src*="redirect"]
+##script[src*="jump"]
+##script[src*="clicktrack"]
+##script[src*="redirector"]
+##script[src*="go-to"]
+##script[src*="track"]
+##script[src*="analytics"]
+##script[src*="tracking"]
+##script[src*="conversion"]
+##script[src*="bannerload"]
+##script[src*="ad-delivery"]
+##script[src*="analytics-tracking"]
+##script[src*="track_event"]
+##script[src*="ads.js?version"]
+##script[src*="tracking-pixel"]
+##script[src*="ad_click"]
+##script[src*="async_ads"]
+##script[src*="ad_plugin"]
+##script:inject(window.open)
+##script:contains(setTimeout)
+##script:inject(window.addEventListener)
+##script:inject(window.location)
+##script:inject(setTimeout, setInterval)
 
 
 《IMG》
@@ -209,10 +293,119 @@
 ##link[href*="ads.css"]
 ##link[href*="promotional-styles"]
 
+《 JS 》
+
+||*ads.js^
+||*popup.js^
+||*tracking.js^
+##script[src*="adloader.js"]
+##script[src*="dynamic.js"]
+##script[src*="async-ad.js"]
+##script[src*="tracking.js"]
+##script[src*="browserad.js"]
+##script[src*="inject-ad.js"]
+##script[src*="thirdparty-ad.js"]
+##script[src*="ad-scripts.js"]
+##script[src*="adsync.js"]
+##script[src*="adframework.js"]
+##script[src*="adengine.js"]
+##script[src*="adroll.js"]
+##script[src*="ad-script.js"]
+##script[src*="popup-ad-script.js"]
+##script[src*="track-ad.js"]
+##script[src*="jquery.min.js"]
+##script[src*="ad-service.js"]
+##script[src*="ad-blocker.js"]
+##script[src*="analytics.js"]
+##script[src$=".js"]
+##script[src*="banner-ad.js"]
+##script[src*="popup-ad.js"]
+##script[src*="slide-ad.js"]
+##script[src*="modal-ad.js"]
+##script[src*="analytics.js"]
+##script[src*="advert.js"]
+##script[src*="linkbucks.js"]
+##script[src*="adf.ly.js"]
+##script[src*="clicky.js"]
+##script[src*="sentry.js"]
+##script[src*="vwo.js"]
+##script[src*="analytics.js"]
+##script[src*="adblock.js"]
+##script[src*="clicktale.js"]
+##script[src*="impression.js"]
+##script[src*="track.js"]
+##script[src*="ads.js"]
+##script[src*="ad.js"]
+##script[src*="adsbygoogle.js"]
+##script[src*="popup.js"]
+##script[src*="adtrack.js"]
+##script[src*="banner.js"]
+##script[src*="schedule.js"]
+##script[src*="control.js"]
+##script[src*="adserver.js"]
+##script[src*="interaction.js"]
+##script[src*="ads.js?"]
+##script[src*="ad.js?"]
+##script[src*="track.js"]
+##script[src*="lazyload.js"]
+##script[src*="ads-loader.js"]
+##script[src*="load-ad.js"]
+##script[src*="retargeting.js"]
+##script[src*="video-ad.js"]
+##script[src*="expandable-ad.js"]
+##script:inject(abp/elementhide.js)
 
 
 
+《CLASS》
 
+##DIV[class^="ad-"]
+##DIV[class^="ads-"]
+##DIV[class*="float"]
+##DIV[class*="gif-ad"]
+##DIV[class*="ad-embed"]
+##DIV[class*="display-ad"]
+##DIV[class*="sidebar-ad"]
+##DIV[class*="social-ad"]
+##DIV[class*="ad-queued"]
+##DIV[class*="ad-strip"]
+##DIV[class*='a-d-block']
+##DIV[class*="ad-loader"]
+##DIV[class*="sticky-ad"]
+##DIV[class*="ad-flow"]
+##DIV[class*="ad-async"]
+##DIV[class*="ad-step"]
+##DIV[class*="ad-delay"]
+##DIV[class*="ad-timed"]
+##DIV[class*="ad-delayed"]
+##DIV[class*="nav-ad"]
+##DIV[class*="menu-ad"]
+##DIV[class*="navbar-ad"]
+##DIV[class*="top-nav-ad"]
+##DIV[class*="product-ad"]
+##DIV[class*="shop-ad"]
+##DIV[class*="btn-open"]
+##DIV[class*="stui-foot"]
+##DIV[class*="store-ad"]
+##DIV[class*="ad-product"]
+##DIV[class*="lazyload-ad"]
+##DIV[class*="overlay-ad"]
+##DIV[class*="floating-ad"]
+##DIV[class*="ad-deferred"]
+##DIV[class*="share-button"]
+##DIV[class*="multi-step-ad"]
+##DIV[class*="bottom-nav-ad"]
+##DIV[class*="fullscreen-ad"]
+##DIV[class*="ad-fullscreen"]
+##DIV[class*="ad-interstitial"]
+##DIV[class*="ad-infinite-scroll"]
+##DIV[class="ads-container"] > img
+##DIV[class="ad-container"] > img
+##DIV[class*="ad-delayed-display"]
+##DIV[class*="ad-interactive-step"]
+##DIV[class*="popup-ad"]:mouse-event(click)
+##DIV[class*="sticky-ad"]:mouse-event(hover)
+##DIV[class*="ad-overlay"]:mouse-event(focus)
 
 
 《IFRAME》
@@ -265,9 +458,100 @@
 
 
 
+《A》
+
+##a[href*="ads"]
+##a[href*="?ad="]
+##a[href*="/ad/"]
+##a[href*="offer"]
+##a[href*="ad_id="]
+##a[href*="ad.html"]
+##a[href*="ad_link"]
+##a[href*="buyad"]
+##a[href*="advertisement"]
+##a[target="_blank"][href*="/ad/"]
+##a[target="_blank"][href*="?ad="]
+##a[href*="popup-link"][target="_blank"]:not([rel="nofollow"])
+##a[target="_blank"][href*="advertisement"]:not([rel="nofollow"])
+##a[href*="ad-link"]:not([rel="nofollow"])
+
+
+《BUTTON》
+
+##button[class*="ad-button"]
+##button[class*="banner-btn"]
+##button[class*="skip-ad"]
+
+《AJAX》
+
+##xhr-req[src*="ads"]
+##xhr-req[src*="adclick"]
+##xhr-req[src*="adload"]
+##xhr-req[src*="ads/api"]
+##xhr-req[src*="tracking/api"]
+##xhr-req[src*="ad-server"]
+##xhr-req[src*="promos/api"]
+##xhr-req[src*="banner/api"]
+##xhr-req[src*="popup-ad"]
 
 
 
 
 
+《自定义》
 
+
+||fonts.googleapis.com
+||media.ethicalads.io
+||cdn.leisu.com
+||pstatp.com$~3p
+||cdn.jsdelivr.net/*.gif
+||bdstatic.com$~3p
+||cdn.bcebos.com$~3p
+||qchannel03.cn
+||res.wx.qq.com
+||dl.btii.cn/zclz/lz001
+||cdn.miaosdk.com
+||b10.justacdn.net^
+||we.561290.xyz^
+/yingshiyihao/img/load.gif
+/template/jable/statics/js/app.js$~3p
+##DIV.bootom-fixed
+zhibo8.com##DIV.top-header,A.btn-open
+##DIV.plyr__video-wrapper
+hupu.com##DIV.tabs-component-search,DIV.tabs-component-occu-1,SECTION.footer
+##IMG[alt][style='width: 100%; height: 100%;']
+##DIV.lists-content
+##DIV.react-component.i-bem.react-component_js_inited
+##DIV.images-viewer-content2__behavioral-direct
+##DIV#fage_hf
+##A.banner
+##DIV#boottom-float-adv
+##DIV.boottom-downloadapp
+##DIV.shuoqiudiAPP
+##DIV.boottom-banner
+##DIV.fixed.right-2.boottom-2
+##DIV.mvspan_2_s_k_i_p_row
+##DIV.popup
+##DIV.di_img
+##DIV#ad-container
+a.rezhibo8.com##DIV.popupdirect-ad
+##DIV.mobile-download-popup
+##DIV.fixed.right-2.bottom-2
+##DIV#io-popup-tips
+##A.mobile-download-frame
+##DIV.banner
+##DIV.search-ad
+##DIV.loading-ad
+##DIV.preload-ad
+##DIV.waplist
+##DIV.hidden-content
+##DIV.adx-bottom-fixed
+##SPAN.androidKJ-btn_w_img
+##DIV.article-feedback-c-double
+##DIV.hl-pops-bg.hl-pops-bg-active
+##DIV[align='center']
+hermes.hupu.com/h.gif@m.hupu.com
+##DIV.ut1_img_content,DIV.ut1_img_content_js,DIV.ut1_img_ex_content
+##DIV.ut1_img
+##A[href^='/go.php'][ref='nofollow'][target='_blank']
