@@ -67,6 +67,7 @@
 《STYLE》
 
 ##DIV[style*="top:0"]
+##DIV[style*="bottom:0"]
 ##DIV[style*="width:0"]
 ##DIV[style*="height:0"]
 ##DIV[style*="opacity:0;"]
@@ -476,23 +477,6 @@
 ##a[href*="ad-link"]:not([rel="nofollow"])
 
 
-《BUTTON》
-
-##button[class*="ad-button"]
-##button[class*="banner-btn"]
-##button[class*="skip-ad"]
-
-《AJAX》
-
-##xhr-req[src*="ads"]
-##xhr-req[src*="adclick"]
-##xhr-req[src*="adload"]
-##xhr-req[src*="ads/api"]
-##xhr-req[src*="tracking/api"]
-##xhr-req[src*="ad-server"]
-##xhr-req[src*="promos/api"]
-##xhr-req[src*="banner/api"]
-##xhr-req[src*="popup-ad"]
 
 
 
