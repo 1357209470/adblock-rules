@@ -91,69 +91,6 @@
 
 
 
-《SCRIPT》
-
-##script[src*="adv"]
-##script[src*="adx"]
-##script[src*="promo"]
-##script[src*="pixel"]
-##script[src*="float"]
-##script[src*="sticky"]
-##script[src*="overlay"]
-##script[src*="cdn.ad"]
-##script[src*="ad_banner"]
-##script[src*="popunder"]
-##script[src*="interaction"]
-##script[src*="login.php"]
-##script[src*="expandable"]
-##script[src*="adserver"]
-##script[src*="adnetwork"]
-##script[src*="adsystem"]
-##script[src*="adtech"]
-##script[src*="media.net"]
-##script[src*="outbrain"]
-##script[src*="taboola"]
-##script[src*="adservice"]
-##script[src*="admanager"]
-##script[src*="redirect"]
-##script[src*="interstitial"]
-##script[src*="promote"]
-##script[src*="sponsor"]
-##script[src*="exit"]
-##script[src*="popupad"]
-##script[src*="advert"]
-##script[src*="track"]
-##script[src*="click"]
-##script[src*="analytics"]
-##script[src*="tag"]
-##script[src*="partner"]
-##script[src*="doubleclick"]
-##script[src*="conversion"]
-##script[src*="affiliate"]
-##script[src*="beacon"]
-##script[src*="redirect"]
-##script[src*="jump"]
-##script[src*="clicktrack"]
-##script[src*="redirector"]
-##script[src*="go-to"]
-##script[src*="track"]
-##script[src*="analytics"]
-##script[src*="tracking"]
-##script[src*="conversion"]
-##script[src*="bannerload"]
-##script[src*="ad-delivery"]
-##script[src*="analytics-tracking"]
-##script[src*="track_event"]
-##script[src*="ads.js?version"]
-##script[src*="tracking-pixel"]
-##script[src*="ad_click"]
-##script[src*="async_ads"]
-##script[src*="ad_plugin"]
-##script:inject(window.open)
-##script:contains(setTimeout)
-##script:inject(window.addEventListener)
-##script:inject(window.location)
-##script:inject(setTimeout, setInterval)
 
 
 《IMG》
