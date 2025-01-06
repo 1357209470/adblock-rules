@@ -337,7 +337,7 @@
 ##script[src*="schedule.js"]
 ##script[src*="control.js"]
 ##script[src*="adserver.js"]
-##script[src*="interaction.js"]
+
 ##script[src*="ads.js?"]
 ##script[src*="ad.js?"]
 ##script[src*="track.js"]
