@@ -299,7 +299,7 @@
 ||*tracking.js^
 ##script[src*="adloader.js"]
 ##script[src*="dynamic.js"]
-##script[src*="async-ad.js"]
+
 ##script[src*="tracking.js"]
 ##script[src*="browserad.js"]
 ##script[src*="inject-ad.js"]
