@@ -51,3 +51,90 @@
 ##script[src*="retargeting.js"]
 ##script[src*="video-ad.js"]
 ##script[src*="expandable-ad.js"]
+《 DIV 》
+
+##DIV.sticky-footer-ad
+##DIV.floating-ad
+##DIV.sticky-bottom-ad
+##DIV.cdc-m-notice
+##DIV[src*="banner"]
+##DIV[data-ad="true"]
+##DDI.yandex-suggest-ad
+##DIV.yandex-recommend-ad
+##DIV..yandex_ads
+
+《 ## 》
+
+##.ad
+##.ads
+##.ad-popup
+##.ad-iframe
+##.ads-wrapper
+##.popup-ad
+##.ad-widget
+##.ad-container-main
+##.ad-responsive
+##.advert-container
+##.ad-overlay
+##.ad-banner-fixed
+##.ad-placeholder-wrapper
+##.ad-creative
+##.ad-footer
+##.advertisement-wrapper
+##.ad-panel
+##.ad-slot-container
+##.ad-column
+##.sponsored-container
+##.promo-ad
+##.promo-banner
+##.ad-backdrop
+##.ad-slide
+##.ad-popup-window
+##.ad-content
+##.ad-button
+##.banner-ad-container
+##.ad-card
+##.popup-ad-container
+##.floating-ad-container
+##.ad-container
+##.ad-placeholder
+##.ad-banner
+##.adsense
+##.ad-slot
+##.advertisement
+##.ad-box
+##.ad-promo
+##.adunit
+##.sponsored-ad
+##.popup-wrapper
+##.popup-container
+##.floating
+##.sticky-ad
+##.fixed-ad
+##.modal-ad
+
+
+《STYLE》
+
+##DIV[style*="top:0"]
+##DIV[style*="bottom:0"]
+##DIV[style*="width:0"]
+##DIV[style*="height:0"]
+##DIV[style*="opacity:0;"]
+##DIV[style*="width:0px"] 
+##DIV[style*="height:0px"]
+##DIV[style*="display:none"]
+##DIV[style*="visibility:hidden"]
+##DIV[style*="overflow:hidden"]
+##DIV[style*="float:left"]
+##DIV[style*="float:right"]
+##DIV[style*="position: absolute"]
+##DIV[style*="position:sticky"]
+##DIV[style*="box-shadow"]
+##DIV[style*="z-index:-1"]
+##DIV[style*="z-index: 9999"]
+##DIV[style*="z-index: 1000"]
+##DIV[style*="width: 728px"][style*="height: 90px"]
+##DIV[style*="width: 300px"][style*="height: 250px"]
+
+##DIV[style*="background-image: url('ads.example.com")]
