@@ -316,7 +316,7 @@
 ##script[src*="ad-blocker.js"]
 ##script[src*="analytics.js"]
 ##script[src*="slide-ad.js"]
-##script[src*="modal-ad.js"]
+
 ##script[src*="analytics.js"]
 ##script[src*="advert.js"]
 ##script[src*="linkbucks.js"]
