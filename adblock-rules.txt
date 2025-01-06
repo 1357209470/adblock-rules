@@ -327,7 +327,7 @@
 ##script[src*="analytics.js"]
 ##script[src*="adblock.js"]
 ##script[src*="clicktale.js"]
-##script[src*="impression.js"]
+
 ##script[src*="track.js"]
 ##script[src*="ads.js"]
 ##script[src*="ad.js"]
