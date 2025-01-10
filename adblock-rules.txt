@@ -512,6 +512,7 @@
 ||cdn.miaosdk.com
 ||b10.justacdn.net^
 ||we.561290.xyz^
+||api.qiumibao.com
 /yingshiyihao/img/load.gif
 /template/jable/statics/js/app.js$~3p
 ##DIV.bootom-fixed
