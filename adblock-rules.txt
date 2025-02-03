@@ -554,3 +554,4 @@ hermes.hupu.com/h.gif@m.hupu.com
 ##DIV.ut1_img
 ##A[href^='/go.php'][ref='nofollow'][target='_blank']
 ##UL.mb-4.list-none.text-nord14.grid.grid-cols-2.gap-2
+www.duplichecker.com##img.img-responsive
