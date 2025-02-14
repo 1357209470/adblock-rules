@@ -11,7 +11,7 @@
 ##DIV[data-ad="true"]
 ##DDI.yandex-suggest-ad
 ##DIV.yandex-recommend-ad
-##DIV..yandex_ads
+##DIV.yandex_ads
 
 《 ## 》
 
@@ -69,7 +69,7 @@
 ##DIV[style*="bottom:0"]
 ##DIV[style*="width:0"]
 ##DIV[style*="height:0"]
-##DIV[style*="opacity:0;"]
+##DIV[style*="opacity:0"]
 ##DIV[style*="width:0px"] 
 ##DIV[style*="height:0px"]
 ##DIV[style*="display:none"]
@@ -98,6 +98,7 @@
 ##script[src*="sticky"]
 ##script[src*="overlay"]
 ##script[src*="cdn.ad"]
+##script[src*="timer"]
 ##script[src*="ad_banner"]
 ##script[src*="popunder"]
 ##script[src*="interaction"]
@@ -163,7 +164,7 @@
 ##IMG[src*="ad-carousel"]
 ##IMG[src*="sponsored"]
 ##IMG[src*="advert"]
-##img[style="width:100%"]
+##IMG[style="width:100%"]
 ##IMG[src*="inpage.gif"]
 ##IMG[src*="promo"]
 ##IMG[src*="banner"]
@@ -554,4 +555,5 @@ hermes.hupu.com/h.gif@m.hupu.com
 ##DIV.ut1_img
 ##A[href^='/go.php'][ref='nofollow'][target='_blank']
 ##UL.mb-4.list-none.text-nord14.grid.grid-cols-2.gap-2
+##DIV.pop-box,DIV.box-bg
 www.duplichecker.com##img.img-responsive
