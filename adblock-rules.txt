@@ -90,6 +90,7 @@
 
 《SCRIPT》
 
+##script[src*="dynamic.js"]
 ##script[src*="adv"]
 ##script[src*="adx"]
 ##script[src*="promo"]
@@ -186,6 +187,7 @@
 
 《 || 》
 
+||example.com/ads/*$xhr
 ||an.yandex.load
 ||an.yandex.impression
 ||an.yandex.loaded
