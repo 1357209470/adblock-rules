@@ -508,6 +508,7 @@
 ||cdn.leisu.com
 ||pstatp.com$~3p
 ||cdn.jsdelivr.net/*.gif
+||bifen4m.qiumibao.com
 ||bdstatic.com$~3p
 ||cdn.bcebos.com$~3p
 ||qchannel03.cn
