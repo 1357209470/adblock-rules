@@ -77,7 +77,6 @@
 ##DIV[style*="overflow:hidden"]
 ##DIV[style*="float:left"]
 ##DIV[style*="float:right"]
-##DIV[style*="position: absolute"]
 ##DIV[style*="position:sticky"]
 ##DIV[style*="z-index:-1"]
 ##DIV[style*="z-index: 1000"]
