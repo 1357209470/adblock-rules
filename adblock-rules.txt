@@ -1,6 +1,7 @@
-# 终极版广告拦截规则（精准无误伤）
+
+# 终极完整版广告拦截规则（全广告特征+零误伤）
 ## ==============================================
-## SCRIPT 脚本类（广告/追踪专属，剔除通用核心脚本）
+## SCRIPT 脚本类（核心广告脚本+新增广告特征词脚本）
 ## ==============================================
 ##script[src*="track-ad.js"]
 ##script[src*="ad-service.js"]
@@ -34,7 +35,7 @@
 ##script[src*="video-ad.js"]
 ##script[src*="expandable-ad.js"]
 ##script:inject(abp/elementhide.js)
-# 补充广告脚本（精准无误伤）
+# 核心广告脚本补充
 ##script[src*="adsense.js"]
 ##script[src*="doubleclick.js"]
 ##script[src*="googletagmanager.js"]
@@ -61,9 +62,33 @@
 ##script:contains("advertisement")
 ##script:contains("trackImpression")
 ##script:contains("sendAdClick")
+# 新增广告特征词脚本
+##script[src*="sponsored.js"]
+##script[src*="promoted.js"]
+##script[src*="affiliate.js"]
+##script[src*="native-ad.js"]
+##script[src*="interstitial.js"]
+##script[src*="push-ad.js"]
+##script[src*="notification-ad.js"]
+##script[src*="ad-pixel.js"]
+##script[src*="ad-beacon.js"]
+##script[src*="ad-tracker.js"]
+##script[src*="ad-analytics.js"]
+##script[src*="ad-retarget.js"]
+##script[src*="ad-push.js"]
+##script[src*="ad-notify.js"]
+##script[src*="ad-badge.js"]
+##script[src*="ad-toast.js"]
+##script[src*="ad-popunder.js"]
+##script[src*="ad-overlay.js"]
+##script[src*="ad-native.js"]
+##script[src*="ad-interstitial.js"]
+##script[src*="ad-promoted.js"]
+##script[src*="ad-sponsored.js"]
+##script[src*="ad-affiliate.js"]
 
 ## ==============================================
-## CLASS 类名类（广告专属类，剔除通用布局类）
+## CLASS 类名类（核心广告类+新增广告特征词类）
 ## ==============================================
 ##DIV[class^="ad-"]
 ##DIV[class^="ads-"]
@@ -108,7 +133,7 @@
 ##DIV[class*="popup-ad"]:mouse-event(click)
 ##DIV[class*="sticky-ad"]:mouse-event(hover)
 ##DIV[class*="ad-overlay"]:mouse-event(focus)
-# 补充广告类名（精准无误伤）
+# 核心广告类名补充
 ##DIV[class^="sponsored-"]
 ##DIV[class^="promo-"]
 ##DIV[class*="ad-banner"]
@@ -178,9 +203,64 @@
 ##DIV[class*="ad-zoom"]
 ##DIV[class*="ad-pulse"]
 ##DIV[class*="ad-shake"]
+# 新增广告特征词类名（无误伤）
+##DIV[class^="sponsored-"]
+##DIV[class^="promoted-"]
+##DIV[class^="affiliate-"]
+##DIV[class^="native-"]
+##DIV[class^="interstitial-"]
+##DIV[class^="push-"]
+##DIV[class^="notification-"]
+##DIV[class^="tracker-"]
+##DIV[class^="pixel-"]
+##DIV[class^="beacon-"]
+##DIV[class*="sponsored-ad"]
+##DIV[class*="promoted-ad"]
+##DIV[class*="affiliate-ad"]
+##DIV[class*="native-ad"]
+##DIV[class*="interstitial-ad"]
+##DIV[class*="push-ad"]
+##DIV[class*="notification-ad"]
+##DIV[class*="tracker-ad"]
+##DIV[class*="pixel-ad"]
+##DIV[class*="beacon-ad"]
+##DIV[class*="ad-tracker"]
+##DIV[class*="ad-pixel"]
+##DIV[class*="ad-beacon"]
+##DIV[class*="ad-retarget"]
+##DIV[class*="ad-promotion"]
+##DIV[class*="ad-campaign"]
+##DIV[class*="ad-brand"]
+##DIV[class*="ad-sponsor"]
+##DIV[class*="ad-affiliate"]
+##DIV[class*="ad-native"]
+##DIV[class*="ad-interstitial"]
+##DIV[class*="ad-push"]
+##DIV[class*="ad-notify"]
+##DIV[class*="ad-popunder"]
+##DIV[class*="ad-skip"]
+##DIV[class*="ad-close"]
+##DIV[class*="ad-hide"]
+##DIV[class*="ad-mute"]
+##DIV[class*="ad-unmute"]
+##DIV[class*="ad-play"]
+##DIV[class*="ad-pause"]
+##DIV[class*="ad-progress"]
+##DIV[class*="ad-countdown"]
+##DIV[class*="ad-placeholder"]
+##DIV[class*="ad-skeleton"]
+##DIV[class*="ad-placeholder"]
+##DIV[class*="ad-container"]
+##DIV[class*="ad-wrapper"]
+##DIV[class*="ad-holder"]
+##DIV[class*="ad-frame"]
+##DIV[class*="ad-box"]
+##DIV[class*="ad-area"]
+##DIV[class*="ad-region"]
+##DIV[class*="ad-section"]
 
 ## ==============================================
-## IFRAME 框架类（广告专属框架，剔除通用遮罩/促销）
+## IFRAME 框架类（核心广告框架+新增广告特征词框架）
 ## ==============================================
 ##iframe[name*="ad"]
 ##iframe[src*="ads"]
@@ -191,7 +271,7 @@
 ##iframe[src*="advertising"]
 ##iframe[src*="advertisement"]
 ##iframe[src*="advertisement.com"]
-# 补充广告框架（精准无误伤）
+# 核心广告框架补充
 ##iframe[name*="advert"]
 ##iframe[name*="sponsored"]
 ##iframe[src*="adnetwork"]
@@ -210,9 +290,41 @@
 ##iframe[src*="adsterra"]
 ##iframe[src*="propellerads"]
 ##iframe[src*="exoclick"]
+# 新增广告特征词框架
+##iframe[name*="sponsored"]
+##iframe[name*="promoted"]
+##iframe[name*="affiliate"]
+##iframe[name*="native"]
+##iframe[name*="interstitial"]
+##iframe[name*="push"]
+##iframe[name*="tracker"]
+##iframe[src*="sponsored"]
+##iframe[src*="promoted"]
+##iframe[src*="affiliate"]
+##iframe[src*="native-ad"]
+##iframe[src*="interstitial-ad"]
+##iframe[src*="push-ad"]
+##iframe[src*="ad-tracker"]
+##iframe[src*="ad-pixel"]
+##iframe[src*="ad-beacon"]
+##iframe[src*="ad-retarget"]
+##iframe[src*="ad-campaign"]
+##iframe[src*="ad-brand"]
+##iframe[src*="ad-sponsor"]
+##iframe[src*="ad-network"]
+##iframe[src*="ad-exchange"]
+##iframe[src*="ad-tech"]
+##iframe[src*="ad-form"]
+##iframe[src*="ad-roll"]
+##iframe[src*="ad-content"]
+##iframe[src*="ad-blade"]
+##iframe[src*="ad-now"]
+##iframe[src*="ad-sterra"]
+##iframe[src*="propeller-ads"]
+##iframe[src*="exo-click"]
 
 ## ==============================================
-## ID 标识类（广告专属ID，剔除通用布局ID）
+## ID 标识类（核心广告ID+新增广告特征词ID）
 ## ==============================================
 ##DIV[id*="advert"]
 ##DIV[id*="ad-loading"]
@@ -230,7 +342,7 @@
 ##DIV[id*="floating-popup"]
 ##DIV[id*="floating-ad-close"]
 ##DIV[id*="popup-close"]
-# 补充广告ID（精准无误伤）
+# 核心广告ID补充
 ##DIV[id*="ad-banner"]
 ##DIV[id*="ad-native"]
 ##DIV[id*="ad-sponsored"]
@@ -296,9 +408,43 @@
 ##DIV[id*="ad-zoom"]
 ##DIV[id*="ad-pulse"]
 ##DIV[id*="ad-shake"]
+# 新增广告特征词ID
+##DIV[id*="sponsored"]
+##DIV[id*="promoted"]
+##DIV[id*="affiliate"]
+##DIV[id*="native-ad"]
+##DIV[id*="interstitial"]
+##DIV[id*="push-ad"]
+##DIV[id*="notification-ad"]
+##DIV[id*="ad-tracker"]
+##DIV[id*="ad-pixel"]
+##DIV[id*="ad-beacon"]
+##DIV[id*="ad-retarget"]
+##DIV[id*="ad-promotion"]
+##DIV[id*="ad-campaign"]
+##DIV[id*="ad-brand"]
+##DIV[id*="ad-sponsor"]
+##DIV[id*="ad-skip"]
+##DIV[id*="ad-close"]
+##DIV[id*="ad-hide"]
+##DIV[id*="ad-mute"]
+##DIV[id*="ad-unmute"]
+##DIV[id*="ad-play"]
+##DIV[id*="ad-pause"]
+##DIV[id*="ad-progress"]
+##DIV[id*="ad-countdown"]
+##DIV[id*="ad-placeholder"]
+##DIV[id*="ad-container"]
+##DIV[id*="ad-wrapper"]
+##DIV[id*="ad-holder"]
+##DIV[id*="ad-frame"]
+##DIV[id*="ad-box"]
+##DIV[id*="ad-area"]
+##DIV[id*="ad-region"]
+##DIV[id*="ad-section"]
 
 ## ==============================================
-## VIDEO 视频类（全精准，无任何误伤）
+## VIDEO 视频类（核心+新增广告特征词，精准无误伤）
 ## ==============================================
 ##.video-ad
 ##.ad-video
@@ -309,9 +455,45 @@
 ##.ad-video-wrapper
 ##video[src*="sponsored"]
 ##video[src*="advert"]
+# 新增视频广告特征词
+##.sponsored-video
+##.promoted-video
+##.affiliate-video
+##.native-video-ad
+##.interstitial-video
+##.video-ad-wrapper
+##.video-ad-container
+##.video-ad-placeholder
+##.video-ad-slot
+##.video-ad-player
+##.video-ad-controls
+##.video-ad-progress
+##.video-ad-countdown
+##.video-ad-skip
+##.video-ad-close
+##video[src*="sponsored"]
+##video[src*="promoted"]
+##video[src*="affiliate"]
+##video[src*="native-ad"]
+##video[src*="interstitial"]
+##video[src*="ad-slot"]
+##video[src*="ad-player"]
+##video[src*="ad-controls"]
+##video[src*="ad-skip"]
+##video[src*="ad-countdown"]
+##video[class*="sponsored"]
+##video[class*="promoted"]
+##video[class*="affiliate"]
+##video[class*="native-ad"]
+##video[class*="interstitial"]
+##video[id*="sponsored"]
+##video[id*="promoted"]
+##video[id*="affiliate"]
+##video[id*="native-ad"]
+##video[id*="interstitial"]
 
 ## ==============================================
-## A 链接类（广告专属链接，剔除通用优惠）
+## A 链接类（核心+新增广告特征词，剔除误伤词）
 ## ==============================================
 ##a[href*="ads"]
 ##a[href*="?ad="]
@@ -326,16 +508,67 @@
 ##a[href*="popup-link"][target="_blank"]:not([rel="nofollow"])
 ##a[target="_blank"][href*="advertisement"]:not([rel="nofollow"])
 ##a[href*="ad-link"]:not([rel="nofollow"])
+# 新增广告链接特征词
+##a[href*="sponsored"]
+##a[href*="promoted"]
+##a[href*="affiliate"]
+##a[href*="native-ad"]
+##a[href*="interstitial"]
+##a[href*="ad-sponsor"]
+##a[href*="ad-campaign"]
+##a[href*="ad-brand"]
+##a[href*="ad-track"]
+##a[href*="ad-pixel"]
+##a[href*="ad-beacon"]
+##a[href*="ad-retarget"]
+##a[href*="ad-skip"]
+##a[href*="ad-close"]
+##a[class*="ad-link"]
+##a[class*="sponsored-link"]
+##a[class*="promoted-link"]
+##a[class*="affiliate-link"]
+##a[class*="ad-affiliate"]
+##a[class*="ad-sponsor"]
+##a[id*="ad-link"]
+##a[id*="sponsored-link"]
+##a[id*="promoted-link"]
+##a[id*="affiliate-link"]
+##a[target="_blank"][href*="sponsored"]:not([rel="nofollow"])
+##a[target="_blank"][href*="promoted"]:not([rel="nofollow"])
+##a[target="_blank"][href*="affiliate"]:not([rel="nofollow"])
 
 ## ==============================================
-## BUTTON 按钮类（全精准，无任何误伤）
+## BUTTON 按钮类（核心+新增广告特征词）
 ## ==============================================
 ##button[class*="ad-button"]
 ##button[class*="banner-btn"]
 ##button[class*="skip-ad"]
+# 新增广告按钮特征词（全广告专属，无误伤）
+##button[class*="ad-close"]
+##button[class*="ad-hide"]
+##button[class*="ad-mute"]
+##button[class*="ad-unmute"]
+##button[class*="ad-play"]
+##button[class*="ad-pause"]
+##button[class*="ad-skip"]
+##button[class*="ad-countdown"]
+##button[class*="sponsored-btn"]
+##button[class*="promoted-btn"]
+##button[class*="affiliate-btn"]
+##button[class*="native-ad-btn"]
+##button[class*="interstitial-btn"]
+##button[id*="ad-close"]
+##button[id*="ad-hide"]
+##button[id*="ad-mute"]
+##button[id*="ad-unmute"]
+##button[id*="ad-play"]
+##button[id*="ad-pause"]
+##button[id*="ad-skip"]
+##button[id*="sponsored-btn"]
+##button[id*="promoted-btn"]
 
 ## ==============================================
-## AJAX 请求类（广告专属请求，无任何误伤）
+## AJAX 请求类（核心+新增广告特征词，拦截广告请求）
 ## ==============================================
 ##xhr-req[src*="ads"]
 ##xhr-req[src*="adclick"]
@@ -346,9 +579,28 @@
 ##xhr-req[src*="promos/api"]
 ##xhr-req[src*="banner/api"]
 ##xhr-req[src*="popup-ad"]
+# 新增广告请求特征词
+##xhr-req[src*="sponsored"]
+##xhr-req[src*="promoted"]
+##xhr-req[src*="affiliate"]
+##xhr-req[src*="native-ad"]
+##xhr-req[src*="interstitial"]
+##xhr-req[src*="ad-track"]
+##xhr-req[src*="ad-pixel"]
+##xhr-req[src*="ad-beacon"]
+##xhr-req[src*="ad-retarget"]
+##xhr-req[src*="ad-impression"]
+##xhr-req[src*="ad-click"]
+##xhr-req[src*="ad-view"]
+##xhr-req[src*="ad-conversion"]
+##xhr-req[src*="ad-campaign"]
+##xhr-req[src*="ad-sponsor"]
+##xhr-req[src*="ad-brand"]
+##xhr-req[src*="ad-skip"]
+##xhr-req[src*="ad-close"]
 
 ## ==============================================
-## 新增 IMG 图片类（广告专属图片，剔除通用标识）
+## IMG 图片类（核心+新增广告特征词，拦截广告图片）
 ## ==============================================
 ##img[src*="ad"]
 ##img[src*="ads"]
@@ -386,9 +638,35 @@
 ##img[alt*="popup"]
 ##img[alt*="overlay"]
 ##img[width="1"][height="1"]:not([alt])
+# 新增图片广告特征词
+##img[src*="promoted"]
+##img[src*="affiliate"]
+##img[src*="native-ad"]
+##img[src*="interstitial"]
+##img[src*="ad-track"]
+##img[src*="ad-retarget"]
+##img[src*="ad-campaign"]
+##img[src*="ad-sponsor"]
+##img[src*="ad-skip"]
+##img[src*="ad-close"]
+##img[class*="promoted"]
+##img[class*="affiliate"]
+##img[class*="native-ad"]
+##img[class*="interstitial"]
+##img[class*="ad-track"]
+##img[class*="ad-retarget"]
+##img[id*="promoted"]
+##img[id*="affiliate"]
+##img[id*="native-ad"]
+##img[id*="interstitial"]
+##img[alt*="promoted"]
+##img[alt*="affiliate"]
+##img[alt*="native-ad"]
+##img[alt*="interstitial"]
+##img[alt*="广告"]
 
 ## ==============================================
-## 新增 FORM 表单类（广告专属表单，无任何误伤）
+## FORM 表单类（核心+新增广告特征词）
 ## ==============================================
 ##form[action*="ad"]
 ##form[action*="ads"]
@@ -408,9 +686,32 @@
 ##input[name*="advert"]
 ##input[name*="sponsored"]
 ##input[name*="track"]
+# 新增广告表单特征词
+##form[action*="promoted"]
+##form[action*="affiliate"]
+##form[action*="native-ad"]
+##form[action*="interstitial"]
+##form[action*="ad-track"]
+##form[action*="ad-pixel"]
+##form[action*="ad-beacon"]
+##form[class*="promoted"]
+##form[class*="affiliate"]
+##form[class*="native-ad"]
+##form[class*="interstitial"]
+##form[id*="promoted"]
+##form[id*="affiliate"]
+##form[id*="native-ad"]
+##form[id*="interstitial"]
+##input[name*="promoted"]
+##input[name*="affiliate"]
+##input[name*="native-ad"]
+##input[name*="interstitial"]
+##input[name*="ad-track"]
+##input[name*="ad-pixel"]
+##input[name*="ad-beacon"]
 
 ## ==============================================
-## 新增 STYLE 样式类（广告专属样式，无任何误伤）
+## STYLE 样式类（核心+新增广告特征词）
 ## ==============================================
 ##style:contains(".ad")
 ##style:contains("#ad")
@@ -430,9 +731,28 @@
 ##link[rel="stylesheet"][href*="ads"]
 ##link[rel="stylesheet"][href*="advert"]
 ##link[rel="stylesheet"][href*="sponsored"]
+# 新增广告样式特征词
+##style:contains(".sponsored")
+##style:contains("#sponsored")
+##style:contains(".promoted")
+##style:contains("#promoted")
+##style:contains(".affiliate")
+##style:contains("#affiliate")
+##style:contains(".native-ad")
+##style:contains("#native-ad")
+##style:contains(".interstitial")
+##style:contains("#interstitial")
+##style:contains(".ad-track")
+##style:contains("#ad-track")
+##style:contains(".ad-pixel")
+##style:contains("#ad-pixel")
+##link[rel="stylesheet"][href*="promoted"]
+##link[rel="stylesheet"][href*="affiliate"]
+##link[rel="stylesheet"][href*="native-ad"]
+##link[rel="stylesheet"][href*="interstitial"]
 
 ## ==============================================
-## 新增 WEBSOCKET 类（广告追踪专属，无任何误伤）
+## WEBSOCKET 类（核心+新增广告特征词）
 ## ==============================================
 ##websocket[url*="ad"]
 ##websocket[url*="ads"]
@@ -441,9 +761,19 @@
 ##websocket[url*="track"]
 ##websocket[url*="pixel"]
 ##websocket[url*="beacon"]
+# 新增广告追踪WebSocket
+##websocket[url*="promoted"]
+##websocket[url*="affiliate"]
+##websocket[url*="native-ad"]
+##websocket[url*="interstitial"]
+##websocket[url*="ad-track"]
+##websocket[url*="ad-retarget"]
+##websocket[url*="ad-impression"]
+##websocket[url*="ad-click"]
+##websocket[url*="ad-conversion"]
 
 ## ==============================================
-## 新增 COOKIE 类（广告追踪专属Cookie，无任何误伤）
+## COOKIE 类（核心+新增广告特征词）
 ## ==============================================
 ##cookie[name*="ad"]
 ##cookie[name*="ads"]
@@ -453,9 +783,22 @@
 ##cookie[name*="pixel"]
 ##cookie[name*="beacon"]
 ##cookie[name*="fingerprint"]
+# 新增广告追踪Cookie
+##cookie[name*="promoted"]
+##cookie[name*="affiliate"]
+##cookie[name*="native-ad"]
+##cookie[name*="interstitial"]
+##cookie[name*="ad-track"]
+##cookie[name*="ad-retarget"]
+##cookie[name*="ad-impression"]
+##cookie[name*="ad-click"]
+##cookie[name*="ad-conversion"]
+##cookie[name*="ad-campaign"]
+##cookie[name*="ad-sponsor"]
+##cookie[name*="ad-brand"]
 
 ## ==============================================
-## 新增 MEDIA 音频类（广告专属音频，无任何误伤）
+## MEDIA 音频类（核心+新增广告特征词）
 ## ==============================================
 ##audio[src*="ad"]
 ##audio[src*="ads"]
@@ -469,9 +812,26 @@
 ##audio[id*="ads"]
 ##audio[id*="advert"]
 ##audio[id*="sponsored"]
+# 新增音频广告特征词
+##audio[src*="promoted"]
+##audio[src*="affiliate"]
+##audio[src*="native-ad"]
+##audio[src*="interstitial"]
+##audio[class*="promoted"]
+##audio[class*="affiliate"]
+##audio[class*="native-ad"]
+##audio[class*="interstitial"]
+##audio[id*="promoted"]
+##audio[id*="affiliate"]
+##audio[id*="native-ad"]
+##audio[id*="interstitial"]
+##.audio-ad
+##.ad-audio
+##.sponsored-audio
+##.promoted-audio
 
 ## ==============================================
-## 新增 FRAMESET 框架集类（广告专属，无任何误伤）
+## FRAMESET 框架集类（核心+新增广告特征词）
 ## ==============================================
 ##frameset[cols*="*"][rows*="*"]:has(frame[src*="ad"])
 ##frameset[cols*="*"][rows*="*"]:has(frame[src*="ads"])
@@ -481,7 +841,15 @@
 ##frame[src*="ads"]
 ##frame[src*="advert"]
 ##frame[src*="sponsored"]
-
+# 新增广告框架集
+##frameset[cols*="*"][rows*="*"]:has(frame[src*="promoted"])
+##frameset[cols*="*"][rows*="*"]:has(frame[src*="affiliate"])
+##frameset[cols*="*"][rows*="*"]:has(frame[src*="native-ad"])
+##frameset[cols*="*"][rows*="*"]:has(frame[src*="interstitial"])
+##frame[src*="promoted"]
+##frame[src*="affiliate"]
+##frame[src*="native-ad"]
+##frame[src*="interstitial"]
 
 《自定义》
 
