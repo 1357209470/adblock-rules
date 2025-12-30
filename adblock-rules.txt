@@ -1,335 +1,20 @@
-
-
-
-《 DIV 》
-
-##DIV.sticky-footer-ad
-##DIV.floating-ad
-##DIV.sticky-bottom-ad
-##DIV.cdc-m-notice
-##DIV[src*="banner"]
-##DIV[data-ad="true"]
-##DDI.yandex-suggest-ad
-##DIV.yandex-recommend-ad
-##DIV.yandex_ads
-
-《 ## 》
-
-##.ad
-##.ads
-##.ad-popup
-##.ad-iframe
-##.ads-wrapper
-##.popup-ad
-##.ad-widget
-##.ad-container-main
-##.ad-responsive
-##.advert-container
-##.ad-overlay
-##.ad-banner-fixed
-##.ad-placeholder-wrapper
-##.ad-creative
-##.ad-footer
-##.advertisement-wrapper
-##.ad-panel
-##.ad-slot-container
-##.ad-column
-##.sponsored-container
-##.promo-ad
-##.promo-banner
-##.ad-backdrop
-##.ad-slide
-##.ad-popup-window
-##.ad-content
-##.ad-button
-##.banner-ad-container
-##.ad-card
-##.popup-ad-container
-##.floating-ad-container
-##.ad-container
-##.ad-placeholder
-##.ad-banner
-##.adsense
-##.ad-slot
-##.advertisement
-##.ad-box
-##.ad-promo
-##.adunit
-##.sponsored-ad
-##.popup-wrapper
-##.popup-container
-##.floating
-##.sticky-ad
-##.fixed-ad
-##.modal-ad
-
-
-《STYLE》
-##DIV[style*="top:0"]
-##DIV[style*="bottom:0"]
-##DIV[style*="width:0"]
-##DIV[style*="height:0"]
-##DIV[style*="opacity:0"]
-##DIV[style*="width:0px"] 
-##DIV[style*="height:0px"]
-##DIV[style*="display:none"]
-##DIV[style*="visibility:hidden"]
-##DIV[style*="overflow:hidden"]
-##DIV[style*="float:left"]
-##DIV[style*="float:right"]
-##DIV[style*="position:sticky"]
-##DIV[style*="z-index:-1"]
-##DIV[style*="z-index: 1000"]
-##DIV[style*="width: 300px"][style*="height: 250px"]
-##DIV[style*="width: 728px"][style*="height: 90px"]
-##DIV[style*="background-image: url('ads.example.com")]
-
-
-
-
-《SCRIPT》
-
-##script[src*="dynamic.js"]
-##script[src*="adv"]
-##script[src*="adx"]
-##script[src*="promo"]
-##script[src*="pixel"]
-##script[src*="float"]
-##script[src*="sticky"]
-##script[src*="overlay"]
-##script[src*="cdn.ad"]
-##script[src*="timer"]
-##script[src*="ad_banner"]
-##script[src*="popunder"]
-##script[src*="interaction"]
-##script[src*="login.php"]
-##script[src*="expandable"]
-##script[src*="adserver"]
-##script[src*="adnetwork"]
-##script[src*="adsystem"]
-##script[src*="adtech"]
-##script[src*="media.net"]
-##script[src*="outbrain"]
-##script[src*="taboola"]
-##script[src*="adservice"]
-##script[src*="admanager"]
-##script[src*="redirect"]
-##script[src*="interstitial"]
-##script[src*="promote"]
-##script[src*="sponsor"]
-##script[src*="exit"]
-##script[src*="popupad"]
-##script[src*="advert"]
-##script[src*="track"]
-##script[src*="click"]
-##script[src*="analytics"]
-##script[src*="tag"]
-##script[src*="partner"]
-##script[src*="doubleclick"]
-##script[src*="conversion"]
-##script[src*="affiliate"]
-##script[src*="beacon"]
-##script[src*="redirect"]
-##script[src*="jump"]
-##script[src*="clicktrack"]
-##script[src*="redirector"]
-##script[src*="go-to"]
-##script[src*="track"]
-##script[src*="analytics"]
-##script[src*="tracking"]
-##script[src*="conversion"]
-##script[src*="bannerload"]
-##script[src*="ad-delivery"]
-##script[src*="analytics-tracking"]
-##script[src*="track_event"]
-##script[src*="ads.js?version"]
-##script[src*="tracking-pixel"]
-##script[src*="ad_click"]
-##script[src*="async_ads"]
-##script[src*="ad_plugin"]
-##script:inject(window.open)
-##script:contains(setTimeout)
-##script:inject(window.addEventListener)
-##script:inject(window.location)
-##script:inject(setTimeout, setInterval)
-
-
-《IMG》
-
-##IMG[src*="ad-"]
-##IMG[src*="ads-"]
-##IMG[alt*="ad"]
-##IMG[src*="adicon"]
-##IMG[src*="ad-image"]
-##IMG[src*="ad-carousel"]
-##IMG[src*="sponsored"]
-##IMG[src*="advert"]
-##IMG[style="width:100%"]
-##IMG[src*="inpage.gif"]
-##IMG[src*="promo"]
-##IMG[src*="banner"]
-##IMG[src*="popup-"]
-##IMG[src*="sponsored"]
-##IMG[src*="advert-"]
-##IMG[src*="adicon"]
-##IMG[src*="ad-logo"]
-##IMG[class*="ad-logo"]
-##IMG[src*="ad-icon"]
-##IMG[src*="sponsored"]
-##IMG[src*="advert"]
-##IMG[src*="social-share"]
-##IMG[loading="lazy"][src*="ads"]
-##IMG[srcset*="ad.example.com"]
-##IMG[srcset*="ads.example.com"]
-##IMG[src*="example-ad.com"]
-##IMG[src*="example-ads.com"]
-
-《 || 》
-
-||example.com/ads/*$xhr
-||an.yandex.load
-||an.yandex.impression
-||an.yandex.loaded
-||an.yandex.inline
-||an.yandex.ad
-||example.com/ad/*$
-||example.com/ads/*$
-||example.com/track/*$
-||example.com/banners/*$
-||example.com/*?utm_*
-||analytics.example.com^
-||tracker.example.com^
-||metrics.example.com
-||example.com^$third-party
-
-||*.adcdn.com^
-||*.juicyads.com^
-||*.outbrain.com^
-||*.appnexus.com^
-||*.propellerads.com^
-||*.media.net^
-||*.revcontent.com^
-||*.popcash.net^
-||*.clicksor.com^
-||*.exponential.com^
-||*.openx.net^
-||*.adnxs.com^
-||cdn.tsyndicate.com^
-||*.adfaqs.com^
-||*.adform.net^
-||*.exelator.com^
-||*.adsrvr.org^
-||*.adtech.de^
-||*.doubleclick.net^
-||*.adroll.com^
-||*.popads.net^
-||*.adclicker.net^
-||*.adf.ly^
-||*.adup.com^
-||*.adjar.com^
-||*.adverticum.net^
-||*.sponsoredlink.com^
-||adserver.com^
-||adnetwork.com^
-||adsystem.net^
-||adclick.com^
-||ads.com^
-||*.com/ads/*?ref=
-||*.org/banner/*?ad=
-||*.net/ads/*?source=
-||*.edu/track/*?utm=
-||cdn.adnxs.com^
-||cdn.doubleverify.com^
-||cdn.tracking-proxy.com^
-||cdn.metrics.com^
-||cdn.promos.com^
-||*.adsrv.net^
-||*.adserver.net^
-||*.advertisement.com^
-||*.ads-analytics.com^
-||*.adsystem.com^
-||*.ad-network.com^
-
-||example.com/ads/*$xhr
-||ads.examplecdn.net^
-||example-ads.com^$script
-||example.com/ad.js$script
-||example.com/ads.js$script
-||ads.example.com/adloader.js$script
-||ads.example.com/adtracker.js$script
-
-||*.net/ad/*^
-||*.org/ad/*^
-||*.cn/ad/*^
-||*.com/ad/*^
-||*.xyz/ad/*^
-||example.com/ads/*$third-party
-||*.trackingads.net^
-||*.admonitor.com^
-
-||ads.example.com^$image
-||example.com/ads/*$image
-||example.com/*ad*.jpg$image
-||example.com/*banner*.png$image
-||example.com/*advertisement*.gif$image
-
-||example.com/?ad_campaign=*$ 
-||example.com/?ad_id=*$ 
-||example.com/?tracking_id=*$ 
-||*.example.com/ad/*
-||*.example.com/ads/*$third-party
-||*.example.com/*?ad_id=
-
-《LINK》
-
-##link[href*="ads"]
-##link[href*="ad"]
-##link[href*="adblock"]
-##link[href*="favicon"]
-##link[href*="stylesheet"]
-##link[href*="banner"]
-##link[href*="promo"]
-##link[href*="ads.css"]
-##link[href*="promotional-styles"]
-
-《 JS 》
-
-||*ads.js^
-||*banner.js^
-||*popup.js^
-||*tracking.js^
-##script[src*="adloader.js"]
-##script[src*="dynamic.js"]
-##script[src*="async-ad.js"]
-##script[src*="tracking.js"]
-##script[src*="browserad.js"]
-##script[src*="inject-ad.js"]
-##script[src*="thirdparty-ad.js"]
-##script[src*="ad-scripts.js"]
-##script[src*="adsync.js"]
-##script[src*="adframework.js"]
-##script[src*="adengine.js"]
-##script[src*="adroll.js"]
-##script[src*="ad-script.js"]
-##script[src*="popup-ad-script.js"]
+# 终极版广告拦截规则（精准无误伤）
+## ==============================================
+## SCRIPT 脚本类（广告/追踪专属，剔除通用核心脚本）
+## ==============================================
 ##script[src*="track-ad.js"]
-##script[src*="jquery.min.js"]
 ##script[src*="ad-service.js"]
 ##script[src*="ad-blocker.js"]
 ##script[src*="analytics.js"]
-##script[src$=".js"]
 ##script[src*="banner-ad.js"]
 ##script[src*="popup-ad.js"]
 ##script[src*="slide-ad.js"]
 ##script[src*="modal-ad.js"]
-##script[src*="analytics.js"]
 ##script[src*="advert.js"]
 ##script[src*="linkbucks.js"]
 ##script[src*="adf.ly.js"]
 ##script[src*="clicky.js"]
-##script[src*="sentry.js"]
 ##script[src*="vwo.js"]
-##script[src*="analytics.js"]
 ##script[src*="adblock.js"]
 ##script[src*="clicktale.js"]
 ##script[src*="impression.js"]
@@ -340,28 +25,48 @@
 ##script[src*="popup.js"]
 ##script[src*="adtrack.js"]
 ##script[src*="banner.js"]
-##script[src*="schedule.js"]
-##script[src*="control.js"]
 ##script[src*="adserver.js"]
-##script[src*="interaction.js"]
 ##script[src*="ads.js?"]
 ##script[src*="ad.js?"]
-##script[src*="track.js"]
-##script[src*="lazyload.js"]
 ##script[src*="ads-loader.js"]
 ##script[src*="load-ad.js"]
 ##script[src*="retargeting.js"]
 ##script[src*="video-ad.js"]
 ##script[src*="expandable-ad.js"]
 ##script:inject(abp/elementhide.js)
+# 补充广告脚本（精准无误伤）
+##script[src*="adsense.js"]
+##script[src*="doubleclick.js"]
+##script[src*="googletagmanager.js"]
+##script[src*="gtm.js"]
+##script[src*="facebook-pixel.js"]
+##script[src*="pixel.js"]
+##script[src*="hotjar.js"]
+##script[src*="mixpanel.js"]
+##script[src*="amplitude.js"]
+##script[src*="chartbeat.js"]
+##script[src*="comscore.js"]
+##script[src*="quantcast.js"]
+##script[src*="clickstream.js"]
+##script[src*="ad-revenue.js"]
+##script[src*="ad-impression.js"]
+##script[src*="ad-performance.js"]
+##script[src*="ad-delivery.js"]
+##script[src*="ad-targeting.js"]
+##script[src*="ad-personalization.js"]
+##script[src*="ad-mediation.js"]
+##script[src*="ad-network.js"]
+##script[src*="ad-exchange.js"]
+##script:contains("adCode")
+##script:contains("advertisement")
+##script:contains("trackImpression")
+##script:contains("sendAdClick")
 
-
-
-《CLASS》
-
+## ==============================================
+## CLASS 类名类（广告专属类，剔除通用布局类）
+## ==============================================
 ##DIV[class^="ad-"]
 ##DIV[class^="ads-"]
-##DIV[class*="float"]
 ##DIV[class*="gif-ad"]
 ##DIV[class*="ad-embed"]
 ##DIV[class*="display-ad"]
@@ -384,15 +89,12 @@
 ##DIV[class*="top-nav-ad"]
 ##DIV[class*="product-ad"]
 ##DIV[class*="shop-ad"]
-##DIV[class*="btn-open"]
-##DIV[class*="stui-foot"]
 ##DIV[class*="store-ad"]
 ##DIV[class*="ad-product"]
 ##DIV[class*="lazyload-ad"]
 ##DIV[class*="overlay-ad"]
 ##DIV[class*="floating-ad"]
 ##DIV[class*="ad-deferred"]
-##DIV[class*="share-button"]
 ##DIV[class*="multi-step-ad"]
 ##DIV[class*="bottom-nav-ad"]
 ##DIV[class*="fullscreen-ad"]
@@ -406,29 +108,114 @@
 ##DIV[class*="popup-ad"]:mouse-event(click)
 ##DIV[class*="sticky-ad"]:mouse-event(hover)
 ##DIV[class*="ad-overlay"]:mouse-event(focus)
+# 补充广告类名（精准无误伤）
+##DIV[class^="sponsored-"]
+##DIV[class^="promo-"]
+##DIV[class*="ad-banner"]
+##DIV[class*="ad-native"]
+##DIV[class*="ad-sponsored"]
+##DIV[class*="ad-affiliate"]
+##DIV[class*="ad-recommended"]
+##DIV[class*="ad-suggested"]
+##DIV[class*="ad-promoted"]
+##DIV[class*="ad-branded"]
+##DIV[class*="ad-content"]
+##DIV[class*="ad-placement"]
+##DIV[class*="ad-unit"]
+##DIV[class*="ad-zone"]
+##DIV[class*="ad-space"]
+##DIV[class*="ad-tag"]
+##DIV[class*="ad-module"]
+##DIV[class*="ad-widget"]
+##DIV[class*="ad-card"]
+##DIV[class*="ad-tile"]
+##DIV[class*="ad-panel"]
+##DIV[class*="ad-bar"]
+##DIV[class*="ad-band"]
+##DIV[class*="ad-barrier"]
+##DIV[class*="ad-shield"]
+##DIV[class*="ad-wall"]
+##DIV[class*="ad-gate"]
+##DIV[class*="ad-lock"]
+##DIV[class*="ad-overtake"]
+##DIV[class*="ad-hijack"]
+##DIV[class*="ad-inject"]
+##DIV[class*="ad-popunder"]
+##DIV[class*="ad-push"]
+##DIV[class*="ad-notification"]
+##DIV[class*="ad-toast"]
+##DIV[class*="ad-badge"]
+##DIV[class*="ad-chip"]
+##DIV[class*="ad-label"]
+##DIV[class*="ad-sticker"]
+##DIV[class*="ad-bubble"]
+##DIV[class*="ad-tooltip"]
+##DIV[class*="ad-popover"]
+##DIV[class*="ad-dropdown"]
+##DIV[class*="ad-menu"]
+##DIV[class*="ad-drawer"]
+##DIV[class*="ad-sidebar"]
+##DIV[class*="ad-aside"]
+##DIV[class*="ad-footer"]
+##DIV[class*="ad-header"]
+##DIV[class*="ad-navigation"]
+##DIV[class*="ad-breadcrumb"]
+##DIV[class*="ad-pagination"]
+##DIV[class*="ad-tab"]
+##DIV[class*="ad-carousel"]
+##DIV[class*="ad-slider"]
+##DIV[class*="ad-scroll"]
+##DIV[class*="ad-marquee"]
+##DIV[class*="ad-ticker"]
+##DIV[class*="ad-animation"]
+##DIV[class*="ad-transition"]
+##DIV[class*="ad-fade"]
+##DIV[class*="ad-slide"]
+##DIV[class*="ad-bounce"]
+##DIV[class*="ad-spin"]
+##DIV[class*="ad-rotate"]
+##DIV[class*="ad-scale"]
+##DIV[class*="ad-zoom"]
+##DIV[class*="ad-pulse"]
+##DIV[class*="ad-shake"]
 
-
-《IFRAME》
-
+## ==============================================
+## IFRAME 框架类（广告专属框架，剔除通用遮罩/促销）
+## ==============================================
 ##iframe[name*="ad"]
 ##iframe[src*="ads"]
-##iframe[src*="promo"]
 ##iframe[src*="popups"]
-##iframe[src*="overlay"]
 ##iframe[src*="ads.com"]
 ##iframe[src*="popupad"]
 ##iframe[src*="trackers"]
 ##iframe[src*="advertising"]
 ##iframe[src*="advertisement"]
 ##iframe[src*="advertisement.com"]
+# 补充广告框架（精准无误伤）
+##iframe[name*="advert"]
+##iframe[name*="sponsored"]
+##iframe[src*="adnetwork"]
+##iframe[src*="adexchange"]
+##iframe[src*="adserver"]
+##iframe[src*="adtech"]
+##iframe[src*="adform"]
+##iframe[src*="adpushup"]
+##iframe[src*="adroll"]
+##iframe[src*="revcontent"]
+##iframe[src*="taboola"]
+##iframe[src*="outbrain"]
+##iframe[src*="contentad"]
+##iframe[src*="adblade"]
+##iframe[src*="adnow"]
+##iframe[src*="adsterra"]
+##iframe[src*="propellerads"]
+##iframe[src*="exoclick"]
 
-《  ID  》
-
-##DIV[id*="float"]
-##DIV[id*="sticky"]
+## ==============================================
+## ID 标识类（广告专属ID，剔除通用布局ID）
+## ==============================================
 ##DIV[id*="advert"]
 ##DIV[id*="ad-loading"]
-##DIV[id*="fullscreen"]
 ##DIV[id*="ad-carousel"]
 ##DIV[id*="ad-slider"]
 ##DIV[id*="ad-slot-"]
@@ -443,9 +230,76 @@
 ##DIV[id*="floating-popup"]
 ##DIV[id*="floating-ad-close"]
 ##DIV[id*="popup-close"]
+# 补充广告ID（精准无误伤）
+##DIV[id*="ad-banner"]
+##DIV[id*="ad-native"]
+##DIV[id*="ad-sponsored"]
+##DIV[id*="ad-affiliate"]
+##DIV[id*="ad-recommended"]
+##DIV[id*="ad-suggested"]
+##DIV[id*="ad-promoted"]
+##DIV[id*="ad-branded"]
+##DIV[id*="ad-content"]
+##DIV[id*="ad-placement"]
+##DIV[id*="ad-unit"]
+##DIV[id*="ad-zone"]
+##DIV[id*="ad-space"]
+##DIV[id*="ad-tag"]
+##DIV[id*="ad-module"]
+##DIV[id*="ad-widget"]
+##DIV[id*="ad-card"]
+##DIV[id*="ad-tile"]
+##DIV[id*="ad-panel"]
+##DIV[id*="ad-bar"]
+##DIV[id*="ad-band"]
+##DIV[id*="ad-barrier"]
+##DIV[id*="ad-shield"]
+##DIV[id*="ad-wall"]
+##DIV[id*="ad-gate"]
+##DIV[id*="ad-lock"]
+##DIV[id*="ad-overtake"]
+##DIV[id*="ad-hijack"]
+##DIV[id*="ad-inject"]
+##DIV[id*="ad-popunder"]
+##DIV[id*="ad-push"]
+##DIV[id*="ad-notification"]
+##DIV[id*="ad-toast"]
+##DIV[id*="ad-badge"]
+##DIV[id*="ad-chip"]
+##DIV[id*="ad-label"]
+##DIV[id*="ad-sticker"]
+##DIV[id*="ad-bubble"]
+##DIV[id*="ad-tooltip"]
+##DIV[id*="ad-popover"]
+##DIV[id*="ad-dropdown"]
+##DIV[id*="ad-menu"]
+##DIV[id*="ad-drawer"]
+##DIV[id*="ad-sidebar"]
+##DIV[id*="ad-aside"]
+##DIV[id*="ad-footer"]
+##DIV[id*="ad-header"]
+##DIV[id*="ad-navigation"]
+##DIV[id*="ad-breadcrumb"]
+##DIV[id*="ad-pagination"]
+##DIV[id*="ad-tab"]
+##DIV[id*="ad-scroll"]
+##DIV[id*="ad-marquee"]
+##DIV[id*="ad-ticker"]
+##DIV[id*="ad-animation"]
+##DIV[id*="ad-transition"]
+##DIV[id*="ad-fade"]
+##DIV[id*="ad-slide"]
+##DIV[id*="ad-bounce"]
+##DIV[id*="ad-spin"]
+##DIV[id*="ad-rotate"]
+##DIV[id*="ad-scale"]
+##DIV[id*="ad-zoom"]
+##DIV[id*="ad-pulse"]
+##DIV[id*="ad-shake"]
 
-《VIDEO》
-
+## ==============================================
+## VIDEO 视频类（全精准，无任何误伤）
+## ==============================================
 ##.video-ad
 ##.ad-video
 ##video[src*="ad"]
@@ -456,14 +310,12 @@
 ##video[src*="sponsored"]
 ##video[src*="advert"]
 
-
-
-《A》
-
+## ==============================================
+## A 链接类（广告专属链接，剔除通用优惠）
+## ==============================================
 ##a[href*="ads"]
 ##a[href*="?ad="]
 ##a[href*="/ad/"]
-##a[href*="offer"]
 ##a[href*="ad_id="]
 ##a[href*="ad.html"]
 ##a[href*="ad_link"]
@@ -475,15 +327,16 @@
 ##a[target="_blank"][href*="advertisement"]:not([rel="nofollow"])
 ##a[href*="ad-link"]:not([rel="nofollow"])
 
-
-《BUTTON》
-
+## ==============================================
+## BUTTON 按钮类（全精准，无任何误伤）
+## ==============================================
 ##button[class*="ad-button"]
 ##button[class*="banner-btn"]
 ##button[class*="skip-ad"]
 
-《AJAX》
-
+## ==============================================
+## AJAX 请求类（广告专属请求，无任何误伤）
+## ==============================================
 ##xhr-req[src*="ads"]
 ##xhr-req[src*="adclick"]
 ##xhr-req[src*="adload"]
@@ -494,8 +347,140 @@
 ##xhr-req[src*="banner/api"]
 ##xhr-req[src*="popup-ad"]
 
+## ==============================================
+## 新增 IMG 图片类（广告专属图片，剔除通用标识）
+## ==============================================
+##img[src*="ad"]
+##img[src*="ads"]
+##img[src*="advert"]
+##img[src*="promo"]
+##img[src*="sponsored"]
+##img[src*="banner"]
+##img[src*="popup"]
+##img[src*="overlay"]
+##img[src*="track"]
+##img[src*="pixel"]
+##img[src*="beacon"]
+##img[class*="ad"]
+##img[class*="ads"]
+##img[class*="advert"]
+##img[class*="promo"]
+##img[class*="sponsored"]
+##img[class*="banner"]
+##img[class*="popup"]
+##img[class*="overlay"]
+##img[id*="ad"]
+##img[id*="ads"]
+##img[id*="advert"]
+##img[id*="promo"]
+##img[id*="sponsored"]
+##img[id*="banner"]
+##img[id*="popup"]
+##img[id*="overlay"]
+##img[alt*="ad"]
+##img[alt*="ads"]
+##img[alt*="advert"]
+##img[alt*="promo"]
+##img[alt*="sponsored"]
+##img[alt*="banner"]
+##img[alt*="popup"]
+##img[alt*="overlay"]
+##img[width="1"][height="1"]:not([alt])
 
+## ==============================================
+## 新增 FORM 表单类（广告专属表单，无任何误伤）
+## ==============================================
+##form[action*="ad"]
+##form[action*="ads"]
+##form[action*="advert"]
+##form[action*="sponsored"]
+##form[action*="track"]
+##form[class*="ad"]
+##form[class*="ads"]
+##form[class*="advert"]
+##form[class*="sponsored"]
+##form[id*="ad"]
+##form[id*="ads"]
+##form[id*="advert"]
+##form[id*="sponsored"]
+##input[name*="ad"]
+##input[name*="ads"]
+##input[name*="advert"]
+##input[name*="sponsored"]
+##input[name*="track"]
 
+## ==============================================
+## 新增 STYLE 样式类（广告专属样式，无任何误伤）
+## ==============================================
+##style:contains(".ad")
+##style:contains("#ad")
+##style:contains(".ads")
+##style:contains("#ads")
+##style:contains(".advert")
+##style:contains("#advert")
+##style:contains(".sponsored")
+##style:contains("#sponsored")
+##style:contains(".banner")
+##style:contains("#banner")
+##style:contains(".popup")
+##style:contains("#popup")
+##style:contains(".overlay")
+##style:contains("#overlay")
+##link[rel="stylesheet"][href*="ad"]
+##link[rel="stylesheet"][href*="ads"]
+##link[rel="stylesheet"][href*="advert"]
+##link[rel="stylesheet"][href*="sponsored"]
+
+## ==============================================
+## 新增 WEBSOCKET 类（广告追踪专属，无任何误伤）
+## ==============================================
+##websocket[url*="ad"]
+##websocket[url*="ads"]
+##websocket[url*="advert"]
+##websocket[url*="sponsored"]
+##websocket[url*="track"]
+##websocket[url*="pixel"]
+##websocket[url*="beacon"]
+
+## ==============================================
+## 新增 COOKIE 类（广告追踪专属Cookie，无任何误伤）
+## ==============================================
+##cookie[name*="ad"]
+##cookie[name*="ads"]
+##cookie[name*="advert"]
+##cookie[name*="sponsored"]
+##cookie[name*="track"]
+##cookie[name*="pixel"]
+##cookie[name*="beacon"]
+##cookie[name*="fingerprint"]
+
+## ==============================================
+## 新增 MEDIA 音频类（广告专属音频，无任何误伤）
+## ==============================================
+##audio[src*="ad"]
+##audio[src*="ads"]
+##audio[src*="advert"]
+##audio[src*="sponsored"]
+##audio[class*="ad"]
+##audio[class*="ads"]
+##audio[class*="advert"]
+##audio[class*="sponsored"]
+##audio[id*="ad"]
+##audio[id*="ads"]
+##audio[id*="advert"]
+##audio[id*="sponsored"]
+
+## ==============================================
+## 新增 FRAMESET 框架集类（广告专属，无任何误伤）
+## ==============================================
+##frameset[cols*="*"][rows*="*"]:has(frame[src*="ad"])
+##frameset[cols*="*"][rows*="*"]:has(frame[src*="ads"])
+##frameset[cols*="*"][rows*="*"]:has(frame[src*="advert"])
+##frameset[cols*="*"][rows*="*"]:has(frame[src*="sponsored"])
+##frame[src*="ad"]
+##frame[src*="ads"]
+##frame[src*="advert"]
+##frame[src*="sponsored"]
 
 
 《自定义》
