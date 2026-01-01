@@ -469,4 +469,8 @@ hermes.hupu.com/h.gif@m.hupu.com
 ##UL.mb-4.list-none.text-nord14.grid.grid-cols-2.gap-2
 ##DIV.pop-box,DIV.box-bg
 www.duplichecker.com##img.img-responsive
-
+绅士漫画
+/ssmh/*.gif
+mo/images/bg_head_*.png
+mo/images/bg_head_*.gif
+##ul#classify_container > li.cate-0
