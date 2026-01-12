@@ -475,3 +475,4 @@ mo/images/bg_head_*.png
 mo/images/bg_head_*.gif
 ##ul#classify_container > li.cate-0
 ##div[class*="mobile-download-popup"]
+##AppBanner
