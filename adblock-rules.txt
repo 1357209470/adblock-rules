@@ -1,9 +1,325 @@
+// 终极精准广告拦截规则（极低误伤版）
+const adBlockRules = [
+    // ========== 脚本类：明确广告脚本文件名 ==========
+    'script[src*="-ad.js"]',
+    'script[src*="ad-script.js"]',
+    'script[src*="banner-ad.js"]',
+    'script[src*="popup-ad.js"]',
+    'script[src*="slide-ad.js"]',
+    'script[src*="modal-ad.js"]',
+    'script[src*="advert.js"]',
+    'script[src*="linkbucks.js"]',
+    'script[src*="adf.ly.js"]',
+    'script[src*="adsbygoogle.js"]',
+    'script[src*="adtrack.js"]',
+    'script[src*="adserver.js"]',
+    'script[src*="ads-loader.js"]',
+    'script[src*="load-ad.js"]',
+    'script[src*="video-ad.js"]',
+    'script[src*="expandable-ad.js"]',
+    'script[src*="sponsored-ad.js"]',
+    'script[src*="promoted-ad.js"]',
+    'script[src*="affiliate-ad.js"]',
+    'script[src*="native-ad.js"]',
+    'script[src*="interstitial-ad.js"]',
+    'script[src*="push-ad.js"]',
+    'script[src*="notification-ad.js"]',
+    'script[src*="ad-pixel.js"]',
+    'script[src*="ad-beacon.js"]',
+    'script[src*="ad-tracker.js"]',
 
-# 终极完整版广告拦截规则（精准版：全广告特征+极低误伤）
+    // ========== DIV类名：限定标签，降低误伤 ==========
+    'div[class^="ad-"]',
+    'div[class^="ads-"]',
+    'div[class*="-ad-"]',
+    'div[class*="gif-ad-"]',
+    'div[class*="ad-embed-"]',
+    'div[class*="display-ad-"]',
+    'div[class*="sidebar-ad-"]',
+    'div[class*="sticky-ad-"]',
+    'div[class*="floating-ad-"]',
+    'div[class*="fullscreen-ad-"]',
+    'div[class*="ad-interstitial-"]',
+    'div[class^="sponsored-"]',
+    'div[class^="promoted-"]',
+    'div[class^="affiliate-"]',
+    'div[class^="native-ad-"]',
+    'div[class^="interstitial-"]',
+    'div[class*="sponsored-ad-"]',
+    'div[class*="promoted-ad-"]',
+    'div[class*="affiliate-ad-"]',
+    'div[class*="ad-skip-"]',
+    'div[class*="ad-close-"]',
+    'div[class*="ad-container-"]',
+    'div[class*="ad-wrapper-"]',
+    'div[class*="native-ad-"]',
+    'div[class*="sponsored-content-"]',
+    'div[class*="promoted-content-"]',
+    'div[class*="interstitial-ad-"]',
+    'div[class*="push-ad-"]',
+    'div[class*="notification-ad-"]',
+    'div[class*="popup-ad-"]',
+    'div[class*="modal-ad-"]',
+    'div[class*="adsbygoogle"]',
+    'div[class*="gpt-ad"]',
+    'div[class*="google-ad-"]',
+    'div[class*="fb-ad-"]',
+    'div[class*="baidu-ad-"]',
+    'div[class*="toutiao-ad-"]',
+    'div[class*="ad-skip-button"]',
+    'div[class*="ad-close-button"]',
+    'div[class*="ad-dismiss-"]',
+    'div[class*="ad-countdown-"]',
+    'div[class*="ad-form-"]',
+    'div[class*="ad-cta-"]',
+    'div[class*="ad-action-"]',
+    'div[class*="ad-submit-"]',
+
+    // ========== DIV ID：限定标签，降低误伤 ==========
+    'div[id^="ad-"]',
+    'div[id^="ads-"]',
+    'div[id*="-ad-"]',
+    'div[id*="floating-ad-"]',
+    'div[id*="popup-ad-"]',
+    'div[id*="ad-interstitial-"]',
+    'div[id*="ad-sponsored-"]',
+    'div[id*="ad-skip-"]',
+    'div[id*="ad-close-"]',
+    'div[id^="sponsored-"]',
+    'div[id^="promoted-"]',
+    'div[id*="sponsored-ad-"]',
+    'div[id*="promoted-ad-"]',
+    'div[id*="feed-ad"]',
+    'div[id*="recommended-ad"]',
+    'div[id*="interstitial-ad"]',
+    'div[id*="push-ad"]',
+    'div[id*="notification-ad"]',
+    'div[id*="popup-ad"]',
+    'div[id*="modal-ad"]',
+    'div[id*="ad-skip"]',
+    'div[id*="ad-close"]',
+    'div[id*="ad-countdown"]',
+    'div[id*="ad-form-"]',
+    'div[id*="ad-cta"]',
+    'div[id*="ad-action"]',
+
+    // ========== iframe广告框架 ==========
+    'iframe[name^="ad-"]',
+    'iframe[name^="ads-"]',
+    'iframe[src*="ads.com/"]',
+    'iframe[src*="advertising.com/"]',
+    'iframe[src*="adnetwork."]',
+    'iframe[src*="adexchange."]',
+    'iframe[src*="adserver."]',
+    'iframe[src*="adroll."]',
+    'iframe[src*="taboola."]',
+    'iframe[src*="outbrain."]',
+    'iframe[name^="sponsored-"]',
+    'iframe[name^="promoted-"]',
+    'iframe[src*="sponsored-ad."]',
+    'iframe[src*="native-ad."]',
+
+    // ========== 视频广告 ==========
+    '.video-ad',
+    '.ad-video',
+    'video[src*="-ad."]',
+    'video[src*="sponsored-ad."]',
+    'video[src*="promoted-ad."]',
+    '[class*="-ad-video-"]',
+    '[id*="-ad-video-"]',
+    '.video-ad-wrapper',
+    '.video-ad-container',
+    '.video-ad-skip',
+
+    // ========== 广告链接 ==========
+    'a[href*="?ad_id="]',
+    'a[href*="/ad/"]',
+    'a[href*="ad_link="]',
+    'a[href*="buyad/"]',
+    'a[href*="advertisement/"]',
+    'a[href*="sponsored-ad/"]',
+    'a[href*="promoted-ad/"]',
+    'a[href*="affiliate-ad/"]',
+    'a[class^="ad-link-"]',
+    'a[class^="sponsored-link-"]',
+    'a[id^="ad-link-"]',
+    'a[href*="sponsored-content"]:not([rel="nofollow"])',
+    'a[href*="promoted-content"]:not([rel="nofollow"])',
+
+    // ========== 广告按钮 ==========
+    'button[class^="ad-button-"]',
+    'button[class^="skip-ad-"]',
+    'button[class^="ad-close-"]',
+    'button[class^="ad-hide-"]',
+    'button[class^="sponsored-btn-"]',
+    'button[id^="ad-close-"]',
+    'button[id^="ad-skip-"]',
+    'button[class*="ad-cta-"]',
+    'button[class*="ad-action-"]',
+    'button[class*="ad-submit-"]',
+    'button[id*="ad-cta"]',
+    'button[id*="ad-action"]',
+    'button[aria-label*="广告"][aria-label*="按钮"]',
+
+    // ========== 广告图片 ==========
+    'img[src*="-ad."]',
+    'img[src*="ad-banner."]',
+    'img[src*="popup-ad."]',
+    'img[src*="sponsored-ad."]',
+    'img[class^="ad-"]',
+    'img[class*="-ad-"]',
+    'img[id^="ad-"]',
+    'img[id*="-ad-"]',
+    'img[alt*="广告"]:not([alt*="广告说明"]):not([alt*="广告图片示例"])',
+    'img[alt*=" Sponsored "]:not([alt*="Sponsored Content"])',
+    'img[src*="/ad-image/"]',
+    'img[src*="/ad-assets/"]',
+    'img[src*="?ad-image="]',
+    'img[src*="ad-creative."]',
+    'img[src*="ad-assets."]',
+
+    // ========== 广告表单 ==========
+    'form[action*="/ad/"]',
+    'form[action*="sponsored-ad/"]',
+    'form[class^="ad-form-"]',
+    'form[id^="ad-form-"]',
+    'form[action*="/ad-submit/"]',
+    'form[action*="/ad-click/"]',
+    'input[name^="ad_"]',
+    'input[name*="_ad_"]',
+    'input[name^="sponsored_ad_"]',
+    'input[name*="ad_form_"]',
+    'input[name*="ad_click_"]',
+
+    // ========== 广告样式文件 ==========
+    'link[rel="stylesheet"][href*="-ad.css"]',
+    'link[rel="stylesheet"][href*="ad-style.css"]',
+
+    // ========== 音频广告 ==========
+    'audio[src*="-ad."]',
+    'audio[class^="ad-audio-"]',
+    'audio[id^="ad-audio-"]',
+    '.audio-ad',
+    '.ad-audio',
+    '.sponsored-audio',
+
+    // ========== 中文广告专属属性（极低误伤） ==========
+    '*[class*="广告-"]',
+    '*[id*="广告-"]',
+    '*[data-type="广告"]',
+    '*[data-ad-type]',
+    '*[data-promotion]',
+    '*[data-sponsored]',
+    '*[title*="广告"]:not([title*="广告说明"]):not([title*="广告位"])',
+    '*[aria-label*="广告"]',
+    '*[class*="推广-"]',
+    '*[id*="推广-"]',
+    '*[class*="赞助商-"]',
+    '*[id*="赞助商-"]',
+    '*[data-ad="推广"]',
+    '*[data-sponsor="true"]',
+    '*[class*="信息流广告"]',
+    '*[class*="推荐广告"]',
+    '*[class*="相关推荐-广告"]',
+    '*[data-feed-type="ad"]',
+
+    // ========== 广告平台专属属性 ==========
+    '*[data-native-ad]',
+    '*[data-sponsored-content]',
+    '*[data-promoted-content]',
+    '*[data-ad-client]',
+    '*[data-ad-slot]',
+    '*[data-ad-format]',
+    '*[data-mu]',
+    '*[data-tu]',
+
+    // ========== 广告交互特征 ==========
+    '*[aria-label*="跳过广告"]',
+    '*[aria-label*="关闭广告"]',
+    '*[data-countdown-type="ad"]',
+    '*[data-ad-click]',
+    '*[data-ad-impression]',
+    '*[data-ad-conversion]',
+
+    // ========== 广告形式专属属性 ==========
+    '*[data-interstitial-ad]',
+    '*[data-push-ad]',
+    '*[data-notification-ad]',
+    '*[data-popup-ad]',
+    '*[data-modal-ad]',
+    '*[role="dialog"][class*="ad"]',
+
+    // ========== 通用广告资源URL ==========
+    '*[src*="/ad-video/"]',
+    '*[src*="?ad-video="]',
+    '*[src*="/ad-api/"]',
+    '*[src*="/ad-service/"]',
+    '*[src*="/ad-delivery/"]',
+    '*[src*="/ad-targeting/"]',
+    '*[src*="/ad-personalization/"]',
+    '*[src*="/ad-track/"]',
+    '*[src*="/ad-pixel/"]',
+    '*[src*="/ad-beacon/"]',
+    '*[src*="/ad-retarget/"]'
+];
+
 # ==============================================
-# SCRIPT 脚本类（仅拦截明确广告脚本，移除统计/分析脚本）
+# 一、主流广告平台专属规则（零误伤，SDK专属特征）
 # ==============================================
-# 核心广告脚本（精准匹配，避免误伤正常脚本）
+# Google Ads 谷歌广告
+*[class*="adsbygoogle"]
+*[data-ad-client]
+*[data-ad-slot]
+*[data-ad-format]
+*[class*="gpt-ad"]
+*[id^="google_ads_"]
+*[id^="gpt-ad-"]
+
+# 百度推广/百度广告
+*[data-mu]
+*[data-tu]
+*[class*="baidu-ad-"]
+*[id^="baidu_ad_"]
+*[class*="bd-ad-"]
+*[src*="cpro.baidustatic.com"]
+*[src*="pos.baidu.com"]
+
+# 腾讯广点通/腾讯广告
+*[class*="gdt-ad-"]
+*[id^="gdt_"]
+*[data-gdt-ad]
+*[src*="gdt.qq.com"]
+*[src*="ad.qq.com"]
+
+# 字节跳动穿山甲广告
+*[class*="pangle-ad-"]
+*[class*="tt-ad-"]
+*[class*="toutiao-ad-"]
+*[data-pangle-ad]
+*[src*="pangleapi.com"]
+*[src*="ad.oceanengine.com"]
+
+# 快手广告
+*[class*="ks-ad-"]
+*[data-ks-ad]
+*[src*="ad.e.kuaishou.com"]
+
+# 阿里妈妈/淘宝联盟广告
+*[class*="ali-ad-"]
+*[class*="taobao-ad-"]
+*[data-tanx-ad]
+*[src*="tanx.com"]
+
+# 国际第三方广告平台
+*[src*="taboola."]
+*[src*="outbrain."]
+*[src*="adroll."]
+*[src*="mgid.com"]
+*[src*="content.ad"]
+
+# ==============================================
+# 二、脚本资源精准拦截
+# ==============================================
 script[src*="-ad.js"]
 script[src*="ad-script.js"]
 script[src*="banner-ad.js"]
@@ -11,8 +327,6 @@ script[src*="popup-ad.js"]
 script[src*="slide-ad.js"]
 script[src*="modal-ad.js"]
 script[src*="advert.js"]
-script[src*="linkbucks.js"]
-script[src*="adf.ly.js"]
 script[src*="adsbygoogle.js"]
 script[src*="adtrack.js"]
 script[src*="adserver.js"]
@@ -20,7 +334,6 @@ script[src*="ads-loader.js"]
 script[src*="load-ad.js"]
 script[src*="video-ad.js"]
 script[src*="expandable-ad.js"]
-# 广告特征词脚本（精准化，增加广告专属前缀/后缀）
 script[src*="sponsored-ad.js"]
 script[src*="promoted-ad.js"]
 script[src*="affiliate-ad.js"]
@@ -31,187 +344,115 @@ script[src*="notification-ad.js"]
 script[src*="ad-pixel.js"]
 script[src*="ad-beacon.js"]
 script[src*="ad-tracker.js"]
-# 脚本内容匹配（仅匹配广告专属关键词）
-script:contains("adCode")
-script:contains("advertisementId")
-script:contains("trackAdImpression")
-script:contains("sendAdClickEvent")
+script[src*="ad-analytics.js"]
+script[src*="ad-metrics.js"]
+script[src*="ad-impression.js"]
+script[src*="ad-conversion.js"]
+script[src*="retargeting.js"]
+script[src*="ad-retarget.js"]
+script[src*="pixel.ad"]
+script[src*="track.ad"]
 
 # ==============================================
-# CLASS 类名类（精准匹配广告专属类名，避免匹配admin/address等）
+# 三、DIV 广告容器精准规则（限定标签，严控误伤）
 # ==============================================
-# 核心广告类名（仅匹配以ad-开头/包含-ad-的类名）
-DIV[class^="ad-"]
-DIV[class^="ads-"]
-DIV[class*="-ad-"]
-DIV[class*="gif-ad-"]
-DIV[class*="ad-embed-"]
-DIV[class*="display-ad-"]
-DIV[class*="sidebar-ad-"]
-DIV[class*="sticky-ad-"]
-DIV[class*="floating-ad-"]
-DIV[class*="fullscreen-ad-"]
-DIV[class*="ad-interstitial-"]
-# 广告特征词类名（精准化，避免通用词汇误伤）
-DIV[class^="sponsored-"]
-DIV[class^="promoted-"]
-DIV[class^="affiliate-"]
-DIV[class^="native-ad-"]
-DIV[class^="interstitial-"]
-DIV[class*="sponsored-ad-"]
-DIV[class*="promoted-ad-"]
-DIV[class*="affiliate-ad-"]
-DIV[class*="ad-skip-"]
-DIV[class*="ad-close-"]
-DIV[class*="ad-container-"]
-DIV[class*="ad-wrapper-"]
+# 核心前缀/后缀精准匹配
+div[class^="ad-"]
+div[class^="ads-"]
+div[class*="-ad-"]
+div[class$="-ad"]
+div[id^="ad-"]
+div[id^="ads-"]
+div[id*="-ad-"]
+div[id$="-ad"]
+
+# 广告位专属命名
+div[class*="ad-unit-"]
+div[class*="ad-slot-"]
+div[class*="ad-space-"]
+div[class*="ad-place-"]
+div[class*="ad-banner-"]
+div[class*="ad-box-"]
+div[class*="ad-block-"]
+div[id*="ad-unit-"]
+div[id*="ad-slot-"]
+div[id*="ad-space-"]
+div[id*="ad-banner-"]
+
+# 广告形态专属类名
+div[class*="banner-ad-"]
+div[class*="popup-ad-"]
+div[class*="modal-ad-"]
+div[class*="float-ad-"]
+div[class*="sticky-ad-"]
+div[class*="sidebar-ad-"]
+div[class*="feed-ad-"]
+div[class*="native-ad-"]
+div[class*="interstitial-ad-"]
+div[class*="splash-ad-"]
+div[class*="pre-roll-ad-"]
+
+# 赞助/推广专属类名
+div[class^="sponsored-"]
+div[class^="promoted-"]
+div[class^="affiliate-"]
+div[class*="sponsored-ad-"]
+div[class*="promoted-ad-"]
+div[id^="sponsored-"]
+div[id^="promoted-"]
+div[id*="sponsored-ad-"]
+div[id*="promoted-ad-"]
+
+# 广告包装/容器
+div[class*="ad-container-"]
+div[class*="ad-wrapper-"]
+div[class*="ad-embed-"]
+div[class*="ad-content-"]
+div[class*="ad-area-"]
+div[id*="ad-container-"]
+div[id*="ad-wrapper-"]
 
 # ==============================================
-# IFRAME 框架类（仅拦截明确广告框架）
+# 四、Iframe 广告框架精准规则
 # ==============================================
 iframe[name^="ad-"]
 iframe[name^="ads-"]
+iframe[name*="-ad-"]
+iframe[id^="ad-"]
+iframe[id^="ads-"]
+iframe[id*="-ad-"]
 iframe[src*="ads.com/"]
 iframe[src*="advertising.com/"]
 iframe[src*="adnetwork."]
 iframe[src*="adexchange."]
 iframe[src*="adserver."]
-iframe[src*="adroll."]
-iframe[src*="taboola."]
-iframe[src*="outbrain."]
-# 精准化广告特征词
-iframe[name^="sponsored-"]
-iframe[name^="promoted-"]
+iframe[src*="adcdn."]
 iframe[src*="sponsored-ad."]
 iframe[src*="native-ad."]
+iframe[src*="/ad-frame/"]
+iframe[src*="/ad-iframe/"]
 
 # ==============================================
-# ID 标识类（精准匹配广告专属ID）
+# 五、视频/音频广告精准规则
 # ==============================================
-DIV[id^="ad-"]
-DIV[id^="ads-"]
-DIV[id*="-ad-"]
-DIV[id*="floating-ad-"]
-DIV[id*="popup-ad-"]
-DIV[id*="ad-interstitial-"]
-DIV[id*="ad-sponsored-"]
-DIV[id*="ad-skip-"]
-DIV[id*="ad-close-"]
-# 广告特征词ID
-DIV[id^="sponsored-"]
-DIV[id^="promoted-"]
-DIV[id*="sponsored-ad-"]
-DIV[id*="promoted-ad-"]
-
-# ==============================================
-# VIDEO 视频类（精准匹配视频广告）
-# ==============================================
+# 视频广告
+video[src*="-ad."]
+video[src*="/ad-video/"]
+video[src*="sponsored-ad."]
+video[class*="ad-video-"]
+video[id*="ad-video-"]
 .video-ad
 .ad-video
-video[src*="-ad."]
-video[src*="sponsored-ad."]
-video[src*="promoted-ad."]
-[class*="-ad-video-"]
-[id*="-ad-video-"]
 .video-ad-wrapper
 .video-ad-container
 .video-ad-skip
+.video-ad-countdown
+[class*="-ad-video-"]
+[id*="-ad-video-"]
 
-# ==============================================
-# A 链接类（增加广告特征+移除过度严格的nofollow判断）
-# ==============================================
-a[href*="?ad_id="]
-a[href*="/ad/"]
-a[href*="ad_link="]
-a[href*="buyad/"]
-a[href*="advertisement/"]
-# 精准化广告链接特征
-a[href*="sponsored-ad/"]
-a[href*="promoted-ad/"]
-a[href*="affiliate-ad/"]
-a[class^="ad-link-"]
-a[class^="sponsored-link-"]
-a[id^="ad-link-"]
-# 优化target判断：增加广告特征+nofollow组合
-a[target="_blank"][href*="/ad/"][rel!="nofollow"]
-a[target="_blank"][href*="sponsored-ad/"][rel!="nofollow"]
-
-# ==============================================
-# BUTTON 按钮类（仅匹配广告专属按钮）
-# ==============================================
-button[class^="ad-button-"]
-button[class^="skip-ad-"]
-button[class^="ad-close-"]
-button[class^="ad-hide-"]
-button[class^="sponsored-btn-"]
-button[id^="ad-close-"]
-button[id^="ad-skip-"]
-
-# ==============================================
-# AJAX 请求类（仅拦截广告专属请求）
-# ==============================================
-xhr-req[src*="ads/api/"]
-xhr-req[src*="adclick/"]
-xhr-req[src*="adload/"]
-xhr-req[src*="popup-ad/"]
-xhr-req[src*="ad-impression/"]
-xhr-req[src*="ad-click/"]
-xhr-req[src*="sponsored-ad/api/"]
-
-# ==============================================
-# IMG 图片类（精准匹配广告图片，移除1x1像素误伤）
-# ==============================================
-img[src*="-ad."]
-img[src*="ad-banner."]
-img[src*="popup-ad."]
-img[src*="sponsored-ad."]
-img[class^="ad-"]
-img[class*="-ad-"]
-img[id^="ad-"]
-img[id*="-ad-"]
-img[alt*="广告"][alt!="广告说明"]
-img[alt*=" Sponsored "][alt!="Sponsored Content"]
-
-# ==============================================
-# FORM 表单类（精准匹配广告表单）
-# ==============================================
-form[action*="/ad/"]
-form[action*="sponsored-ad/"]
-form[class^="ad-form-"]
-form[id^="ad-form-"]
-input[name^="ad_"]
-input[name*="_ad_"]
-input[name^="sponsored_ad_"]
-
-# ==============================================
-# STYLE 样式类（仅拦截广告专属样式）
-# ==============================================
-style:contains(".ad-")
-style:contains("#ad-")
-style:contains(".sponsored-ad")
-link[rel="stylesheet"][href*="-ad.css"]
-link[rel="stylesheet"][href*="ad-style.css"]
-
-# ==============================================
-# WEBSOCKET 类（仅拦截广告专属WS）
-# ==============================================
-websocket[url*="ad-tracker/"]
-websocket[url*="ad-pixel/"]
-websocket[url*="sponsored-ad/"]
-
-# ==============================================
-# COOKIE 类（仅拦截广告专属Cookie）
-# ==============================================
-cookie[name^="ad_"]
-cookie[name^="ads_"]
-cookie[name*="_ad_"]
-cookie[name*="ad_tracker_"]
-cookie[name*="sponsored_ad_"]
-
-# ==============================================
-# MEDIA 音频类（精准匹配广告音频）
-# ==============================================
+# 音频广告
 audio[src*="-ad."]
+audio[src*="/ad-audio/"]
 audio[class^="ad-audio-"]
 audio[id^="ad-audio-"]
 .audio-ad
@@ -219,194 +460,179 @@ audio[id^="ad-audio-"]
 .sponsored-audio
 
 # ==============================================
-# FRAMESET 框架类（精准匹配广告框架）
+# 六、图片/素材广告精准规则
 # ==============================================
-frameset:has(frame[src*="-ad.html"])
-frameset:has(frame[src*="sponsored-ad.html"])
-frame[src*="-ad.html"]
-frame[src*="sponsored-ad.html"]
+img[src*="-ad."]
+img[src*="/ad-image/"]
+img[src*="/ad-assets/"]
+img[src*="ad-banner."]
+img[src*="ad-creative."]
+img[src*="sponsored-ad."]
+img[class^="ad-"]
+img[class*="-ad-"]
+img[id^="ad-"]
+img[id*="-ad-"]
+img[alt*="广告"]:not([alt*="广告说明"]):not([alt*="广告示例"])
+img[alt*="Sponsored"]:not([alt*="Sponsored Content"])
 
+# ==============================================
+# 七、广告链接/跳转精准规则
+# ==============================================
+a[href*="?ad_id="]
+a[href*="/ad/"]
+a[href*="/advertisement/"]
+a[href*="ad_link="]
+a[href*="ad_redirect="]
+a[href*="sponsored-ad/"]
+a[href*="promoted-ad/"]
+a[href*="affiliate-ad/"]
+a[class^="ad-link-"]
+a[class^="sponsored-link-"]
+a[id^="ad-link-"]
+a[href*="sponsored-content"]:not([rel="nofollow"])
+a[href*="promoted-content"]:not([rel="nofollow"])
+a[href*="/ad-click/"]
+a[href*="/ad-redirect/"]
 
-# 广告拦截规则补充：常见广告词与广告特征（零误伤版）
 # ==============================================
-# 一、中文广告专属特征词（正常网站几乎不会使用）
+# 八、广告按钮/交互元素精准规则
 # ==============================================
-# 1. 中文广告标签标识
+button[class^="ad-button-"]
+button[class^="skip-ad-"]
+button[class^="ad-close-"]
+button[class^="ad-hide-"]
+button[class^="sponsored-btn-"]
+button[class*="ad-cta-"]
+button[class*="ad-action-"]
+button[id^="ad-close-"]
+button[id^="ad-skip-"]
+button[id*="ad-cta"]
+button[aria-label*="跳过广告"]
+button[aria-label*="关闭广告"]
+button[aria-label*="广告关闭"]
+*[class*="ad-skip-button"]
+*[class*="ad-close-button"]
+*[class*="ad-dismiss-btn"]
+
+# ==============================================
+# 九、表单/输入广告精准规则
+# ==============================================
+form[action*="/ad/"]
+form[action*="sponsored-ad/"]
+form[action*="/ad-submit/"]
+form[action*="/ad-click/"]
+form[class^="ad-form-"]
+form[id^="ad-form-"]
+input[name^="ad_"]
+input[name*="_ad_"]
+input[name^="sponsored_ad_"]
+input[name*="ad_form_"]
+input[name*="ad_click_"]
+
+# ==============================================
+# 十、样式资源广告精准规则
+# ==============================================
+link[rel="stylesheet"][href*="-ad.css"]
+link[rel="stylesheet"][href*="ad-style.css"]
+link[rel="stylesheet"][href*="/ad-css/"]
+
+# ==============================================
+# 十一、Data 属性专属规则（极低误伤，自定义广告属性）
+# ==============================================
+*[data-ad-type]
+*[data-ad-id]
+*[data-ad-slot]
+*[data-ad-unit]
+*[data-ad-position]
+*[data-ad-name]
+*[data-ad-size]
+*[data-sponsored]
+*[data-promotion]
+*[data-promoted]
+*[data-sponsor]
+*[data-native-ad]
+*[data-feed-ad]
+*[data-banner-ad]
+*[data-popup-ad]
+*[data-modal-ad]
+*[data-interstitial-ad]
+*[data-ad-click]
+*[data-ad-impression]
+*[data-ad-conversion]
+*[data-ad-track]
+*[data-ad-beacon]
+*[data-countdown-type="ad"]
+*[data-ad-close]
+*[data-ad-skip]
+
+# ==============================================
+# 十二、中文广告专属特征（国内站点专用，极低误伤）
+# ==============================================
+# 中文广告标识
 *[class*="广告-"]
 *[id*="广告-"]
+*[class*="-广告"]
+*[id*="-广告"]
 *[data-type="广告"]
-*[data-ad-type]
-*[data-promotion]
-*[data-sponsored]
-*[title*="广告"]:not([title*="广告说明"]):not([title*="广告位"])
-*[alt*="广告"]:not([alt*="广告图片示例"])
-*[text*="广告"]:not([text*="广告法"]):not([text*="广告投放"])
+*[data-ad="推广"]
+*[title*="广告"]:not([title*="广告说明"]):not([title*="广告位管理"])
 *[aria-label*="广告"]
+*[aria-label*="推广"]
 
-# 2. 中文推广/赞助标识
+# 中文推广/赞助
 *[class*="推广-"]
 *[id*="推广-"]
 *[class*="赞助商-"]
 *[id*="赞助商-"]
-*[data-ad="推广"]
 *[data-sponsor="true"]
-*[text*="推广"]:not([text*="推广活动"]):not([text*="推广员"])
-*[text*="赞助商"]:not([text*="官方赞助商"])
-
-# 3. 中文信息流广告特征
 *[class*="信息流广告"]
 *[class*="推荐广告"]
-*[class*="相关推荐-广告"]
+*[class*="相关广告"]
+*[class*="精准广告"]
+*[class*="商业推广"]
 *[id*="feed-ad"]
 *[id*="recommended-ad"]
 *[data-feed-type="ad"]
 
-# ==============================================
-# 二、英文广告专属特征词（国际通用，避免匹配正常词汇）
-# ==============================================
-# 1. 广告专属前缀/后缀模式
-*[class^="ad_"]
-*[class$="_ad"]
-*[class*="__ad__"]
-*[id^="ad_"]
-*[id$="_ad"]
-*[id*="__ad__"]
-*[name^="ad_"]
-*[name$="_ad"]
-
-# 2. 原生广告/赞助内容特征
-*[class*="native-ad-"]
-*[class*="sponsored-content-"]
-*[class*="promoted-content-"]
-*[data-native-ad]
-*[data-sponsored-content]
-*[data-promoted-content]
-*[href*="sponsored-content"]:not([rel="nofollow"])
-*[href*="promoted-content"]:not([rel="nofollow"])
-
-# 3. 广告平台专属特征（Google、Facebook、百度等）
-*[class*="adsbygoogle"]
-*[class*="gpt-ad"]
-*[class*="google-ad-"]
-*[class*="fb-ad-"]
-*[class*="baidu-ad-"]
-*[class*="toutiao-ad-"]
-*[data-ad-client]
-*[data-ad-slot]
-*[data-ad-format]
-*[data-mu]  # 百度推广特征
-*[data-tu]  # 百度推广特征
-
-# ==============================================
-# 三、广告行为特征词（仅广告会使用的交互元素）
-# ==============================================
-# 1. 广告跳过/关闭特征
-*[class*="ad-skip-button"]
-*[class*="ad-close-button"]
-*[class*="ad-dismiss-"]
-*[id*="ad-skip"]
-*[id*="ad-close"]
-*[aria-label*="跳过广告"]
-*[aria-label*="关闭广告"]
-*[text*="跳过广告"]
-*[text*="关闭广告"]
-
-# 2. 广告倒计时特征（正常网站几乎不用）
+# 广告倒计时特征
+*[aria-label*="广告倒计时"]
 *[class*="ad-countdown-"]
 *[id*="ad-countdown"]
-*[data-countdown-type="ad"]
-*[text*="广告倒计时"]
-*[text*="秒后关闭广告"]
-
-# 3. 广告交互特征（点击/转化/追踪）
-*[onclick*="trackAdClick"]
-*[onclick*="sendAdConversion"]
-*[onclick*="adRedirect"]
-*[data-ad-click]
-*[data-ad-impression]
-*[data-ad-conversion]
 
 # ==============================================
-# 四、新兴广告形式特征（原生/插屏/弹窗/推送）
+# 十三、低误伤组合规则（多条件叠加，进一步降低误杀）
 # ==============================================
-# 1. 插屏广告特征
-*[class*="interstitial-ad-"]
-*[id*="interstitial-ad"]
-*[data-interstitial-ad]
-*[style*="position:fixed"][style*="top:0"][style*="left:0"][style*="width:100%"][style*="height:100%"]:has(*[class*="ad"])
+# 固定定位+广告特征 = 悬浮广告
+*[style*="position:fixed"][class*="ad"]
+*[style*="position:fixed"][id*="ad"]
+*[style*="position:sticky"][class*="ad"]
 
-# 2. 推送广告特征
-*[class*="push-ad-"]
-*[id*="push-ad"]
-*[data-push-ad]
-*[class*="notification-ad-"]
-*[id*="notification-ad"]
-*[data-notification-ad]
-
-# 3. 弹窗广告特征（精准匹配，避免误伤正常弹窗）
-*[class*="popup-ad-"]
-*[id*="popup-ad"]
-*[data-popup-ad]
-*[class*="modal-ad-"]
-*[id*="modal-ad"]
-*[data-modal-ad]
+# 全屏弹窗+广告特征 = 插屏/开屏广告
 *[role="dialog"][class*="ad"]
+*[role="dialog"][id*="ad"]
+*[style*="width:100vw"][style*="height:100vh"][class*="ad"]
+
+# 边缘悬浮+广告特征 = 侧边/底部浮窗广告
+*[style*="position:fixed"][style*="right:0"][class*="ad"]
+*[style*="position:fixed"][style*="left:0"][class*="ad"]
+*[style*="position:fixed"][style*="bottom:0"][class*="ad"]
 
 # ==============================================
-# 五、广告资源加载特征（请求URL专属模式）
+# 十四、通用广告资源URL特征（src/href 路径匹配）
 # ==============================================
-# 1. 广告图片/视频URL特征
-*[src*="/ad-image/"]
-*[src*="/ad-video/"]
-*[src*="/ad-assets/"]
-*[src*="?ad-image="]
-*[src*="?ad-video="]
-*[src*="ad-creative."]
-*[src*="ad-assets."]
-
-# 2. 广告API请求特征
 *[src*="/ad-api/"]
 *[src*="/ad-service/"]
 *[src*="/ad-delivery/"]
 *[src*="/ad-targeting/"]
 *[src*="/ad-personalization/"]
-
-# 3. 广告追踪请求特征（增加ad-前缀，避免匹配正常track）
 *[src*="/ad-track/"]
 *[src*="/ad-pixel/"]
 *[src*="/ad-beacon/"]
 *[src*="/ad-retarget/"]
+*[src*="/ad-creative/"]
+*[src*="/ad-material/"]
+*[src*="/ad-assets/"]
 
-# ==============================================
-# 六、广告特殊样式特征（仅广告使用的CSS模式）
-# ==============================================
-# 1. 悬浮广告样式（正常网站极少使用）
-*[style*="position:fixed"][style*="z-index:9999"][class*="ad"]
-*[style*="position:sticky"][class*="ad"]
-*[style*="position:absolute"][style*="top:0"][style*="right:0"][class*="ad"]
-
-# 2. 全屏广告样式
-*[style*="width:100vw"][style*="height:100vh"][class*="ad"]
-*[style*="width:100%"][style*="height:100%"][class*="ad"][style*="position:fixed"]
-
-# ==============================================
-# 七、广告表单/按钮专属特征
-# ==============================================
-# 1. 广告表单特征
-form[class*="ad-form-"]
-form[id*="ad-form-"]
-form[action*="/ad-submit/"]
-form[action*="/ad-click/"]
-input[name*="ad_form_"]
-input[name*="ad_click_"]
-
-# 2. 广告按钮特征
-button[class*="ad-cta-"]  # CTA: Call To Action
-button[class*="ad-action-"]
-button[class*="ad-submit-"]
-button[id*="ad-cta"]
-button[id*="ad-action"]
-button[aria-label*="广告"][aria-label*="按钮"]
 
 《自定义》
 
